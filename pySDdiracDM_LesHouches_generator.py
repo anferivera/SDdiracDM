@@ -23,7 +23,7 @@ def buildSLHAinFile():
 	LHA.blocks['SMINPUTS'].entries[6]='1.735000E+02    # m_top(pole)' 
 	LHA.blocks['SMINPUTS'].entries[7]='1.776690E+00    # m_tau(pole)' 
 
-	LHA.blocks['MINPAR'].entries[1]='2.7000000E-01    # LambdaIN'
+	LHA.blocks['MINPAR'].entries[1]='2.6000000E-01    # LambdaIN'
 	LHA.blocks['MINPAR'].entries[2]='3.0000000E+02    # MDFInput'
 	LHA.blocks['MINPAR'].entries[3]='1.0000000E+06    # MS12Input'
 	LHA.blocks['MINPAR'].entries[4]='4.0000000E+06    # MS22Input'

@@ -13,9 +13,9 @@ BLOCK SMINPUTS
    7   1.776690E+00    # m_tau(pole)
 
 BLOCK MINPAR
-   1   2.7000000E-01    # LambdaIN
+   1   2.6000000E-01    # LambdaIN
    2   3.0000000E+02    # MDFInput
-   3   3.1228538E+04    # MS12Input
+   3   4.2841382E+04    # MS12Input
    4   9.0000000E+06    # MS22Input
    5   0.0000000E+00    # LamS1HInput
    6   0.0000000E+00    # LamS2HInput
@@ -119,8 +119,8 @@ BLOCK YNUIN
    3   3    0.000000E-00         # YNU(3,3)
 
 BLOCK YRA1IN
-   1   1.500000E-02    # YRA1(1)
-   2   2.000000E-02    # YRA1(2)
+   1   1.748830E-01    # YRA1(1)
+   2   1.575989E-02    # YRA1(2)
    3   1.000000E-02    # YRA1(3)
 
 BLOCK YRA2IN
@@ -129,8 +129,8 @@ BLOCK YRA2IN
    3   1.000000E-03    # YRA2(3)
 
 BLOCK YRB1IN
-   1   1.100000E-04    # YRB1(1)
-   2   3.000000E-03    # YRB1(2)
+   1   1.884908E-01    # YRB1(1)
+   2   8.891691E-04    # YRB1(2)
    3   1.100000E-03    # YRB1(3)
 
 BLOCK YRB2IN
