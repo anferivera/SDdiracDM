@@ -2,31 +2,46 @@
 
 import numpy as np
 
-
 def MATRIXCHIDIAG(MDF,vS,YRC,YRD):    
     
     dcOut={}
     
     #Diagonalization of Mchi matrix by the bi-unitary transfortion V and U
     vevSM = 244.874425 #Warning
-    MX0 = np.matrix( [[MDF,vevSM*YRD/np.sqrt(2)],[0,vS*YRC/np.sqrt(2)]])
+    MX0 = np.matrix( [[MDF,vevSM*YRD/np.sqrt(2.)],[0.0,vS*YRC/np.sqrt(2.)]])
     #squared eigenvalues e eigenvectors for the V MATRIX
     (MVdiag2,V)=np.linalg.eig(MX0*np.transpose(MX0))
     #squared eigenvalues e eigenvectors for the U MATRIX
     (MUdiag2,U)=np.linalg.eig(np.transpose(MX0)*MX0)
-    m1=np.sqrt(np.abs(MVdiag2[0]))
-    m2=np.sqrt(np.abs(MVdiag2[1]))
-    V11=V[0,0]
-    V12=V[0,1]
-    V21=V[1,0]
-    V22=V[1,1]
-    U11=U[0,0]
-    U12=U[0,1]
-    U21=U[1,0]
-    U22=U[1,1]
     
-    dcOut['m1']= m1
-    dcOut['m2']= m2  
+    if np.sqrt(np.abs(MVdiag2[0])) < np.sqrt(np.abs(MVdiag2[1])):
+        
+        M1=np.sqrt(np.abs(MVdiag2[0]))
+        M2=np.sqrt(np.abs(MVdiag2[1]))
+        V11=V[0,0]
+        V12=V[0,1]
+        V21=V[1,0]
+        V22=V[1,1]
+        U11=U[0,0]
+        U12=U[0,1]
+        U21=U[1,0]
+        U22=U[1,1]
+        
+    else:
+        
+        M1=np.sqrt(np.abs(MVdiag2[1]))
+        M2=np.sqrt(np.abs(MVdiag2[0]))
+        V11=V[1,0]
+        V12=V[1,1]
+        V21=V[0,0]
+        V22=V[0,1]
+        U11=U[1,0]
+        U12=U[1,1]
+        U21=U[0,0]
+        U22=U[0,1]
+    
+    dcOut['M1']= M1
+    dcOut['M2']= M2  
     dcOut['V11']= V11 
     dcOut['V12']= V12 
     dcOut['V21']= V21 
@@ -58,7 +73,7 @@ def MATRIXDIAG(YB11,YB12,YB13,YB21,YB22,YB23,YA11,YA12,YA13,YA21,YA22,YA23,mS1,m
     
     #Diagonalization of Mchi matrix by the bi-unitary transfortion V and U
     #vevSM = 246. #Warning
-    MX0 = np.matrix( [[MDF,vevSM*YRD/np.sqrt(2)],[0,vS*YRC/np.sqrt(2)]])
+    MX0 = np.matrix( [[MDF,vevSM*YRD/np.sqrt(2.)],[0,vS*YRC/np.sqrt(2.)]])
     #squared eigenvalues e eigenvectors for the V MATRIX
     (MVdiag2,V)=np.linalg.eig(MX0*np.transpose(MX0))
     #squared eigenvalues e eigenvectors for the U MATRIX
@@ -95,9 +110,9 @@ def MATRIXDIAG(YB11,YB12,YB13,YB21,YB22,YB23,YA11,YA12,YA13,YA21,YA22,YA23,mS1,m
     MX3 = np.sqrt(np.abs(Mdiag2[2]))
     
     ## reorganize the eigenvalues (neutrino masses)
-    mn1 = 0.
-    mn2 = 0.
-    mn3 = 0.
+    mn1 = 0.0
+    mn2 = 0.0
+    mn3 = 0.0
 
     if MX1 < MX2 and MX1 < MX3:
         mn1 = MX1
