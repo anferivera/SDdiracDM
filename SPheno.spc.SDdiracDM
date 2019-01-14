@@ -19,7 +19,7 @@
 #  
 # in case of problems send email to florian.staub@kit.edu and goodsell@lpthe.jussieu.fr 
 # ----------------------------------------------------------------------
-# Created: 09.01.2019,  17:21
+# Created: 14.01.2019,  14:07
 Block SPINFO         # Program information
      1   SPhenoSARAH      # spectrum calculator
      2   v4.0.3      # version number of SPheno
@@ -30,17 +30,17 @@ Block MODSEL  # Input parameters
      6  1   #  switching on flavour violation
 Block MINPAR  # Input parameters
     1    2.60000000E-01  # LambdaIN
-    2    3.69284240E+02  # MDFInput
+    2    4.00000000E+02  # MDFInput
     3    8.00000000E+06  # MS12Input
-    4    7.00000000E+06  # MS22Input
+    4    9.00000000E+06  # MS22Input
     5    0.00000000E+00  # LamS1HInput
     6    0.00000000E+00  # LamS2HInput
     7    0.00000000E+00  # LamSPHInput
     8    1.00000000E-04  # LamSInput
-    9    1.00000000E-01  # LamSPInput
-   10    1.68512800E+01  # vSInput
-   11    5.00000000E-01  # YRDInput
-   12    1.00000000E-01  # YRCInput
+    9    2.00000000E-01  # LamSPInput
+   10    5.00000000E+02  # vSInput
+   11    1.00000000E-03  # YRDInput
+   12    5.00000000E-02  # YRCInput
 Block gaugeGUT Q=  1.00000000E+00  # (GUT scale)
    1    0.00000000E+00  # g1(Q)^DRbar
    2    0.00000000E+00  # g2(Q)^DRbar
@@ -54,12 +54,12 @@ Block SMINPUTS  # SM parameters
          6     1.73500000E+02  # m_t(pole)
          7     1.77669000E+00  # m_tau(pole)
 Block GAUGE Q=  1.73500000E+02  # (Renormalization Scale)
-   1    3.59140141E-01  # g1
-   2    6.44549647E-01  # g2
+   1    3.59109164E-01  # g1
+   2    6.44548080E-01  # g2
    3    1.17247230E+00  # g3
 Block SM Q=  1.73500000E+02  # (Renormalization Scale)
    2    2.60000000E-01  # Lam
-   1    7.79489546E+03  # m2SM
+   1    7.79525293E+03  # m2SM
 Block IMSM Q=  1.73500000E+02  # (Renormalization Scale)
    2    0.00000000E+00  # Lam
 Block LS1H Q=  1.73500000E+02  # (Renormalization Scale)
@@ -69,37 +69,37 @@ Block LS Q=  1.73500000E+02  # (Renormalization Scale)
 Block LS2H Q=  1.73500000E+02  # (Renormalization Scale)
    1    0.00000000E+00  # LS2H
 Block LSP Q=  1.73500000E+02  # (Renormalization Scale)
-   1    1.00000000E-01  # LSP
+   1    2.00000000E-01  # LSP
 Block LSPH Q=  1.73500000E+02  # (Renormalization Scale)
    1    0.00000000E+00  # LSPH
 Block YRD Q=  1.73500000E+02  # (Renormalization Scale)
-   1    5.00000000E-01  # YRD
+   1    1.00000000E-03  # YRD
 Block YRC Q=  1.73500000E+02  # (Renormalization Scale)
-   1    1.00000000E-01  # YRC
+   1    5.00000000E-02  # YRC
 Block MDF Q=  1.73500000E+02  # (Renormalization Scale)
-   1    3.69284240E+02  # MDF
+   1    4.00000000E+02  # MDF
 Block MS12 Q=  1.73500000E+02  # (Renormalization Scale)
    1    8.00000000E+06  # MS12
 Block MS22 Q=  1.73500000E+02  # (Renormalization Scale)
-   1    7.00000000E+06  # MS22
+   1    9.00000000E+06  # MS22
 Block MP2 Q=  1.73500000E+02  # (Renormalization Scale)
-   1   -2.83965638E+01  # mP2
+   1   -5.00000000E+04  # mP2
 Block VS Q=  1.73500000E+02  # (Renormalization Scale)
-   1    1.68512800E+01  # vS
-   1    1.68512800E+01  # vS
+   1    5.00000000E+02  # vS
+   1    5.00000000E+02  # vS
 Block HMIX Q=  1.73500000E+02  # (Renormalization Scale)
-   3    2.44868810E+02  # vvSM
-  11    0.00000000E+00  # alphaH
+   3    2.44874425E+02  # vvSM
+  11    1.57079633E+00  # alphaH
 Block Yu Q=  1.73500000E+02  # (Renormalization Scale)
-  1  1     7.68397922E-06   # Real(Yu(1,1),dp)
-  1  2     1.77730579E-06   # Real(Yu(1,2),dp)
-  1  3     2.71713655E-08   # Real(Yu(1,3),dp)
-  2  1    -9.02658821E-04   # Real(Yu(2,1),dp)
-  2  2     3.90000520E-03   # Real(Yu(2,2),dp)
-  2  3     1.65976122E-04   # Real(Yu(2,3),dp)
-  3  1     5.76049571E-03   # Real(Yu(3,1),dp)
-  3  2    -3.96143270E-02   # Real(Yu(3,2),dp)
-  3  3     9.62161554E-01   # Real(Yu(3,3),dp)
+  1  1     7.68380236E-06   # Real(Yu(1,1),dp)
+  1  2     1.77726488E-06   # Real(Yu(1,2),dp)
+  1  3     2.71707328E-08   # Real(Yu(1,3),dp)
+  2  1    -9.02638045E-04   # Real(Yu(2,1),dp)
+  2  2     3.89991544E-03   # Real(Yu(2,2),dp)
+  2  3     1.65972257E-04   # Real(Yu(2,3),dp)
+  3  1     5.76036002E-03   # Real(Yu(3,1),dp)
+  3  2    -3.96133938E-02   # Real(Yu(3,2),dp)
+  3  3     9.62139150E-01   # Real(Yu(3,3),dp)
 Block IMYu Q=  1.73500000E+02  # (Renormalization Scale)
   1  1     0.00000000E+00   # Aimag(Yu(1,1))
   1  2     0.00000000E+00   # Aimag(Yu(1,2))
@@ -111,15 +111,15 @@ Block IMYu Q=  1.73500000E+02  # (Renormalization Scale)
   3  2     0.00000000E+00   # Aimag(Yu(3,2))
   3  3     0.00000000E+00   # Aimag(Yu(3,3))
 Block Yd Q=  1.73500000E+02  # (Renormalization Scale)
-  1  1     1.58567292E-05   # Real(Yd(1,1),dp)
+  1  1     1.58563644E-05   # Real(Yd(1,1),dp)
   1  2     0.00000000E+00   # Real(Yd(1,2),dp)
   1  3     0.00000000E+00   # Real(Yd(1,3),dp)
   2  1     0.00000000E+00   # Real(Yd(2,1),dp)
-  2  2     3.01274921E-04   # Real(Yd(2,2),dp)
+  2  2     3.01267990E-04   # Real(Yd(2,2),dp)
   2  3     0.00000000E+00   # Real(Yd(2,3),dp)
   3  1     0.00000000E+00   # Real(Yd(3,1),dp)
   3  2     0.00000000E+00   # Real(Yd(3,2),dp)
-  3  3     1.56550636E-02   # Real(Yd(3,3),dp)
+  3  3     1.56547077E-02   # Real(Yd(3,3),dp)
 Block IMYd Q=  1.73500000E+02  # (Renormalization Scale)
   1  1     0.00000000E+00   # Aimag(Yd(1,1))
   1  2     0.00000000E+00   # Aimag(Yd(1,2))
@@ -131,15 +131,15 @@ Block IMYd Q=  1.73500000E+02  # (Renormalization Scale)
   3  2     0.00000000E+00   # Aimag(Yd(3,2))
   3  3     0.00000000E+00   # Aimag(Yd(3,3))
 Block Ye Q=  1.73500000E+02  # (Renormalization Scale)
-  1  1     2.90306382E-06   # Real(Ye(1,1),dp)
+  1  1     2.90299693E-06   # Real(Ye(1,1),dp)
   1  2     0.00000000E+00   # Real(Ye(1,2),dp)
   1  3     0.00000000E+00   # Real(Ye(1,3),dp)
   2  1     0.00000000E+00   # Real(Ye(2,1),dp)
-  2  2     6.00261523E-04   # Real(Ye(2,2),dp)
+  2  2     6.00247692E-04   # Real(Ye(2,2),dp)
   2  3     0.00000000E+00   # Real(Ye(2,3),dp)
   3  1     0.00000000E+00   # Real(Ye(3,1),dp)
   3  2     0.00000000E+00   # Real(Ye(3,2),dp)
-  3  3     1.00936565E-02   # Real(Ye(3,3),dp)
+  3  3     1.00934239E-02   # Real(Ye(3,3),dp)
 Block IMYe Q=  1.73500000E+02  # (Renormalization Scale)
   1  1     0.00000000E+00   # Aimag(Ye(1,1))
   1  2     0.00000000E+00   # Aimag(Ye(1,2))
@@ -151,21 +151,21 @@ Block IMYe Q=  1.73500000E+02  # (Renormalization Scale)
   3  2     0.00000000E+00   # Aimag(Ye(3,2))
   3  3     0.00000000E+00   # Aimag(Ye(3,3))
 Block YRB1 Q=  1.73500000E+02  # (Renormalization Scale)
-   1   -5.05471000E-08  # YRB1(1) 
-   2   -4.93520800E-07  # YRB1(2) 
-   3   -6.17895400E-07  # YRB1(3) 
+   1   -5.36319200E-06  # YRB1(1) 
+   2   -2.50173900E-05  # YRB1(2) 
+   3   -2.36438400E-05  # YRB1(3) 
 Block YRB2 Q=  1.73500000E+02  # (Renormalization Scale)
-   1   -3.07289500E-07  # YRB2(1) 
-   2   -2.81915600E-07  # YRB2(2) 
-   3    3.80148400E-07  # YRB2(3) 
+   1   -7.94700400E-06  # YRB2(1) 
+   2   -7.20353500E-06  # YRB2(2) 
+   3    9.72890400E-06  # YRB2(3) 
 Block YRA1 Q=  1.73500000E+02  # (Renormalization Scale)
    1    0.00000000E+00  # YRA1(1) 
-   2    3.00645900E-03  # YRA1(2) 
-   3    5.12908100E-01  # YRA1(3) 
+   2    1.27847100E-04  # YRA1(2) 
+   3    3.51204100E-01  # YRA1(3) 
 Block YRA2 Q=  1.73500000E+02  # (Renormalization Scale)
    1    0.00000000E+00  # YRA2(1) 
-   2    1.16573100E-01  # YRA2(2) 
-   3    9.59654400E-02  # YRA2(3) 
+   2    1.70806300E-01  # YRA2(2) 
+   3    1.15014900E-04  # YRA2(3) 
 Block YNU Q=  1.73500000E+02  # (Renormalization Scale)
   1  1     0.00000000E+00   # YNU(1,1)
   1  2     0.00000000E+00   # YNU(1,2)
@@ -178,34 +178,34 @@ Block YNU Q=  1.73500000E+02  # (Renormalization Scale)
   3  3     0.00000000E+00   # YNU(3,3)
 Block MASS  # Mass spectrum
 #   PDG code      mass          particle
-        25     5.32884263E+00  # hh_1
-        35     1.24859084E+02  # hh_2
+        25     1.24861947E+02  # hh_1
+        35     2.23606798E+02  # hh_2
         22     0.00000000E+00  # VP
         23     9.11887000E+01  # VZ
         21     0.00000000E+00  # VG
-        24     7.96577463E+01  # VWp
-         1     2.74556724E-03  # Fd_1
-         3     5.21652695E-02  # Fd_2
+        24     7.96593282E+01  # VWp
+         1     2.74556703E-03  # Fd_1
+         3     5.21652655E-02  # Fd_2
          5     4.18000000E+00  # Fd_3
-         2     1.36560298E-03  # Fu_1
-         4     6.93726382E-01  # Fu_2
+         2     1.36560286E-03  # Fu_1
+         4     6.93726322E-01  # Fu_2
          6     1.73500000E+02  # Fu_3
-        11     5.02660844E-04  # Fe_1
-        13     1.03934320E-01  # Fe_2
+        11     5.02660788E-04  # Fe_1
+        13     1.03934308E-01  # Fe_2
         15     1.77669000E+00  # Fe_3
-        12                NaN  # Fv_1
-        14     8.94316112E-12  # Fv_2
-        16     4.93607482E-11  # Fv_3
-       635     2.64575131E+03  # Ssc_1
-       636     2.82842712E+03  # Ssc_2
-    210004     3.69284240E+02  # Fxe
-    210001     1.16011105E+00  # Fxv_1
-    210002     3.79296738E+02  # Fxv_2
+        12     3.75015787E-19  # Fv_1
+        14     8.71569802E-12  # Fv_2
+        16     4.71927299E-11  # Fv_3
+       635     2.82842712E+03  # Ssc_1
+       636     3.00000000E+03  # Ssc_2
+    210004     4.00000000E+02  # Fxe
+    210001     1.76776679E+01  # Fxv_1
+    210002     4.00000038E+02  # Fxv_2
 Block SCALARMIX Q=  1.73500000E+02  # ()
-  1  1     0.00000000E+00   # ZH(1,1)
-  1  2     1.00000000E+00   # ZH(1,2)
-  2  1     1.00000000E+00   # ZH(2,1)
-  2  2     0.00000000E+00   # ZH(2,2)
+  1  1     1.00000000E+00   # ZH(1,1)
+  1  2     0.00000000E+00   # ZH(1,2)
+  2  1     0.00000000E+00   # ZH(2,1)
+  2  2     1.00000000E+00   # ZH(2,2)
 Block UDLMIX Q=  1.73500000E+02  # ()
   1  1     1.00000000E+00   # Real(ZDL(1,1),dp)
   1  2     0.00000000E+00   # Real(ZDL(1,2),dp)
@@ -249,12 +249,12 @@ Block IMUDRMIX Q=  1.73500000E+02  # ()
 Block UULMIX Q=  1.73500000E+02  # ()
   1  1     9.74271950E-01   # Real(ZUL(1,1),dp)
   1  2     2.25349279E-01   # Real(ZUL(1,2),dp)
-  1  3     3.44512896E-03   # Real(ZUL(1,3),dp)
+  1  3     3.44512803E-03   # Real(ZUL(1,3),dp)
   2  1    -2.25296214E-01   # Real(ZUL(2,1),dp)
   2  2     9.73409205E-01   # Real(ZUL(2,2),dp)
-  2  3     4.14262742E-02   # Real(ZUL(2,3),dp)
-  3  1     5.98186079E-03   # Real(ZUL(3,1),dp)
-  3  2    -4.11366315E-02   # Real(ZUL(3,2),dp)
+  2  3     4.14262630E-02   # Real(ZUL(2,3),dp)
+  3  1     5.98185918E-03   # Real(ZUL(3,1),dp)
+  3  2    -4.11366204E-02   # Real(ZUL(3,2),dp)
   3  3     9.99135624E-01   # Real(ZUL(3,3),dp)
 Block IMUULMIX Q=  1.73500000E+02  # ()
   1  1     0.00000000E+00   # Aimag(ZUL(1,1))
@@ -268,9 +268,9 @@ Block IMUULMIX Q=  1.73500000E+02  # ()
   3  3     0.00000000E+00   # Aimag(ZUL(3,3))
 Block UURMIX Q=  1.73500000E+02  # ()
   1  1     1.00000000E+00   # Real(ZUR(1,1),dp)
-  1  2    -8.80914265E-20   # Real(ZUR(1,2),dp)
+  1  2    -2.16840434E-19   # Real(ZUR(1,2),dp)
   1  3     0.00000000E+00   # Real(ZUR(1,3),dp)
-  2  1     9.48676901E-20   # Real(ZUR(2,1),dp)
+  2  1     3.25260652E-19   # Real(ZUR(2,1),dp)
   2  2     1.00000000E+00   # Real(ZUR(2,2),dp)
   2  3     0.00000000E+00   # Real(ZUR(2,3),dp)
   3  1     0.00000000E+00   # Real(ZUR(3,1),dp)
@@ -331,11 +331,11 @@ Block UVMIX Q=  1.73500000E+02  # ()
   1  2     0.00000000E+00   # Real(UV(1,2),dp)
   1  3     0.00000000E+00   # Real(UV(1,3),dp)
   2  1     0.00000000E+00   # Real(UV(2,1),dp)
-  2  2    -1.00000000E+00   # Real(UV(2,2),dp)
-  2  3    -7.31238582E-09   # Real(UV(2,3),dp)
+  2  2    -9.99997295E-01   # Real(UV(2,2),dp)
+  2  3    -2.32611792E-03   # Real(UV(2,3),dp)
   3  1     0.00000000E+00   # Real(UV(3,1),dp)
-  3  2    -7.31238582E-09   # Real(UV(3,2),dp)
-  3  3     1.00000000E+00   # Real(UV(3,3),dp)
+  3  2    -2.32611792E-03   # Real(UV(3,2),dp)
+  3  3     9.99997295E-01   # Real(UV(3,3),dp)
 Block IMUVMIX Q=  1.73500000E+02  # ()
   1  1    -0.00000000E+00   # Aimag(UV(1,1))
   1  2    -0.00000000E+00   # Aimag(UV(1,2))
@@ -367,30 +367,30 @@ Block IMUVRMIX Q=  1.73500000E+02  # ()
   3  2     0.00000000E+00   # Aimag(UVR(3,2))
   3  3     0.00000000E+00   # Aimag(UVR(3,3))
 Block XV Q=  1.73500000E+02  # ()
-  1  1     7.17054777E-04   # Real(XV(1,1),dp)
-  1  2    -9.99999743E-01   # Real(XV(1,2),dp)
-  2  1     9.99999743E-01   # Real(XV(2,1),dp)
-  2  2     7.17054777E-04   # Real(XV(2,2),dp)
+  1  1     1.91682488E-05   # Real(XV(1,1),dp)
+  1  2    -1.00000000E+00   # Real(XV(1,2),dp)
+  2  1     1.00000000E+00   # Real(XV(2,1),dp)
+  2  2     1.91682488E-05   # Real(XV(2,2),dp)
 Block IMXV Q=  1.73500000E+02  # ()
   1  1     0.00000000E+00   # Aimag(XV(1,1))
   1  2    -0.00000000E+00   # Aimag(XV(1,2))
   2  1     0.00000000E+00   # Aimag(XV(2,1))
   2  2     0.00000000E+00   # Aimag(XV(2,2))
 Block XU Q=  1.73500000E+02  # ()
-  1  1     2.28251450E-01   # Real(XU(1,1),dp)
-  1  2    -9.73602216E-01   # Real(XU(1,2),dp)
-  2  1     9.73602216E-01   # Real(XU(2,1),dp)
-  2  2     2.28251450E-01   # Real(XU(2,2),dp)
+  1  1     4.33728000E-04   # Real(XU(1,1),dp)
+  1  2    -9.99999906E-01   # Real(XU(1,2),dp)
+  2  1     9.99999906E-01   # Real(XU(2,1),dp)
+  2  2     4.33728000E-04   # Real(XU(2,2),dp)
 Block IMXU Q=  1.73500000E+02  # ()
   1  1     0.00000000E+00   # Aimag(XU(1,1))
   1  2     0.00000000E+00   # Aimag(XU(1,2))
   2  1     0.00000000E+00   # Aimag(XU(2,1))
   2  2     0.00000000E+00   # Aimag(XU(2,2))
 Block VSs Q=  1.73500000E+02  # ()
-  1  1     0.00000000E+00   # VSs(1,1)
-  1  2     1.00000000E+00   # VSs(1,2)
-  2  1     1.00000000E+00   # VSs(2,1)
-  2  2     0.00000000E+00   # VSs(2,2)
+  1  1     1.00000000E+00   # VSs(1,1)
+  1  2     0.00000000E+00   # VSs(1,2)
+  2  1     0.00000000E+00   # VSs(2,1)
+  2  2     1.00000000E+00   # VSs(2,2)
 Block SPheno # SPheno internal parameters 
          1    -1.00000000E+00  # ErrorLevel
          2     0.00000000E+00  # SPA_conventions
@@ -414,41 +414,41 @@ Block SPheno # SPheno internal parameters
         60     1.00000000E+00  # Include kinetic mixing
         65     1.00000000E+00  # Solution of tadpole equation
 Block HiggsLHC7 # Higgs production cross section at LHC7 [pb] (rescaled SM values from HXSWG) 
-  1        35        1.57468434E+01 # Gluon fusion 
-  2        35        1.21073155E+00 # Vector boson fusion 
-  3        35        5.43600803E-01 # W-H production 
-  4        35        3.17571268E-01 # Z-H production 
-  5        35        8.64204515E-02 # t-t-H production 
+  1        25        1.57460709E+01 # Gluon fusion 
+  2        25        1.21069885E+00 # Vector boson fusion 
+  3        25        5.43553550E-01 # W-H production 
+  4        25        3.17547932E-01 # Z-H production 
+  5        25        8.64144221E-02 # t-t-H production 
 Block HiggsLHC8 # Higgs production cross section at LHC8 [pb] (rescaled SM values from HXSWG) 
-  1        35        2.00413950E+01 # Gluon fusion 
-  2        35        1.56099956E+00 # Vector boson fusion 
-  3        35        6.96546201E-01 # W-H production 
-  4        35        3.96619632E-01 # Z-H production 
-  5        35        1.30799525E-01 # t-t-H production 
+  1        25        2.00404460E+01 # Gluon fusion 
+  2        25        1.56095937E+00 # Vector boson fusion 
+  3        25        6.96492039E-01 # W-H production 
+  4        25        3.96590827E-01 # Z-H production 
+  5        25        1.30790595E-01 # t-t-H production 
 Block HiggsLHC13 # Higgs production cross section at LHC13 [pb] (rescaled SM values from SusHI 1.5.0) 
-  1        35        4.68150295E+01 # Gluon fusion 
+  1        25        4.68129760E+01 # Gluon fusion 
 Block HiggsLHC14 # Higgs production cross section at LHC14 [pb] (rescaled SM values from SusHI 1.5.0)
-  1        35        5.27164856E+01 # Gluon fusion 
+  1        25        5.27142047E+01 # Gluon fusion 
 Block HiggsFCC100 # Higgs production cross section at FCC-pp [pb] (rescaled SM values from SusHI 1.5.0)
-  1        35        7.75877945E+02 # Gluon fusion 
+  1        25        7.75853517E+02 # Gluon fusion 
 Block EFFHIGGSCOUPLINGS # values of loop-induced couplings 
-        25           22           22     0.00000000E+00 # H-Photon-Photon 
-        25           21           21     0.00000000E+00 # H-Gluon-Gluon 
+        25           22           22     0.33556975E-04 # H-Photon-Photon 
+        25           21           21     0.66188668E-04 # H-Gluon-Gluon 
         25           22           23     0.00000000E+00 # H-Photon-Z (not yet calculated by SPheno) 
-        35           22           22     0.33558565E-04 # H-Photon-Photon 
-        35           21           21     0.66188875E-04 # H-Gluon-Gluon 
+        35           22           22     0.00000000E+00 # H-Photon-Photon 
+        35           21           21     0.00000000E+00 # H-Gluon-Gluon 
         35           22           23     0.00000000E+00 # H-Photon-Z (not yet calculated by SPheno) 
 Block SPhenoLowEnergy # low energy observables 
-       1    5.48750579E-02  # T-parameter (1-loop BSM)
-       2    2.73200372E-01  # S-parameter (1-loop BSM)
-       3    6.32946526E-03  # U-parameter (1-loop BSM)
+       1    8.16337286E-15  # T-parameter (1-loop BSM)
+       2    1.38728041E-08  # S-parameter (1-loop BSM)
+       3    4.96571502E-04  # U-parameter (1-loop BSM)
       20    2.13983380E-23  # (g-2)_e
-      21    5.97306456E-14  # (g-2)_mu
-      22    1.16467778E-09  # (g-2)_tau
+      21    8.58936366E-14  # (g-2)_mu
+      22    1.05746740E-09  # (g-2)_tau
       23    0.00000000E+00  # EDM(e)
       24    0.00000000E+00  # EDM(mu)
       25    0.00000000E+00  # EDM(tau)
-      39   -3.61087265E-04  # delta(rho)
+      39   -4.18545813E-04  # delta(rho)
 Block FlavorKitQFV # quark flavor violating observables 
      200    3.15000000E-04  # BR(B->X_s gamma)
      201    1.00000000E+00  # BR(B->X_s gamma)/BR(B->X_s gamma)_SM
@@ -466,17 +466,17 @@ Block FlavorKitQFV # quark flavor violating observables
      601    9.99924134E-01  # BR(K->mu nu)/BR(K->mu nu)_SM
      602    2.47647734E-05  # R_K = BR(K->e nu)/(K->mu nu)
      603    2.47610159E-05  # R_K^SM = BR(K->e nu)_SM/(K->mu nu)_SM
-    1900    1.80527894E+01  # Delta(M_Bs)
-    1901    1.00029444E+00  # Delta(M_Bs)/Delta(M_Bs)_SM
-    1902    4.03560962E-01  # Delta(M_Bd)
-    1903    1.00043209E+00  # Delta(M_Bd)/Delta(M_Bd)_SM
+    1900    1.80529579E+01  # Delta(M_Bs)
+    1901    1.00029446E+00  # Delta(M_Bs)/Delta(M_Bs)_SM
+    1902    4.03564732E-01  # Delta(M_Bd)
+    1903    1.00043212E+00  # Delta(M_Bd)/Delta(M_Bd)_SM
     4000    2.45708680E-15  # BR(B^0_d->e e)
     4001    1.00000305E+00  # BR(B^0_d->e e)/BR(B^0_d->e e)_SM
     4002    7.62935984E-14  # BR(B^0_s->e e)
     4003    1.00000300E+00  # BR(B^0_s->e e)/BR(B^0_s->e e)_SM
     4004    1.04963984E-10  # BR(B^0_d->mu mu)
     4005    1.00000304E+00  # BR(B^0_d->mu mu)/BR(B^0_d->mu mu)_SM
-    4006    3.25926096E-09  # BR(B^0_s->mu mu)
+    4006    3.25926095E-09  # BR(B^0_s->mu mu)
     4007    1.00000300E+00  # BR(B^0_s->mu mu)/BR(B^0_s->mu mu)_SM
     4008    2.19701826E-08  # BR(B^0_d->tau tau)
     4009    1.00000167E+00  # BR(B^0_d->tau tau)/BR(B^0_d->tau tau)_SM
@@ -486,26 +486,26 @@ Block FlavorKitQFV # quark flavor violating observables
     5001    1.61119961E+00  # BR(B-> s e e)/BR(B-> s e e)_SM
     5002    2.62944826E-06  # BR(B-> s mu mu)
     5003    1.63849991E+00  # BR(B-> s mu mu)/BR(B-> s mu mu)_SM
-    6000    1.10917508E-07  # BR(B -> K mu mu)
-    6001    9.99256830E-01  # BR(B -> K mu mu)/BR(B -> K mu mu)_SM
-    6002    1.10917508E-07  # BR(B -> K mu mu)
-    6003    9.99256830E-01  # BR(B -> K mu mu)/BR(B -> K mu mu)_SM
-    7000    3.91136494E-05  # BR(B->s nu nu)
+    6000    1.10917505E-07  # BR(B -> K mu mu)
+    6001    9.99256801E-01  # BR(B -> K mu mu)/BR(B -> K mu mu)_SM
+    6002    1.10917505E-07  # BR(B -> K mu mu)
+    6003    9.99256801E-01  # BR(B -> K mu mu)/BR(B -> K mu mu)_SM
+    7000    3.91167565E-05  # BR(B->s nu nu)
     7001    1.00000000E+00  # BR(B->s nu nu)/BR(B->s nu nu)_SM
-    7002    1.81106735E-06  # BR(B->D nu nu)
+    7002    1.81121122E-06  # BR(B->D nu nu)
     7003    1.00000000E+00  # BR(B->D nu nu)/BR(B->D nu nu)_SM
-    8000    1.25899511E-10  # BR(K^+ -> pi^+ nu nu)
+    8000    1.25906251E-10  # BR(K^+ -> pi^+ nu nu)
     8001    1.00000000E+00  # BR(K^+ -> pi^+ nu nu)/BR(K^+ -> pi^+ nu nu)_SM
-    8002    2.89034720E-11  # BR(K_L -> pi^0 nu nu)
+    8002    2.89057680E-11  # BR(K_L -> pi^0 nu nu)
     8003    1.00000000E+00  # BR(K_L -> pi^0 nu nu)/BR(K_L -> pi^0 nu nu)_SM
-    9100    2.01340816E-15  # Delta(M_K)
+    9100    2.01324842E-15  # Delta(M_K)
     9102    9.99999322E-01  # Delta(M_K)/Delta(M_K)_SM
-    9103    1.89949522E-03  # epsilon_K
+    9103    1.89935923E-03  # epsilon_K
     9104    9.99999874E-01  # epsilon_K/epsilon_K^SM
 Block FlavorKitLFV # lepton flavor violating observables 
      701    0.00000000E+00  # BR(mu->e gamma)
      702    0.00000000E+00  # BR(tau->e gamma)
-     703    3.81262680E-14  # BR(tau->mu gamma)
+     703    7.21203167E-19  # BR(tau->mu gamma)
      800    0.00000000E+00  # CR(mu-e, Al)
      801    0.00000000E+00  # CR(mu-e, Ti)
      802    0.00000000E+00  # CR(mu-e, Sr)
@@ -514,23 +514,23 @@ Block FlavorKitLFV # lepton flavor violating observables
      805    0.00000000E+00  # CR(mu-e, Pb)
      901    0.00000000E+00  # BR(mu->3e)
      902    0.00000000E+00  # BR(tau->3e)
-     903    9.49293696E-16  # BR(tau->3mu)
+     903    1.79308899E-20  # BR(tau->3mu)
      904    0.00000000E+00  # BR(tau- -> e- mu+ mu-)
-     905    1.01827521E-15  # BR(tau- -> mu- e+ e-)
+     905    1.92341515E-20  # BR(tau- -> mu- e+ e-)
      906    0.00000000E+00  # BR(tau- -> e+ mu- mu-)
      907    0.00000000E+00  # BR(tau- -> mu+ e- e-)
     1001    0.00000000E+00  # BR(Z->e mu)
     1002    0.00000000E+00  # BR(Z->e tau)
-    1003    1.62850092E-16  # BR(Z->mu tau)
+    1003    3.06731562E-21  # BR(Z->mu tau)
     1101    0.00000000E+00  # BR(h->e mu)
     1102    0.00000000E+00  # BR(h->e tau)
     1103    0.00000000E+00  # BR(h->mu tau)
     2001    0.00000000E+00  # BR(tau->e pi)
     2002    0.00000000E+00  # BR(tau->e eta)
     2003    0.00000000E+00  # BR(tau->e eta')
-    2004    2.43614286E-40  # BR(tau->mu pi)
-    2005    3.60163771E-41  # BR(tau->mu eta)
-    2006    3.94233677E-41  # BR(tau->mu eta')
+    2004    4.45410931E-46  # BR(tau->mu pi)
+    2005    6.58466144E-47  # BR(tau->mu eta)
+    2006    7.20630310E-47  # BR(tau->mu eta')
 Block FWCOEF Q=  1.60000000E+02  # Wilson coefficients at scale Q 
      0305 4422   00   0    -0.17093954E-08    # coeffC7sm
      0305 4422   00   2    -0.17093954E-08    # coeffC7
@@ -598,48 +598,48 @@ Block FWCOEF Q=  1.60000000E+02  # Wilson coefficients at scale Q
  01030103 4141   00   2     0.96133701E-13    # coeffKK_VLL
  01030103 4242   00   2     0.11994291E-28    # coeffKK_VRR
  01030103 4142   00   2    -0.35182540E-22    # coeffKK_VLR
- 01030103 4343   00   2    -0.22644619E-46    # coeffKK_TLL
- 01030103 4444   00   2    -0.72025756E-47    # coeffKK_TRR
+ 01030103 4343   00   2    -0.22645761E-46    # coeffKK_TLL
+ 01030103 4444   00   2    -0.72029386E-47    # coeffKK_TRR
  01050105 3131   00   2    -0.97378730E-21    # coeffBB_SLL
  01050105 3232   00   2    -0.95003657E-15    # coeffBB_SRR
  01050105 3132   00   2    -0.76739583E-17    # coeffBB_SLR
  01050105 4141   00   2     0.33282040E-11    # coeffBB_VLL
  01050105 4242   00   2     0.28465861E-24    # coeffBB_VRR
  01050105 4142   00   2    -0.96183863E-18    # coeffBB_VLR
- 01050105 4343   00   2    -0.14632826E-54    # coeffBB_TLL
- 01050105 4444   00   2    -0.36825148E-48    # coeffBB_TRR
+ 01050105 4343   00   2    -0.14633564E-54    # coeffBB_TLL
+ 01050105 4444   00   2    -0.36827004E-48    # coeffBB_TRR
  03050305 3131   00   2    -0.10269364E-16    # coeffBsBs_SLL
  03050305 3232   00   2    -0.27753642E-13    # coeffBsBs_SRR
  03050305 3132   00   2    -0.42607145E-14    # coeffBsBs_SLR
  03050305 4141   00   2     0.97240965E-10    # coeffBsBs_VLL
  03050305 4242   00   2     0.30038023E-20    # coeffBsBs_VRR
  03050305 4142   00   2    -0.53386538E-15    # coeffBsBs_VLR
- 03050305 4343   00   2    -0.51739644E-49    # coeffBsBs_TLL
- 03050305 4444   00   2    -0.65450946E-48    # coeffBsBs_TRR
+ 03050305 4343   00   2    -0.51742252E-49    # coeffBsBs_TLL
+ 03050305 4444   00   2    -0.65454245E-48    # coeffBsBs_TRR
  01030103 3131   00   1     0.00000000E+00    # coeffKK_SLLNP
  01030103 3232   00   1     0.00000000E+00    # coeffKK_SRRNP
  01030103 3132   00   1     0.00000000E+00    # coeffKK_SLRNP
  01030103 4141   00   1     0.00000000E+00    # coeffKK_VLLNP
  01030103 4242   00   1     0.00000000E+00    # coeffKK_VRRNP
  01030103 4142   00   1     0.00000000E+00    # coeffKK_VLRNP
- 01030103 4343   00   1     0.24902265E-46    # coeffKK_TLLNP
- 01030103 4444   00   1     0.79206651E-47    # coeffKK_TRRNP
+ 01030103 4343   00   1     0.24901124E-46    # coeffKK_TLLNP
+ 01030103 4444   00   1     0.79203021E-47    # coeffKK_TRRNP
  01050105 3131   00   1     0.00000000E+00    # coeffBB_SLLNP
  01050105 3232   00   1     0.00000000E+00    # coeffBB_SRRNP
  01050105 3132   00   1     0.00000000E+00    # coeffBB_SLRNP
  01050105 4141   00   1     0.00000000E+00    # coeffBB_VLLNP
  01050105 4242   00   1     0.00000000E+00    # coeffBB_VRRNP
  01050105 4142   00   1     0.00000000E+00    # coeffBB_VLRNP
- 01050105 4343   00   1     0.16091686E-54    # coeffBB_TLLNP
- 01050105 4444   00   1     0.40496587E-48    # coeffBB_TRRNP
+ 01050105 4343   00   1     0.16090948E-54    # coeffBB_TLLNP
+ 01050105 4444   00   1     0.40494730E-48    # coeffBB_TRRNP
  03050305 3131   00   1     0.00000000E+00    # coeffBsBs_SLLNP
  03050305 3232   00   1     0.00000000E+00    # coeffBsBs_SRRNP
  03050305 3132   00   1     0.00000000E+00    # coeffBsBs_SLRNP
  03050305 4141   00   1     0.00000000E+00    # coeffBsBs_VLLNP
  03050305 4242   00   1     0.00000000E+00    # coeffBsBs_VRRNP
  03050305 4142   00   1     0.00000000E+00    # coeffBsBs_VLRNP
- 03050305 4343   00   1     0.56897969E-49    # coeffBsBs_TLLNP
- 03050305 4444   00   1     0.71976354E-48    # coeffBsBs_TRRNP
+ 03050305 4343   00   1     0.56895362E-49    # coeffBsBs_TLLNP
+ 03050305 4444   00   1     0.71973055E-48    # coeffBsBs_TRRNP
  01030103 3131   00   0    -0.18517285E-23    # coeffKK_SLLSM
  01030103 3232   00   0    -0.66846255E-21    # coeffKK_SRRSM
  01030103 3132   00   0    -0.85228134E-20    # coeffKK_SLRSM
@@ -731,15 +731,15 @@ Block IMFWCOEF Q=  1.60000000E+02  # Im(Wilson coefficients) at scale Q
  01030103 4141   00   2     0.61417536E-14    # coeffKK_VLL
  01030103 4242   00   2     0.26654090E-30    # coeffKK_VRR
  01030103 4142   00   2    -0.30517614E-22    # coeffKK_VLR
- 01030103 4343   00   2    -0.26424726E-46    # coeffKK_TLL
- 01030103 4444   00   2    -0.13398282E-46    # coeffKK_TRR
+ 01030103 4343   00   2    -0.26426058E-46    # coeffKK_TLL
+ 01030103 4444   00   2    -0.13398958E-46    # coeffKK_TRR
  01050105 3131   00   2    -0.88020242E-21    # coeffBB_SLL
  01050105 3232   00   2    -0.85873424E-15    # coeffBB_SRR
  01050105 3132   00   2    -0.69409939E-17    # coeffBB_SLR
  01050105 4141   00   2     0.30092270E-11    # coeffBB_VLL
  01050105 4242   00   2     0.25763904E-24    # coeffBB_VRR
  01050105 4142   00   2    -0.86940207E-18    # coeffBB_VLR
- 01050105 4343   00   2    -0.10925843E-53    # coeffBB_TLL
+ 01050105 4343   00   2    -0.10926394E-53    # coeffBB_TLL
  01050105 4444   00   2     0.00000000E+00    # coeffBB_TRR
  03050305 3131   00   2     0.36667588E-18    # coeffBsBs_SLL
  03050305 3232   00   2     0.99096605E-15    # coeffBsBs_SRR
@@ -747,23 +747,23 @@ Block IMFWCOEF Q=  1.60000000E+02  # Im(Wilson coefficients) at scale Q
  03050305 4141   00   2    -0.34727181E-11    # coeffBsBs_VLL
  03050305 4242   00   2    -0.10734362E-21    # coeffBsBs_VRR
  03050305 4142   00   2     0.19062092E-16    # coeffBsBs_VLR
- 03050305 4343   00   2     0.30567388E-50    # coeffBsBs_TLL
- 03050305 4444   00   2    -0.20458415E-49    # coeffBsBs_TRR
+ 03050305 4343   00   2     0.30568929E-50    # coeffBsBs_TLL
+ 03050305 4444   00   2    -0.20459446E-49    # coeffBsBs_TRR
  01030103 3131   00   1     0.00000000E+00    # coeffKK_SLLNP
  01030103 3232   00   1     0.00000000E+00    # coeffKK_SRRNP
  01030103 3132   00   1     0.00000000E+00    # coeffKK_SLRNP
  01030103 4141   00   1     0.00000000E+00    # coeffKK_VLLNP
  01030103 4242   00   1     0.00000000E+00    # coeffKK_VRRNP
  01030103 4142   00   1     0.00000000E+00    # coeffKK_VLRNP
- 01030103 4343   00   1     0.29059245E-46    # coeffKK_TLLNP
- 01030103 4444   00   1     0.14734078E-46    # coeffKK_TRRNP
+ 01030103 4343   00   1     0.29057913E-46    # coeffKK_TLLNP
+ 01030103 4444   00   1     0.14733402E-46    # coeffKK_TRRNP
  01050105 3131   00   1     0.00000000E+00    # coeffBB_SLLNP
  01050105 3232   00   1     0.00000000E+00    # coeffBB_SRRNP
  01050105 3132   00   1     0.00000000E+00    # coeffBB_SLRNP
  01050105 4141   00   1     0.00000000E+00    # coeffBB_VLLNP
  01050105 4242   00   1     0.00000000E+00    # coeffBB_VRRNP
  01050105 4142   00   1     0.00000000E+00    # coeffBB_VLRNP
- 01050105 4343   00   1     0.12015125E-53    # coeffBB_TLLNP
+ 01050105 4343   00   1     0.12014575E-53    # coeffBB_TLLNP
  01050105 4444   00   1     0.00000000E+00    # coeffBB_TRRNP
  03050305 3131   00   1     0.00000000E+00    # coeffBsBs_SLLNP
  03050305 3232   00   1     0.00000000E+00    # coeffBsBs_SRRNP
@@ -771,8 +771,8 @@ Block IMFWCOEF Q=  1.60000000E+02  # Im(Wilson coefficients) at scale Q
  03050305 4141   00   1     0.00000000E+00    # coeffBsBs_VLLNP
  03050305 4242   00   1     0.00000000E+00    # coeffBsBs_VRRNP
  03050305 4142   00   1     0.00000000E+00    # coeffBsBs_VLRNP
- 03050305 4343   00   1    -0.33614888E-50    # coeffBsBs_TLLNP
- 03050305 4444   00   1     0.22498103E-49    # coeffBsBs_TRRNP
+ 03050305 4343   00   1    -0.33613347E-50    # coeffBsBs_TLLNP
+ 03050305 4444   00   1     0.22497072E-49    # coeffBsBs_TRRNP
  01030103 3131   00   0    -0.16062039E-23    # coeffKK_SLLSM
  01030103 3232   00   0    -0.57982971E-21    # coeffKK_SRRSM
  01030103 3132   00   0    -0.30833975E-21    # coeffKK_SLRSM
@@ -799,10 +799,10 @@ Block IMFWCOEF Q=  1.60000000E+02  # Im(Wilson coefficients) at scale Q
  03050305 4444   00   0    -0.42956519E-49    # coeffBsBs_TRRSM
 Block TREELEVELUNITARITY #  
        0    1.00000000E+00  # Tree-level unitarity limits fulfilled or not 
-       1    7.80000000E-01  # Maximal scattering eigenvalue 
+       1    1.20000000E+00  # Maximal scattering eigenvalue 
 DECAY         2     0.00000000E+00   # Fu_1
 #    BR                NDA      ID1      ID2
-DECAY         4     3.95718823E-13   # Fu_2
+DECAY         4     3.95687389E-13   # Fu_2
 #    BR                NDA      ID1      ID2
 #    BR                NDA      ID1      ID2       ID3
      3.05502572E-02    3            2         -1          1   # BR(Fu_2 -> Fu_1 Fd_1^* Fd_1 )
@@ -813,89 +813,84 @@ DECAY         4     3.95718823E-13   # Fu_2
      1.01645285E-02    3            1        -13         14   # BR(Fu_2 -> Fd_1 Fe_2^* Fv_2 )
      1.91744749E-01    3            3        -11         12   # BR(Fu_2 -> Fd_2 Fe_1^* Fv_1 )
      1.81364137E-01    3            3        -13         14   # BR(Fu_2 -> Fd_2 Fe_2^* Fv_2 )
-DECAY         6     1.60185569E+00   # Fu_3
+DECAY         6     1.60177691E+00   # Fu_3
 #    BR                NDA      ID1      ID2
-     1.67595817E-03    2            3         24   # BR(Fu_3 -> Fd_2 VWp )
+     1.67595821E-03    2            3         24   # BR(Fu_3 -> Fd_2 VWp )
      9.98288603E-01    2            5         24   # BR(Fu_3 -> Fd_3 VWp )
 DECAY        11     0.00000000E+00   # Fe_1
 #    BR                NDA      ID1      ID2
-DECAY        13     1.26285177E-18   # Fe_2
+DECAY        13     1.26275146E-18   # Fe_2
 #    BR                NDA      ID1      ID2
 #    BR                NDA      ID1      ID2       ID3
      2.63969498E-01    3           11        -12         14   # BR(Fe_2 -> Fe_1 Fv_1^* Fv_2 )
      7.36026971E-01    3           14         -2          1   # BR(Fe_2 -> Fv_2 Fu_1^* Fd_1 )
-DECAY        15     2.24550747E-12   # Fe_3
+DECAY        15     2.24532908E-12   # Fe_3
 #    BR                NDA      ID1      ID2
 #    BR                NDA      ID1      ID2       ID3
      1.99664851E-01    3           11        -12         16   # BR(Fe_3 -> Fe_1 Fv_1^* Fv_3 )
      1.94368612E-01    3           13        -14         16   # BR(Fe_3 -> Fe_2 Fv_2^* Fv_3 )
      5.68537927E-01    3           16         -2          1   # BR(Fe_3 -> Fv_3 Fu_1^* Fd_1 )
      2.97768351E-02    3           16         -2          3   # BR(Fe_3 -> Fv_3 Fu_1^* Fd_2 )
-     4.57261710E-04    3           16         -4          1   # BR(Fe_3 -> Fv_3 Fu_2^* Fd_1 )
-     7.19451339E-03    3           16         -4          3   # BR(Fe_3 -> Fv_3 Fu_2^* Fd_2 )
-DECAY         1     9.78903671E-27   # Fd_1
+     4.57261703E-04    3           16         -4          1   # BR(Fe_3 -> Fv_3 Fu_2^* Fd_1 )
+     7.19451326E-03    3           16         -4          3   # BR(Fe_3 -> Fv_3 Fu_2^* Fd_2 )
+DECAY         1     9.78825915E-27   # Fd_1
 #    BR                NDA      ID1      ID2
 #    BR                NDA      ID1      ID2       ID3
      1.00000000E+00    3            2        -12         11   # BR(Fd_1 -> Fu_1 Fv_1^* Fe_1 )
-DECAY         3     3.73259842E-20   # Fd_2
+DECAY         3     3.73230193E-20   # Fd_2
 #    BR                NDA      ID1      ID2
 #    BR                NDA      ID1      ID2       ID3
      7.34967456E-01    3            1         -2          2   # BR(Fd_2 -> Fd_1 Fu_1^* Fu_1 )
      2.65032544E-01    3            2        -12         11   # BR(Fd_2 -> Fu_1 Fv_1^* Fe_1 )
-DECAY         5     1.76357642E-13   # Fd_3
+DECAY         5     1.76343625E-13   # Fd_3
 #    BR                NDA      ID1      ID2
 #    BR                NDA      ID1      ID2       ID3
-     6.12956268E-03    3            1         -2          2   # BR(Fd_3 -> Fd_1 Fu_1^* Fu_1 )
-     4.52962866E-01    3            1         -2          4   # BR(Fd_3 -> Fd_1 Fu_1^* Fu_2 )
-     1.67720517E-04    3            1         -4          2   # BR(Fd_3 -> Fd_1 Fu_2^* Fu_1 )
-     8.80829485E-03    3            1         -4          4   # BR(Fd_3 -> Fd_1 Fu_2^* Fu_2 )
-     3.27016175E-04    3            3         -2          2   # BR(Fd_3 -> Fd_2 Fu_1^* Fu_1 )
-     2.41186008E-02    3            3         -2          4   # BR(Fd_3 -> Fd_2 Fu_1^* Fu_2 )
-     3.11236960E-03    3            3         -4          2   # BR(Fd_3 -> Fd_2 Fu_2^* Fu_1 )
-     1.62628836E-01    3            3         -4          4   # BR(Fd_3 -> Fd_2 Fu_2^* Fu_2 )
-     2.15254367E-03    3            2        -12         11   # BR(Fd_3 -> Fu_1 Fv_1^* Fe_1 )
-     2.14492494E-03    3            2        -14         13   # BR(Fd_3 -> Fu_1 Fv_2^* Fe_2 )
-     5.83973526E-04    3            2        -16         15   # BR(Fd_3 -> Fu_1 Fv_3^* Fe_3 )
-     1.59069562E-01    3            4        -12         11   # BR(Fd_3 -> Fu_2 Fv_1^* Fe_1 )
-     1.58103866E-01    3            4        -14         13   # BR(Fd_3 -> Fu_2 Fv_2^* Fe_2 )
-     1.96898630E-02    3            4        -16         15   # BR(Fd_3 -> Fu_2 Fv_3^* Fe_3 )
-DECAY        25     7.33146669E-04   # hh_1
+     6.12956257E-03    3            1         -2          2   # BR(Fd_3 -> Fd_1 Fu_1^* Fu_1 )
+     4.52962868E-01    3            1         -2          4   # BR(Fd_3 -> Fd_1 Fu_1^* Fu_2 )
+     1.67720509E-04    3            1         -4          2   # BR(Fd_3 -> Fd_1 Fu_2^* Fu_1 )
+     8.80829471E-03    3            1         -4          4   # BR(Fd_3 -> Fd_1 Fu_2^* Fu_2 )
+     3.27016168E-04    3            3         -2          2   # BR(Fd_3 -> Fd_2 Fu_1^* Fu_1 )
+     2.41186009E-02    3            3         -2          4   # BR(Fd_3 -> Fd_2 Fu_1^* Fu_2 )
+     3.11236946E-03    3            3         -4          2   # BR(Fd_3 -> Fd_2 Fu_2^* Fu_1 )
+     1.62628834E-01    3            3         -4          4   # BR(Fd_3 -> Fd_2 Fu_2^* Fu_2 )
+     2.15254363E-03    3            2        -12         11   # BR(Fd_3 -> Fu_1 Fv_1^* Fe_1 )
+     2.14492490E-03    3            2        -14         13   # BR(Fd_3 -> Fu_1 Fv_2^* Fe_2 )
+     5.83973490E-04    3            2        -16         15   # BR(Fd_3 -> Fu_1 Fv_3^* Fe_3 )
+     1.59069563E-01    3            4        -12         11   # BR(Fd_3 -> Fu_2 Fv_1^* Fe_1 )
+     1.58103867E-01    3            4        -14         13   # BR(Fd_3 -> Fu_2 Fv_2^* Fe_2 )
+     1.96898625E-02    3            4        -16         15   # BR(Fd_3 -> Fu_2 Fv_3^* Fe_3 )
+DECAY        25     3.84820336E-03   # hh_1
 #    BR                NDA      ID1      ID2
-     1.00000000E+00    2      -210001     210001   # BR(hh_1 -> Fxv_1^* Fxv_1 )
-DECAY        35     3.84812268E-03   # hh_2
+     2.83314019E-03    2           22         22   # BR(hh_1 -> VP VP )
+     8.81778942E-02    2           21         21   # BR(hh_1 -> VG VG )
+     2.31295790E-02    2           23         23   # BR(hh_1 -> VZ VZ )
+     2.40600138E-01    2          -24         24   # BR(hh_1 -> VWp^* VWp_virt )
+     2.06972816E-04    2           -3          3   # BR(hh_1 -> Fd_2^* Fd_2 )
+     5.54367943E-01    2           -5          5   # BR(hh_1 -> Fd_3^* Fd_3 )
+     2.22793245E-04    2          -13         13   # BR(hh_1 -> Fe_2^* Fe_2 )
+     6.43093223E-02    2          -15         15   # BR(hh_1 -> Fe_3^* Fe_3 )
+     2.61515268E-02    2           -4          4   # BR(hh_1 -> Fu_2^* Fu_2 )
+DECAY        35     1.07068570E-02   # hh_2
 #    BR                NDA      ID1      ID2
-     2.83327315E-03    2           22         22   # BR(hh_2 -> VP VP )
-     8.81742292E-02    2           21         21   # BR(hh_2 -> VG VG )
-     2.31207417E-02    2           23         23   # BR(hh_2 -> VZ VZ )
-     2.40589930E-01    2          -24         24   # BR(hh_2 -> VWp^* VWp_virt )
-     2.06954946E-04    2           -3          3   # BR(hh_2 -> Fd_2^* Fd_2 )
-     5.54320009E-01    2           -5          5   # BR(hh_2 -> Fd_3^* Fd_3 )
-     2.22773135E-04    2          -13         13   # BR(hh_2 -> Fe_2^* Fe_2 )
-     6.43035139E-02    2          -15         15   # BR(hh_2 -> Fe_3^* Fe_3 )
-     2.61492732E-02    2           -4          4   # BR(hh_2 -> Fu_2^* Fu_2 )
-DECAY       635     2.30746182E+00   # Ssc_1
+     1.00000000E+00    2      -210001     210001   # BR(hh_2 -> Fxv_1^* Fxv_1 )
+DECAY       635     1.33314172E+01   # Ssc_1
 #    BR                NDA      ID1      ID2
-     2.98025120E-01    2          -13     210004   # BR(Ssc_1 -> Fe_2^* Fxe )
-     2.01969361E-01    2          -15     210004   # BR(Ssc_1 -> Fe_3^* Fxe )
-     1.61498411E-02    2          -14     210001   # BR(Ssc_1 -> Fv_2^* Fxv_1 )
-     2.81881746E-01    2          -14     210002   # BR(Ssc_1 -> Fv_2^* Fxv_2 )
-     1.09446349E-02    2          -16     210001   # BR(Ssc_1 -> Fv_3^* Fxv_1 )
-     1.91029298E-01    2          -16     210002   # BR(Ssc_1 -> Fv_3^* Fxv_2 )
-DECAY       636     2.86067589E+01   # Ssc_2
+     4.99999726E-01    2          -15     210004   # BR(Ssc_1 -> Fe_3^* Fxe )
+     5.00000039E-01    2          -16     210002   # BR(Ssc_1 -> Fv_3^* Fxv_2 )
+DECAY       636     3.35976479E+00   # Ssc_2
 #    BR                NDA      ID1      ID2
-     4.99978485E-01    2          -15     210004   # BR(Ssc_2 -> Fe_3^* Fxe )
-     2.69595438E-02    2          -16     210001   # BR(Ssc_2 -> Fv_3^* Fxv_1 )
-     4.73027614E-01    2          -16     210002   # BR(Ssc_2 -> Fv_3^* Fxv_2 )
-DECAY    210004     8.48952427E-01   # Fxe
+     4.99999771E-01    2          -13     210004   # BR(Ssc_2 -> Fe_2^* Fxe )
+     4.99999675E-01    2          -14     210002   # BR(Ssc_2 -> Fv_2^* Fxv_2 )
+DECAY    210004     3.88344096E-06   # Fxe
 #    BR                NDA      ID1      ID2
      1.00000000E+00    2       210001        -24   # BR(Fxe -> Fxv_1 VWp^* )
 DECAY    210001     0.00000000E+00   # Fxv_1
 #    BR                NDA      ID1      ID2
-DECAY    210002     7.90908226E-01   # Fxv_2
+DECAY    210002     3.55515528E-06   # Fxv_2
 #    BR                NDA      ID1      ID2
-     1.24222106E-03    2       210001         25   # BR(Fxv_2 -> Fxv_1 hh_1 )
-     4.49365651E-01    2       210001         35   # BR(Fxv_2 -> Fxv_1 hh_2 )
-     5.49392128E-01    2       210001         23   # BR(Fxv_2 -> Fxv_1 VZ )
+     4.55635065E-01    2       210001         25   # BR(Fxv_2 -> Fxv_1 hh_1 )
+     1.25715542E-04    2       210001         35   # BR(Fxv_2 -> Fxv_1 hh_2 )
+     5.44239219E-01    2       210001         23   # BR(Fxv_2 -> Fxv_1 VZ )
 DECAY        21     0.00000000E+00   # VG
 DECAY        22     0.00000000E+00   # VP
 DECAY        23     2.49520000E+00   # VZ
