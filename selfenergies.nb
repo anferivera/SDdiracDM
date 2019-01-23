@@ -3,10 +3,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[         0,          0]
-NotebookDataLength[    191671,       4289]
-NotebookOptionsPosition[    186358,       4122]
-NotebookOutlinePosition[    186784,       4139]
-CellTagsIndexPosition[    186741,       4136]
+NotebookDataLength[    226552,       5132]
+NotebookOptionsPosition[    221095,       4962]
+NotebookOutlinePosition[    221521,       4979]
+CellTagsIndexPosition[    221478,       4976]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -82,7 +82,7 @@ Cell[BoxData["\<\"/home/anferivera/Work/FeynArts-3.9\"\>"], "Output",
    3.750089358925159*^9, 3.750091344052154*^9, 3.750525085128364*^9, 
    3.750525318191473*^9, 3.750525479740563*^9, 3.750601132838233*^9, 
    3.750611046982071*^9, 3.750611270115633*^9, 3.750673386914309*^9, 
-   3.751636981743395*^9, 3.751656285389567*^9}],
+   3.751636981743395*^9, 3.751656285389567*^9, 3.757245317525715*^9}],
 
 Cell[CellGroupData[{
 
@@ -115,7 +115,7 @@ Cell[BoxData["\<\"\"\>"], "Print",
    3.750089358946797*^9, 3.750091344143717*^9, 3.750525085198588*^9, 
    3.750525318211897*^9, 3.750525479815138*^9, 3.750601132961217*^9, 
    3.750611047038596*^9, 3.7506112701354847`*^9, 3.7506733869704227`*^9, 
-   3.751636981813106*^9, 3.751656285461212*^9}],
+   3.751636981813106*^9, 3.751656285461212*^9, 3.7572453175271273`*^9}],
 
 Cell[BoxData["\<\"FeynArts 3.9 (8 Jul 2015)\"\>"], "Print",
  CellChangeTimes->{
@@ -146,7 +146,7 @@ Cell[BoxData["\<\"FeynArts 3.9 (8 Jul 2015)\"\>"], "Print",
    3.750089358946797*^9, 3.750091344143717*^9, 3.750525085198588*^9, 
    3.750525318211897*^9, 3.750525479815138*^9, 3.750601132961217*^9, 
    3.750611047038596*^9, 3.7506112701354847`*^9, 3.7506733869704227`*^9, 
-   3.751636981813106*^9, 3.7516562854618883`*^9}],
+   3.751636981813106*^9, 3.751656285461212*^9, 3.7572453175275784`*^9}],
 
 Cell[BoxData["\<\"by Hagen Eck, Sepp Kueblbeck, and Thomas Hahn\"\>"], "Print",
  CellChangeTimes->{
@@ -177,7 +177,7 @@ Cell[BoxData["\<\"by Hagen Eck, Sepp Kueblbeck, and Thomas Hahn\"\>"], "Print",
    3.750089358946797*^9, 3.750091344143717*^9, 3.750525085198588*^9, 
    3.750525318211897*^9, 3.750525479815138*^9, 3.750601132961217*^9, 
    3.750611047038596*^9, 3.7506112701354847`*^9, 3.7506733869704227`*^9, 
-   3.751636981813106*^9, 3.751656285462949*^9}]
+   3.751636981813106*^9, 3.751656285461212*^9, 3.757245317528171*^9}]
 }, Open  ]],
 
 Cell[BoxData["\<\"/home/anferivera/Work/FeynArts-3.9\"\>"], "Output",
@@ -209,7 +209,7 @@ Cell[BoxData["\<\"/home/anferivera/Work/FeynArts-3.9\"\>"], "Output",
    3.750089358925159*^9, 3.750091344052154*^9, 3.750525085128364*^9, 
    3.750525318191473*^9, 3.750525479740563*^9, 3.750601132838233*^9, 
    3.750611046982071*^9, 3.750611270115633*^9, 3.750673386914309*^9, 
-   3.751636981743395*^9, 3.751656285463784*^9}],
+   3.751636981743395*^9, 3.751656285389567*^9, 3.7572453175809383`*^9}],
 
 Cell[BoxData["\<\"/home/anferivera/Work/FormCalc-8.3\"\>"], "Output",
  CellChangeTimes->{
@@ -240,7 +240,7 @@ Cell[BoxData["\<\"/home/anferivera/Work/FormCalc-8.3\"\>"], "Output",
    3.750089358925159*^9, 3.750091344052154*^9, 3.750525085128364*^9, 
    3.750525318191473*^9, 3.750525479740563*^9, 3.750601132838233*^9, 
    3.750611046982071*^9, 3.750611270115633*^9, 3.750673386914309*^9, 
-   3.751636981743395*^9, 3.751656285464444*^9}],
+   3.751636981743395*^9, 3.751656285389567*^9, 3.75724531758176*^9}],
 
 Cell[CellGroupData[{
 
@@ -273,7 +273,7 @@ Cell[BoxData["\<\"\"\>"], "Print",
    3.750089358946797*^9, 3.750091344143717*^9, 3.750525085198588*^9, 
    3.750525318211897*^9, 3.750525479815138*^9, 3.750601132961217*^9, 
    3.750611047038596*^9, 3.7506112701354847`*^9, 3.7506733869704227`*^9, 
-   3.751636981813106*^9, 3.751656285464971*^9}],
+   3.751636981813106*^9, 3.751656285461212*^9, 3.757245317582375*^9}],
 
 Cell[BoxData["\<\"FormCalc 8.3\"\>"], "Print",
  CellChangeTimes->{
@@ -304,7 +304,7 @@ Cell[BoxData["\<\"FormCalc 8.3\"\>"], "Print",
    3.750089358946797*^9, 3.750091344143717*^9, 3.750525085198588*^9, 
    3.750525318211897*^9, 3.750525479815138*^9, 3.750601132961217*^9, 
    3.750611047038596*^9, 3.7506112701354847`*^9, 3.7506733869704227`*^9, 
-   3.751636981813106*^9, 3.751656285465358*^9}],
+   3.751636981813106*^9, 3.751656285461212*^9, 3.7572453175827913`*^9}],
 
 Cell[BoxData["\<\"by Thomas Hahn\"\>"], "Print",
  CellChangeTimes->{
@@ -335,7 +335,7 @@ Cell[BoxData["\<\"by Thomas Hahn\"\>"], "Print",
    3.750089358946797*^9, 3.750091344143717*^9, 3.750525085198588*^9, 
    3.750525318211897*^9, 3.750525479815138*^9, 3.750601132961217*^9, 
    3.750611047038596*^9, 3.7506112701354847`*^9, 3.7506733869704227`*^9, 
-   3.751636981813106*^9, 3.7516562854659357`*^9}],
+   3.751636981813106*^9, 3.751656285461212*^9, 3.757245317583385*^9}],
 
 Cell[BoxData["\<\"last revised 14 Nov 13\"\>"], "Print",
  CellChangeTimes->{
@@ -366,7 +366,7 @@ Cell[BoxData["\<\"last revised 14 Nov 13\"\>"], "Print",
    3.750089358946797*^9, 3.750091344143717*^9, 3.750525085198588*^9, 
    3.750525318211897*^9, 3.750525479815138*^9, 3.750601132961217*^9, 
    3.750611047038596*^9, 3.7506112701354847`*^9, 3.7506733869704227`*^9, 
-   3.751636981813106*^9, 3.751656285466495*^9}]
+   3.751636981813106*^9, 3.751656285461212*^9, 3.757245317583973*^9}]
 }, Open  ]],
 
 Cell[BoxData["\<\"/home/anferivera/Work/FormCalc-8.3\"\>"], "Output",
@@ -398,7 +398,7 @@ Cell[BoxData["\<\"/home/anferivera/Work/FormCalc-8.3\"\>"], "Output",
    3.750089358925159*^9, 3.750091344052154*^9, 3.750525085128364*^9, 
    3.750525318191473*^9, 3.750525479740563*^9, 3.750601132838233*^9, 
    3.750611046982071*^9, 3.750611270115633*^9, 3.750673386914309*^9, 
-   3.751636981743395*^9, 3.75165628548426*^9}]
+   3.751636981743395*^9, 3.751656285389567*^9, 3.7572453175845757`*^9}]
 }, Open  ]],
 
 Cell[BoxData[""], "Input",
@@ -966,7 +966,7 @@ Cell[CellGroupData[{
 Cell[BoxData["\<\"\"\>"], "Print",
  CellChangeTimes->{{3.7516422932077208`*^9, 3.75164230249228*^9}, {
    3.7516424793889627`*^9, 3.75164248711506*^9}, {3.751642641241365*^9, 
-   3.7516426457054567`*^9}, 3.751656293926292*^9}],
+   3.7516426457054567`*^9}, 3.751656293926292*^9, 3.757245326380701*^9}],
 
 Cell[BoxData[
  InterpretationBox[
@@ -981,12 +981,12 @@ Cell[BoxData[
   Editable->False]], "Print",
  CellChangeTimes->{{3.7516422932077208`*^9, 3.75164230249228*^9}, {
    3.7516424793889627`*^9, 3.75164248711506*^9}, {3.751642641241365*^9, 
-   3.7516426457054567`*^9}, 3.7516562939271708`*^9}],
+   3.7516426457054567`*^9}, 3.751656293926292*^9, 3.757245326381342*^9}],
 
 Cell[BoxData["\<\"> $GenericMixing is OFF\"\>"], "Print",
  CellChangeTimes->{{3.7516422932077208`*^9, 3.75164230249228*^9}, {
    3.7516424793889627`*^9, 3.75164248711506*^9}, {3.751642641241365*^9, 
-   3.7516426457054567`*^9}, 3.751656293927904*^9}],
+   3.7516426457054567`*^9}, 3.751656293926292*^9, 3.7572453263820744`*^9}],
 
 Cell[BoxData[
  InterpretationBox[
@@ -997,12 +997,12 @@ Cell[BoxData[
   Editable->False]], "Print",
  CellChangeTimes->{{3.7516422932077208`*^9, 3.75164230249228*^9}, {
    3.7516424793889627`*^9, 3.75164248711506*^9}, {3.751642641241365*^9, 
-   3.7516426457054567`*^9}, 3.751656293928442*^9}],
+   3.7516426457054567`*^9}, 3.751656293926292*^9, 3.757245326382914*^9}],
 
 Cell[BoxData["\<\"\"\>"], "Print",
  CellChangeTimes->{{3.7516422932077208`*^9, 3.75164230249228*^9}, {
    3.7516424793889627`*^9, 3.75164248711506*^9}, {3.751642641241365*^9, 
-   3.7516426457054567`*^9}, 3.751656293928907*^9}],
+   3.7516426457054567`*^9}, 3.751656293926292*^9, 3.757245326383625*^9}],
 
 Cell[BoxData[
  InterpretationBox[
@@ -1017,34 +1017,34 @@ Cell[BoxData[
   Editable->False]], "Print",
  CellChangeTimes->{{3.7516422932077208`*^9, 3.75164230249228*^9}, {
    3.7516424793889627`*^9, 3.75164248711506*^9}, {3.751642641241365*^9, 
-   3.7516426457054567`*^9}, 3.751656293929352*^9}],
+   3.7516426457054567`*^9}, 3.751656293926292*^9, 3.757245326384041*^9}],
 
 Cell[BoxData[
  InterpretationBox[
-  RowBox[{"\<\"> \"\>", "\[InvisibleSpace]", "52", 
+  RowBox[{"\<\"> \"\>", "\[InvisibleSpace]", "54", 
    "\[InvisibleSpace]", "\<\" particles (incl. antiparticles) in \"\>", 
    "\[InvisibleSpace]", "19", "\[InvisibleSpace]", "\<\" classes\"\>"}],
   SequenceForm[
-  "> ", 52, " particles (incl. antiparticles) in ", 19, " classes"],
+  "> ", 54, " particles (incl. antiparticles) in ", 19, " classes"],
   Editable->False]], "Print",
  CellChangeTimes->{{3.7516422932077208`*^9, 3.75164230249228*^9}, {
    3.7516424793889627`*^9, 3.75164248711506*^9}, {3.751642641241365*^9, 
-   3.7516426457054567`*^9}, 3.7516562939299593`*^9}],
+   3.7516426457054567`*^9}, 3.751656293926292*^9, 3.757245326456285*^9}],
 
 Cell[BoxData["\<\"> $CounterTerms are ON\"\>"], "Print",
  CellChangeTimes->{{3.7516422932077208`*^9, 3.75164230249228*^9}, {
    3.7516424793889627`*^9, 3.75164248711506*^9}, {3.751642641241365*^9, 
-   3.7516426457054567`*^9}, 3.7516562939903917`*^9}],
+   3.7516426457054567`*^9}, 3.751656293926292*^9, 3.757245326457675*^9}],
 
 Cell[BoxData[
  InterpretationBox[
-  RowBox[{"\<\"> \"\>", "\[InvisibleSpace]", "114", 
+  RowBox[{"\<\"> \"\>", "\[InvisibleSpace]", "110", 
    "\[InvisibleSpace]", "\<\" vertices\"\>"}],
-  SequenceForm["> ", 114, " vertices"],
+  SequenceForm["> ", 110, " vertices"],
   Editable->False]], "Print",
  CellChangeTimes->{{3.7516422932077208`*^9, 3.75164230249228*^9}, {
    3.7516424793889627`*^9, 3.75164248711506*^9}, {3.751642641241365*^9, 
-   3.7516426457054567`*^9}, 3.751656293991947*^9}],
+   3.7516426457054567`*^9}, 3.751656293926292*^9, 3.757245326458335*^9}],
 
 Cell[BoxData[
  InterpretationBox[
@@ -1055,12 +1055,12 @@ Cell[BoxData[
   Editable->False]], "Print",
  CellChangeTimes->{{3.7516422932077208`*^9, 3.75164230249228*^9}, {
    3.7516424793889627`*^9, 3.75164248711506*^9}, {3.751642641241365*^9, 
-   3.7516426457054567`*^9}, 3.751656293993285*^9}],
+   3.7516426457054567`*^9}, 3.751656293926292*^9, 3.757245326458962*^9}],
 
 Cell[BoxData["\<\"\"\>"], "Print",
  CellChangeTimes->{{3.7516422932077208`*^9, 3.75164230249228*^9}, {
    3.7516424793889627`*^9, 3.75164248711506*^9}, {3.751642641241365*^9, 
-   3.7516426457054567`*^9}, 3.751656293994073*^9}],
+   3.7516426457054567`*^9}, 3.751656293926292*^9, 3.757245326459467*^9}],
 
 Cell[BoxData[
  InterpretationBox[
@@ -1074,12 +1074,12 @@ Cell[BoxData[
   Editable->False]], "Print",
  CellChangeTimes->{{3.7516422932077208`*^9, 3.75164230249228*^9}, {
    3.7516424793889627`*^9, 3.75164248711506*^9}, {3.751642641241365*^9, 
-   3.7516426457054567`*^9}, 3.751656293994899*^9}],
+   3.7516426457054567`*^9}, 3.751656293926292*^9, 3.757245326460092*^9}],
 
 Cell[BoxData["\<\"\"\>"], "Print",
  CellChangeTimes->{{3.7516422932077208`*^9, 3.75164230249228*^9}, {
    3.7516424793889627`*^9, 3.75164248711506*^9}, {3.751642641241365*^9, 
-   3.7516426457054567`*^9}, 3.751656293995432*^9}],
+   3.7516426457054567`*^9}, 3.751656293926292*^9, 3.757245326460609*^9}],
 
 Cell[BoxData[
  InterpretationBox[
@@ -1089,7 +1089,7 @@ Cell[BoxData[
   Editable->False]], "Print",
  CellChangeTimes->{{3.7516422932077208`*^9, 3.75164230249228*^9}, {
    3.7516424793889627`*^9, 3.75164248711506*^9}, {3.751642641241365*^9, 
-   3.7516426457054567`*^9}, 3.751656293996025*^9}],
+   3.7516426457054567`*^9}, 3.751656293926292*^9, 3.7572453264611797`*^9}],
 
 Cell[BoxData[
  InterpretationBox[
@@ -1100,23 +1100,23 @@ Cell[BoxData[
   Editable->False]], "Print",
  CellChangeTimes->{{3.7516422932077208`*^9, 3.75164230249228*^9}, {
    3.7516424793889627`*^9, 3.75164248711506*^9}, {3.751642641241365*^9, 
-   3.7516426457054567`*^9}, 3.751656293996641*^9}],
+   3.7516426457054567`*^9}, 3.751656293926292*^9, 3.7572453264618063`*^9}],
 
 Cell[BoxData[
  InterpretationBox[
   RowBox[{"\<\"> Top. \"\>", "\[InvisibleSpace]", "2", 
    "\[InvisibleSpace]", "\<\": \"\>", 
-   "\[InvisibleSpace]", "\<\"4 Particles insertions\"\>"}],
-  SequenceForm["> Top. ", 2, ": ", "4 Particles insertions"],
+   "\[InvisibleSpace]", "\<\"13 Particles insertions\"\>"}],
+  SequenceForm["> Top. ", 2, ": ", "13 Particles insertions"],
   Editable->False]], "Print",
  CellChangeTimes->{{3.7516422932077208`*^9, 3.75164230249228*^9}, {
    3.7516424793889627`*^9, 3.75164248711506*^9}, {3.751642641241365*^9, 
-   3.7516426457054567`*^9}, 3.751656293997263*^9}],
+   3.7516426457054567`*^9}, 3.751656293926292*^9, 3.75724532646241*^9}],
 
 Cell[BoxData["\<\"\"\>"], "Print",
  CellChangeTimes->{{3.7516422932077208`*^9, 3.75164230249228*^9}, {
    3.7516424793889627`*^9, 3.75164248711506*^9}, {3.751642641241365*^9, 
-   3.7516426457054567`*^9}, 3.7516562939977913`*^9}],
+   3.7516426457054567`*^9}, 3.751656293926292*^9, 3.7572453264629297`*^9}],
 
 Cell[BoxData[
  InterpretationBox[
@@ -1130,28 +1130,28 @@ Cell[BoxData[
   Editable->False]], "Print",
  CellChangeTimes->{{3.7516422932077208`*^9, 3.75164230249228*^9}, {
    3.7516424793889627`*^9, 3.75164248711506*^9}, {3.751642641241365*^9, 
-   3.7516426457054567`*^9}, 3.75165629399837*^9}],
+   3.7516426457054567`*^9}, 3.751656293926292*^9, 3.757245326463594*^9}],
 
 Cell[BoxData[
  InterpretationBox[
   RowBox[{"\<\"in total: \"\>", 
-   "\[InvisibleSpace]", "\<\"4 Particles insertions\"\>"}],
-  SequenceForm["in total: ", "4 Particles insertions"],
+   "\[InvisibleSpace]", "\<\"13 Particles insertions\"\>"}],
+  SequenceForm["in total: ", "13 Particles insertions"],
   Editable->False]], "Print",
  CellChangeTimes->{{3.7516422932077208`*^9, 3.75164230249228*^9}, {
    3.7516424793889627`*^9, 3.75164248711506*^9}, {3.751642641241365*^9, 
-   3.7516426457054567`*^9}, 3.751656293999056*^9}],
+   3.7516426457054567`*^9}, 3.751656293926292*^9, 3.757245326464204*^9}],
 
 Cell[BoxData[
  InterpretationBox[
   RowBox[{"\<\"> Top. \"\>", "\[InvisibleSpace]", "1", 
    "\[InvisibleSpace]", "\<\": \"\>", 
-   "\[InvisibleSpace]", "\<\"4 diagrams\"\>"}],
-  SequenceForm["> Top. ", 1, ": ", "4 diagrams"],
+   "\[InvisibleSpace]", "\<\"13 diagrams\"\>"}],
+  SequenceForm["> Top. ", 1, ": ", "13 diagrams"],
   Editable->False]], "Print",
  CellChangeTimes->{{3.7516422932077208`*^9, 3.75164230249228*^9}, {
    3.7516424793889627`*^9, 3.75164248711506*^9}, {3.751642641241365*^9, 
-   3.7516426457054567`*^9}, 3.75165629399971*^9}],
+   3.7516426457054567`*^9}, 3.751656293926292*^9, 3.757245326464809*^9}],
 
 Cell[BoxData[
  GraphicsBox[{InsetBox[
@@ -1190,8 +1190,7 @@ Cell[BoxData[
        TagBox[
         StyleBox[
          TagBox[
-          SubsuperscriptBox[
-           OverscriptBox["\[Chi]", "~"], "1", "0"],
+          SubscriptBox["\[Nu]", "1"],
           DisplayForm],
          FontFamily->"Helvetica",
          FontSize->14.34308300395257],
@@ -1204,7 +1203,7 @@ Cell[BoxData[
        TagBox[
         StyleBox[
          TagBox[
-          SubscriptBox["S", "1"],
+          SubscriptBox["h", "1"],
           DisplayForm],
          FontFamily->"Helvetica",
          FontSize->14.34308300395257],
@@ -1260,8 +1259,7 @@ Cell[BoxData[
        TagBox[
         StyleBox[
          TagBox[
-          SubsuperscriptBox[
-           OverscriptBox["\[Chi]", "~"], "2", "0"],
+          SubscriptBox["\[Nu]", "2"],
           DisplayForm],
          FontFamily->"Helvetica",
          FontSize->14.34308300395257],
@@ -1274,7 +1272,7 @@ Cell[BoxData[
        TagBox[
         StyleBox[
          TagBox[
-          SubscriptBox["S", "1"],
+          SubscriptBox["h", "1"],
           DisplayForm],
          FontFamily->"Helvetica",
          FontSize->14.34308300395257],
@@ -1330,8 +1328,7 @@ Cell[BoxData[
        TagBox[
         StyleBox[
          TagBox[
-          SubsuperscriptBox[
-           OverscriptBox["\[Chi]", "~"], "1", "0"],
+          SubscriptBox["\[Nu]", "3"],
           DisplayForm],
          FontFamily->"Helvetica",
          FontSize->14.34308300395257],
@@ -1344,7 +1341,7 @@ Cell[BoxData[
        TagBox[
         StyleBox[
          TagBox[
-          SubscriptBox["S", "2"],
+          SubscriptBox["h", "1"],
           DisplayForm],
          FontFamily->"Helvetica",
          FontSize->14.34308300395257],
@@ -1400,8 +1397,7 @@ Cell[BoxData[
        TagBox[
         StyleBox[
          TagBox[
-          SubsuperscriptBox[
-           OverscriptBox["\[Chi]", "~"], "2", "0"],
+          SubscriptBox["\[Nu]", "1"],
           DisplayForm],
          FontFamily->"Helvetica",
          FontSize->14.34308300395257],
@@ -1414,7 +1410,7 @@ Cell[BoxData[
        TagBox[
         StyleBox[
          TagBox[
-          SubscriptBox["S", "2"],
+          SubscriptBox["h", "2"],
           DisplayForm],
          FontFamily->"Helvetica",
          FontSize->14.34308300395257],
@@ -1465,11 +1461,758 @@ Cell[BoxData[
       17.21169960474308]& ], {26.5, 47.959999999999994}, 
     ImageScaled[{Rational[1, 2], Rational[1, 2]}]]},
   AspectRatio->1.15,
-  ImageSize->{507., 507.},
+  ImageSize->{288, 288},
   PlotRange->{{0, 44}, {0, 50.599999999999994`}}]], "Print",
  CellChangeTimes->{{3.7516422932077208`*^9, 3.75164230249228*^9}, {
    3.7516424793889627`*^9, 3.75164248711506*^9}, {3.751642641241365*^9, 
-   3.7516426457054567`*^9}, 3.751656294002303*^9}]
+   3.7516426457054567`*^9}, 3.751656293926292*^9, 3.7572453266184177`*^9}],
+
+Cell[BoxData[
+ GraphicsBox[{InsetBox[
+    GraphicsBox[
+     {Thickness[0.005], 
+      LineBox[{{-1.0009326700810561`*^-11, 10.}, {5.999999999982448, 10.}}], 
+      PolygonBox[{{3.6, 10.}, {2.4, 9.6}, {2.4, 10.4}}], InsetBox[
+       TagBox[
+        StyleBox[
+         TagBox[
+          SubscriptBox["\[Nu]", "1"],
+          DisplayForm],
+         FontFamily->"Helvetica",
+         FontSize->14.34308300395257],
+        StyleForm[#, FontFamily -> "Helvetica", FontSize -> 
+         14.34308300395257]& ], {3., 9.0548}, 
+       ImageScaled[{Rational[1, 2], 1}]], 
+      LineBox[{{20.00000000000066, 10.}, {13.999999999999321`, 10.}}], 
+      PolygonBox[{{17.599999999999994`, 10.}, {16.39999999999999, 10.4}, {
+       16.39999999999999, 9.6}}], InsetBox[
+       TagBox[
+        StyleBox[
+         TagBox[
+          SubscriptBox["\[Nu]", "1"],
+          DisplayForm],
+         FontFamily->"Helvetica",
+         FontSize->14.34308300395257],
+        StyleForm[#, FontFamily -> "Helvetica", FontSize -> 
+         14.34308300395257]& ], {16.999999999999993, 10.9452}, 
+       ImageScaled[{Rational[1, 2], 0}]], 
+      CircleBox[{9.999999999999995, 10.899999999999997}, 4.099999999999994, {
+       3.3629070959375835`, 6.0618708648317945`}], 
+      PolygonBox[{{10.599999999999994`, 6.800000000000004}, {
+       9.399999999999995, 6.400000000000004}, {9.399999999999995, 
+       7.200000000000005}}], InsetBox[
+       TagBox[
+        StyleBox[
+         TagBox[
+          SubscriptBox["\[Nu]", "2"],
+          DisplayForm],
+         FontFamily->"Helvetica",
+         FontSize->14.34308300395257],
+        StyleForm[#, FontFamily -> "Helvetica", FontSize -> 
+         14.34308300395257]& ], {9.999999999999995, 5.8548000000000044}, 
+       ImageScaled[{Rational[1, 2], 1}]], 
+      {Dashing[{0.030000000000000002`, 0.030000000000000002`}], 
+       CircleBox[{9.999999999999995, 9.100000000000003}, 4.099999999999994, {
+        0.2213144423477913, 2.9202782112420023`}]}, InsetBox[
+       TagBox[
+        StyleBox[
+         TagBox[
+          SubscriptBox["h", "2"],
+          DisplayForm],
+         FontFamily->"Helvetica",
+         FontSize->14.34308300395257],
+        StyleForm[#, FontFamily -> "Helvetica", FontSize -> 
+         14.34308300395257]& ], {9.999999999999995, 13.895199999999996}, 
+       ImageScaled[{Rational[1, 2], 0}]], 
+      {PointSize[0.04], PointBox[{6., 10.}], 
+       PointBox[{13.99999999999999, 10.}]}, InsetBox[
+       TagBox[
+        StyleBox[
+         TagBox[
+          RowBox[{"T1", " ", "P5", " ", "N5"}],
+          DisplayForm],
+         FontFamily->"Helvetica",
+         FontSize->11.474466403162056`],
+        StyleForm[#, FontFamily -> "Helvetica", FontSize -> 
+         11.474466403162056`]& ], {10., -0.5}, 
+       ImageScaled[{Rational[1, 2], 0}]]},
+     AspectRatio->1,
+     PlotRange->{{-1, 21}, {-1, 21}}], {0, 22}, {0, 0}, {22, 22}], InsetBox[
+    GraphicsBox[
+     {Thickness[0.005], 
+      LineBox[{{-1.0009326700810561`*^-11, 10.}, {5.999999999982448, 10.}}], 
+      PolygonBox[{{3.6, 10.}, {2.4, 9.6}, {2.4, 10.4}}], InsetBox[
+       TagBox[
+        StyleBox[
+         TagBox[
+          SubscriptBox["\[Nu]", "1"],
+          DisplayForm],
+         FontFamily->"Helvetica",
+         FontSize->14.34308300395257],
+        StyleForm[#, FontFamily -> "Helvetica", FontSize -> 
+         14.34308300395257]& ], {3., 9.0548}, 
+       ImageScaled[{Rational[1, 2], 1}]], 
+      LineBox[{{20.00000000000066, 10.}, {13.999999999999321`, 10.}}], 
+      PolygonBox[{{17.599999999999994`, 10.}, {16.39999999999999, 10.4}, {
+       16.39999999999999, 9.6}}], InsetBox[
+       TagBox[
+        StyleBox[
+         TagBox[
+          SubscriptBox["\[Nu]", "1"],
+          DisplayForm],
+         FontFamily->"Helvetica",
+         FontSize->14.34308300395257],
+        StyleForm[#, FontFamily -> "Helvetica", FontSize -> 
+         14.34308300395257]& ], {16.999999999999993, 10.9452}, 
+       ImageScaled[{Rational[1, 2], 0}]], 
+      CircleBox[{9.999999999999995, 10.899999999999997}, 4.099999999999994, {
+       3.3629070959375835`, 6.0618708648317945`}], 
+      PolygonBox[{{10.599999999999994`, 6.800000000000004}, {
+       9.399999999999995, 6.400000000000004}, {9.399999999999995, 
+       7.200000000000005}}], InsetBox[
+       TagBox[
+        StyleBox[
+         TagBox[
+          SubscriptBox["\[Nu]", "3"],
+          DisplayForm],
+         FontFamily->"Helvetica",
+         FontSize->14.34308300395257],
+        StyleForm[#, FontFamily -> "Helvetica", FontSize -> 
+         14.34308300395257]& ], {9.999999999999995, 5.8548000000000044}, 
+       ImageScaled[{Rational[1, 2], 1}]], 
+      {Dashing[{0.030000000000000002`, 0.030000000000000002`}], 
+       CircleBox[{9.999999999999995, 9.100000000000003}, 4.099999999999994, {
+        0.2213144423477913, 2.9202782112420023`}]}, InsetBox[
+       TagBox[
+        StyleBox[
+         TagBox[
+          SubscriptBox["h", "2"],
+          DisplayForm],
+         FontFamily->"Helvetica",
+         FontSize->14.34308300395257],
+        StyleForm[#, FontFamily -> "Helvetica", FontSize -> 
+         14.34308300395257]& ], {9.999999999999995, 13.895199999999996}, 
+       ImageScaled[{Rational[1, 2], 0}]], 
+      {PointSize[0.04], PointBox[{6., 10.}], 
+       PointBox[{13.99999999999999, 10.}]}, InsetBox[
+       TagBox[
+        StyleBox[
+         TagBox[
+          RowBox[{"T1", " ", "P6", " ", "N6"}],
+          DisplayForm],
+         FontFamily->"Helvetica",
+         FontSize->11.474466403162056`],
+        StyleForm[#, FontFamily -> "Helvetica", FontSize -> 
+         11.474466403162056`]& ], {10., -0.5}, 
+       ImageScaled[{Rational[1, 2], 0}]]},
+     AspectRatio->1,
+     PlotRange->{{-1, 21}, {-1, 21}}], {22, 22}, {0, 0}, {22, 22}], InsetBox[
+    GraphicsBox[
+     {Thickness[0.005], 
+      LineBox[{{-1.0009326700810561`*^-11, 10.}, {5.999999999982448, 10.}}], 
+      PolygonBox[{{3.6, 10.}, {2.4, 9.6}, {2.4, 10.4}}], InsetBox[
+       TagBox[
+        StyleBox[
+         TagBox[
+          SubscriptBox["\[Nu]", "1"],
+          DisplayForm],
+         FontFamily->"Helvetica",
+         FontSize->14.34308300395257],
+        StyleForm[#, FontFamily -> "Helvetica", FontSize -> 
+         14.34308300395257]& ], {3., 9.0548}, 
+       ImageScaled[{Rational[1, 2], 1}]], 
+      LineBox[{{20.00000000000066, 10.}, {13.999999999999321`, 10.}}], 
+      PolygonBox[{{17.599999999999994`, 10.}, {16.39999999999999, 10.4}, {
+       16.39999999999999, 9.6}}], InsetBox[
+       TagBox[
+        StyleBox[
+         TagBox[
+          SubscriptBox["\[Nu]", "1"],
+          DisplayForm],
+         FontFamily->"Helvetica",
+         FontSize->14.34308300395257],
+        StyleForm[#, FontFamily -> "Helvetica", FontSize -> 
+         14.34308300395257]& ], {16.999999999999993, 10.9452}, 
+       ImageScaled[{Rational[1, 2], 0}]], 
+      CircleBox[{9.999999999999995, 10.899999999999997}, 4.099999999999994, {
+       3.3629070959375835`, 6.0618708648317945`}], 
+      PolygonBox[{{10.599999999999994`, 6.800000000000004}, {
+       9.399999999999995, 6.400000000000004}, {9.399999999999995, 
+       7.200000000000005}}], InsetBox[
+       TagBox[
+        StyleBox[
+         TagBox[
+          SubscriptBox["\[Nu]", "1"],
+          DisplayForm],
+         FontFamily->"Helvetica",
+         FontSize->14.34308300395257],
+        StyleForm[#, FontFamily -> "Helvetica", FontSize -> 
+         14.34308300395257]& ], {9.999999999999995, 5.8548000000000044}, 
+       ImageScaled[{Rational[1, 2], 1}]], 
+      {Dashing[{0.030000000000000002`, 0.030000000000000002`}], 
+       CircleBox[{9.999999999999995, 9.100000000000003}, 4.099999999999994, {
+        0.2213144423477913, 2.9202782112420023`}]}, InsetBox[
+       TagBox[
+        StyleBox[
+         TagBox[
+          SubscriptBox["A", "0"],
+          DisplayForm],
+         FontFamily->"Helvetica",
+         FontSize->14.34308300395257],
+        StyleForm[#, FontFamily -> "Helvetica", FontSize -> 
+         14.34308300395257]& ], {9.999999999999995, 13.895199999999996}, 
+       ImageScaled[{Rational[1, 2], 0}]], 
+      {PointSize[0.04], PointBox[{6., 10.}], 
+       PointBox[{13.99999999999999, 10.}]}, InsetBox[
+       TagBox[
+        StyleBox[
+         TagBox[
+          RowBox[{"T1", " ", "P7", " ", "N7"}],
+          DisplayForm],
+         FontFamily->"Helvetica",
+         FontSize->11.474466403162056`],
+        StyleForm[#, FontFamily -> "Helvetica", FontSize -> 
+         11.474466403162056`]& ], {10., -0.5}, 
+       ImageScaled[{Rational[1, 2], 0}]]},
+     AspectRatio->1,
+     PlotRange->{{-1, 21}, {-1, 21}}], {0, 0}, {0, 0}, {22, 22}], InsetBox[
+    GraphicsBox[
+     {Thickness[0.005], 
+      LineBox[{{-1.0009326700810561`*^-11, 10.}, {5.999999999982448, 10.}}], 
+      PolygonBox[{{3.6, 10.}, {2.4, 9.6}, {2.4, 10.4}}], InsetBox[
+       TagBox[
+        StyleBox[
+         TagBox[
+          SubscriptBox["\[Nu]", "1"],
+          DisplayForm],
+         FontFamily->"Helvetica",
+         FontSize->14.34308300395257],
+        StyleForm[#, FontFamily -> "Helvetica", FontSize -> 
+         14.34308300395257]& ], {3., 9.0548}, 
+       ImageScaled[{Rational[1, 2], 1}]], 
+      LineBox[{{20.00000000000066, 10.}, {13.999999999999321`, 10.}}], 
+      PolygonBox[{{17.599999999999994`, 10.}, {16.39999999999999, 10.4}, {
+       16.39999999999999, 9.6}}], InsetBox[
+       TagBox[
+        StyleBox[
+         TagBox[
+          SubscriptBox["\[Nu]", "1"],
+          DisplayForm],
+         FontFamily->"Helvetica",
+         FontSize->14.34308300395257],
+        StyleForm[#, FontFamily -> "Helvetica", FontSize -> 
+         14.34308300395257]& ], {16.999999999999993, 10.9452}, 
+       ImageScaled[{Rational[1, 2], 0}]], 
+      CircleBox[{9.999999999999995, 10.899999999999997}, 4.099999999999994, {
+       3.3629070959375835`, 6.0618708648317945`}], 
+      PolygonBox[{{10.599999999999994`, 6.800000000000004}, {
+       9.399999999999995, 6.400000000000004}, {9.399999999999995, 
+       7.200000000000005}}], InsetBox[
+       TagBox[
+        StyleBox[
+         TagBox[
+          SubscriptBox["\[Nu]", "2"],
+          DisplayForm],
+         FontFamily->"Helvetica",
+         FontSize->14.34308300395257],
+        StyleForm[#, FontFamily -> "Helvetica", FontSize -> 
+         14.34308300395257]& ], {9.999999999999995, 5.8548000000000044}, 
+       ImageScaled[{Rational[1, 2], 1}]], 
+      {Dashing[{0.030000000000000002`, 0.030000000000000002`}], 
+       CircleBox[{9.999999999999995, 9.100000000000003}, 4.099999999999994, {
+        0.2213144423477913, 2.9202782112420023`}]}, InsetBox[
+       TagBox[
+        StyleBox[
+         TagBox[
+          SubscriptBox["A", "0"],
+          DisplayForm],
+         FontFamily->"Helvetica",
+         FontSize->14.34308300395257],
+        StyleForm[#, FontFamily -> "Helvetica", FontSize -> 
+         14.34308300395257]& ], {9.999999999999995, 13.895199999999996}, 
+       ImageScaled[{Rational[1, 2], 0}]], 
+      {PointSize[0.04], PointBox[{6., 10.}], 
+       PointBox[{13.99999999999999, 10.}]}, InsetBox[
+       TagBox[
+        StyleBox[
+         TagBox[
+          RowBox[{"T1", " ", "P8", " ", "N8"}],
+          DisplayForm],
+         FontFamily->"Helvetica",
+         FontSize->11.474466403162056`],
+        StyleForm[#, FontFamily -> "Helvetica", FontSize -> 
+         11.474466403162056`]& ], {10., -0.5}, 
+       ImageScaled[{Rational[1, 2], 0}]]},
+     AspectRatio->1,
+     PlotRange->{{-1, 21}, {-1, 21}}], {22, 0}, {0, 0}, {22, 22}], InsetBox[
+    TagBox[
+     StyleBox[
+      TagBox[
+       SubscriptBox["\[Nu]", "1"],
+       DisplayForm],
+      FontFamily->"Helvetica",
+      FontSize->17.21169960474308],
+     StyleForm[#, FontFamily -> "Helvetica", FontSize -> 
+      17.21169960474308]& ], {17.5, 47.959999999999994}, 
+    ImageScaled[{Rational[1, 2], Rational[1, 2]}]], InsetBox[
+    TagBox[
+     StyleBox[
+      TagBox["\[RightArrow]",
+       DisplayForm],
+      FontFamily->"Helvetica",
+      FontSize->17.21169960474308],
+     StyleForm[#, FontFamily -> "Helvetica", FontSize -> 
+      17.21169960474308]& ], {22., 47.959999999999994}, 
+    ImageScaled[{Rational[1, 2], Rational[1, 2]}]], InsetBox[
+    TagBox[
+     StyleBox[
+      TagBox[
+       SubscriptBox["\[Nu]", "1"],
+       DisplayForm],
+      FontFamily->"Helvetica",
+      FontSize->17.21169960474308],
+     StyleForm[#, FontFamily -> "Helvetica", FontSize -> 
+      17.21169960474308]& ], {26.5, 47.959999999999994}, 
+    ImageScaled[{Rational[1, 2], Rational[1, 2]}]]},
+  AspectRatio->1.15,
+  ImageSize->{288, 288},
+  PlotRange->{{0, 44}, {0, 50.599999999999994`}}]], "Print",
+ CellChangeTimes->{{3.7516422932077208`*^9, 3.75164230249228*^9}, {
+   3.7516424793889627`*^9, 3.75164248711506*^9}, {3.751642641241365*^9, 
+   3.7516426457054567`*^9}, 3.751656293926292*^9, 3.757245326621161*^9}],
+
+Cell[BoxData[
+ GraphicsBox[{InsetBox[
+    GraphicsBox[
+     {Thickness[0.005], 
+      LineBox[{{-1.0009326700810561`*^-11, 10.}, {5.999999999982448, 10.}}], 
+      PolygonBox[{{3.6, 10.}, {2.4, 9.6}, {2.4, 10.4}}], InsetBox[
+       TagBox[
+        StyleBox[
+         TagBox[
+          SubscriptBox["\[Nu]", "1"],
+          DisplayForm],
+         FontFamily->"Helvetica",
+         FontSize->14.34308300395257],
+        StyleForm[#, FontFamily -> "Helvetica", FontSize -> 
+         14.34308300395257]& ], {3., 9.0548}, 
+       ImageScaled[{Rational[1, 2], 1}]], 
+      LineBox[{{20.00000000000066, 10.}, {13.999999999999321`, 10.}}], 
+      PolygonBox[{{17.599999999999994`, 10.}, {16.39999999999999, 10.4}, {
+       16.39999999999999, 9.6}}], InsetBox[
+       TagBox[
+        StyleBox[
+         TagBox[
+          SubscriptBox["\[Nu]", "1"],
+          DisplayForm],
+         FontFamily->"Helvetica",
+         FontSize->14.34308300395257],
+        StyleForm[#, FontFamily -> "Helvetica", FontSize -> 
+         14.34308300395257]& ], {16.999999999999993, 10.9452}, 
+       ImageScaled[{Rational[1, 2], 0}]], 
+      CircleBox[{9.999999999999995, 10.899999999999997}, 4.099999999999994, {
+       3.3629070959375835`, 6.0618708648317945`}], 
+      PolygonBox[{{10.599999999999994`, 6.800000000000004}, {
+       9.399999999999995, 6.400000000000004}, {9.399999999999995, 
+       7.200000000000005}}], InsetBox[
+       TagBox[
+        StyleBox[
+         TagBox[
+          SubscriptBox["\[Nu]", "3"],
+          DisplayForm],
+         FontFamily->"Helvetica",
+         FontSize->14.34308300395257],
+        StyleForm[#, FontFamily -> "Helvetica", FontSize -> 
+         14.34308300395257]& ], {9.999999999999995, 5.8548000000000044}, 
+       ImageScaled[{Rational[1, 2], 1}]], 
+      {Dashing[{0.030000000000000002`, 0.030000000000000002`}], 
+       CircleBox[{9.999999999999995, 9.100000000000003}, 4.099999999999994, {
+        0.2213144423477913, 2.9202782112420023`}]}, InsetBox[
+       TagBox[
+        StyleBox[
+         TagBox[
+          SubscriptBox["A", "0"],
+          DisplayForm],
+         FontFamily->"Helvetica",
+         FontSize->14.34308300395257],
+        StyleForm[#, FontFamily -> "Helvetica", FontSize -> 
+         14.34308300395257]& ], {9.999999999999995, 13.895199999999996}, 
+       ImageScaled[{Rational[1, 2], 0}]], 
+      {PointSize[0.04], PointBox[{6., 10.}], 
+       PointBox[{13.99999999999999, 10.}]}, InsetBox[
+       TagBox[
+        StyleBox[
+         TagBox[
+          RowBox[{"T1", " ", "P9", " ", "N9"}],
+          DisplayForm],
+         FontFamily->"Helvetica",
+         FontSize->11.474466403162056`],
+        StyleForm[#, FontFamily -> "Helvetica", FontSize -> 
+         11.474466403162056`]& ], {10., -0.5}, 
+       ImageScaled[{Rational[1, 2], 0}]]},
+     AspectRatio->1,
+     PlotRange->{{-1, 21}, {-1, 21}}], {0, 22}, {0, 0}, {22, 22}], InsetBox[
+    GraphicsBox[
+     {Thickness[0.005], 
+      LineBox[{{-1.0009326700810561`*^-11, 10.}, {5.999999999982448, 10.}}], 
+      PolygonBox[{{3.6, 10.}, {2.4, 9.6}, {2.4, 10.4}}], InsetBox[
+       TagBox[
+        StyleBox[
+         TagBox[
+          SubscriptBox["\[Nu]", "1"],
+          DisplayForm],
+         FontFamily->"Helvetica",
+         FontSize->14.34308300395257],
+        StyleForm[#, FontFamily -> "Helvetica", FontSize -> 
+         14.34308300395257]& ], {3., 9.0548}, 
+       ImageScaled[{Rational[1, 2], 1}]], 
+      LineBox[{{20.00000000000066, 10.}, {13.999999999999321`, 10.}}], 
+      PolygonBox[{{17.599999999999994`, 10.}, {16.39999999999999, 10.4}, {
+       16.39999999999999, 9.6}}], InsetBox[
+       TagBox[
+        StyleBox[
+         TagBox[
+          SubscriptBox["\[Nu]", "1"],
+          DisplayForm],
+         FontFamily->"Helvetica",
+         FontSize->14.34308300395257],
+        StyleForm[#, FontFamily -> "Helvetica", FontSize -> 
+         14.34308300395257]& ], {16.999999999999993, 10.9452}, 
+       ImageScaled[{Rational[1, 2], 0}]], 
+      CircleBox[{9.999999999999995, 10.899999999999997}, 4.099999999999994, {
+       3.3629070959375835`, 6.0618708648317945`}], 
+      PolygonBox[{{10.599999999999994`, 6.800000000000004}, {
+       9.399999999999995, 6.400000000000004}, {9.399999999999995, 
+       7.200000000000005}}], InsetBox[
+       TagBox[
+        StyleBox[
+         TagBox[
+          SubsuperscriptBox["\[Chi]", "1", "0"],
+          DisplayForm],
+         FontFamily->"Helvetica",
+         FontSize->14.34308300395257],
+        StyleForm[#, FontFamily -> "Helvetica", FontSize -> 
+         14.34308300395257]& ], {9.999999999999995, 5.8548000000000044}, 
+       ImageScaled[{Rational[1, 2], 1}]], 
+      {Dashing[{0.030000000000000002`, 0.030000000000000002`}], 
+       CircleBox[{9.999999999999995, 9.100000000000003}, 4.099999999999994, {
+        0.2213144423477913, 2.9202782112420023`}]}, 
+      PolygonBox[{{9.399999999999995, 13.199999999999996`}, {
+       10.599999999999994`, 13.599999999999996`}, {10.599999999999994`, 
+       12.799999999999995`}}], InsetBox[
+       TagBox[
+        StyleBox[
+         TagBox[
+          SubscriptBox["\[Sigma]", "1"],
+          DisplayForm],
+         FontFamily->"Helvetica",
+         FontSize->14.34308300395257],
+        StyleForm[#, FontFamily -> "Helvetica", FontSize -> 
+         14.34308300395257]& ], {9.999999999999995, 14.145199999999996}, 
+       ImageScaled[{Rational[1, 2], 0}]], 
+      {PointSize[0.04], PointBox[{6., 10.}], 
+       PointBox[{13.99999999999999, 10.}]}, InsetBox[
+       TagBox[
+        StyleBox[
+         TagBox[
+          RowBox[{"T1", " ", "P10", " ", "N10"}],
+          DisplayForm],
+         FontFamily->"Helvetica",
+         FontSize->11.474466403162056`],
+        StyleForm[#, FontFamily -> "Helvetica", FontSize -> 
+         11.474466403162056`]& ], {10., -0.5}, 
+       ImageScaled[{Rational[1, 2], 0}]]},
+     AspectRatio->1,
+     PlotRange->{{-1, 21}, {-1, 21}}], {22, 22}, {0, 0}, {22, 22}], InsetBox[
+    GraphicsBox[
+     {Thickness[0.005], 
+      LineBox[{{-1.0009326700810561`*^-11, 10.}, {5.999999999982448, 10.}}], 
+      PolygonBox[{{3.6, 10.}, {2.4, 9.6}, {2.4, 10.4}}], InsetBox[
+       TagBox[
+        StyleBox[
+         TagBox[
+          SubscriptBox["\[Nu]", "1"],
+          DisplayForm],
+         FontFamily->"Helvetica",
+         FontSize->14.34308300395257],
+        StyleForm[#, FontFamily -> "Helvetica", FontSize -> 
+         14.34308300395257]& ], {3., 9.0548}, 
+       ImageScaled[{Rational[1, 2], 1}]], 
+      LineBox[{{20.00000000000066, 10.}, {13.999999999999321`, 10.}}], 
+      PolygonBox[{{17.599999999999994`, 10.}, {16.39999999999999, 10.4}, {
+       16.39999999999999, 9.6}}], InsetBox[
+       TagBox[
+        StyleBox[
+         TagBox[
+          SubscriptBox["\[Nu]", "1"],
+          DisplayForm],
+         FontFamily->"Helvetica",
+         FontSize->14.34308300395257],
+        StyleForm[#, FontFamily -> "Helvetica", FontSize -> 
+         14.34308300395257]& ], {16.999999999999993, 10.9452}, 
+       ImageScaled[{Rational[1, 2], 0}]], 
+      CircleBox[{9.999999999999995, 10.899999999999997}, 4.099999999999994, {
+       3.3629070959375835`, 6.0618708648317945`}], 
+      PolygonBox[{{10.599999999999994`, 6.800000000000004}, {
+       9.399999999999995, 6.400000000000004}, {9.399999999999995, 
+       7.200000000000005}}], InsetBox[
+       TagBox[
+        StyleBox[
+         TagBox[
+          SubsuperscriptBox["\[Chi]", "2", "0"],
+          DisplayForm],
+         FontFamily->"Helvetica",
+         FontSize->14.34308300395257],
+        StyleForm[#, FontFamily -> "Helvetica", FontSize -> 
+         14.34308300395257]& ], {9.999999999999995, 5.8548000000000044}, 
+       ImageScaled[{Rational[1, 2], 1}]], 
+      {Dashing[{0.030000000000000002`, 0.030000000000000002`}], 
+       CircleBox[{9.999999999999995, 9.100000000000003}, 4.099999999999994, {
+        0.2213144423477913, 2.9202782112420023`}]}, 
+      PolygonBox[{{9.399999999999995, 13.199999999999996`}, {
+       10.599999999999994`, 13.599999999999996`}, {10.599999999999994`, 
+       12.799999999999995`}}], InsetBox[
+       TagBox[
+        StyleBox[
+         TagBox[
+          SubscriptBox["\[Sigma]", "1"],
+          DisplayForm],
+         FontFamily->"Helvetica",
+         FontSize->14.34308300395257],
+        StyleForm[#, FontFamily -> "Helvetica", FontSize -> 
+         14.34308300395257]& ], {9.999999999999995, 14.145199999999996}, 
+       ImageScaled[{Rational[1, 2], 0}]], 
+      {PointSize[0.04], PointBox[{6., 10.}], 
+       PointBox[{13.99999999999999, 10.}]}, InsetBox[
+       TagBox[
+        StyleBox[
+         TagBox[
+          RowBox[{"T1", " ", "P11", " ", "N11"}],
+          DisplayForm],
+         FontFamily->"Helvetica",
+         FontSize->11.474466403162056`],
+        StyleForm[#, FontFamily -> "Helvetica", FontSize -> 
+         11.474466403162056`]& ], {10., -0.5}, 
+       ImageScaled[{Rational[1, 2], 0}]]},
+     AspectRatio->1,
+     PlotRange->{{-1, 21}, {-1, 21}}], {0, 0}, {0, 0}, {22, 22}], InsetBox[
+    GraphicsBox[
+     {Thickness[0.005], 
+      LineBox[{{-1.0009326700810561`*^-11, 10.}, {5.999999999982448, 10.}}], 
+      PolygonBox[{{3.6, 10.}, {2.4, 9.6}, {2.4, 10.4}}], InsetBox[
+       TagBox[
+        StyleBox[
+         TagBox[
+          SubscriptBox["\[Nu]", "1"],
+          DisplayForm],
+         FontFamily->"Helvetica",
+         FontSize->14.34308300395257],
+        StyleForm[#, FontFamily -> "Helvetica", FontSize -> 
+         14.34308300395257]& ], {3., 9.0548}, 
+       ImageScaled[{Rational[1, 2], 1}]], 
+      LineBox[{{20.00000000000066, 10.}, {13.999999999999321`, 10.}}], 
+      PolygonBox[{{17.599999999999994`, 10.}, {16.39999999999999, 10.4}, {
+       16.39999999999999, 9.6}}], InsetBox[
+       TagBox[
+        StyleBox[
+         TagBox[
+          SubscriptBox["\[Nu]", "1"],
+          DisplayForm],
+         FontFamily->"Helvetica",
+         FontSize->14.34308300395257],
+        StyleForm[#, FontFamily -> "Helvetica", FontSize -> 
+         14.34308300395257]& ], {16.999999999999993, 10.9452}, 
+       ImageScaled[{Rational[1, 2], 0}]], 
+      CircleBox[{9.999999999999995, 10.899999999999997}, 4.099999999999994, {
+       3.3629070959375835`, 6.0618708648317945`}], 
+      PolygonBox[{{10.599999999999994`, 6.800000000000004}, {
+       9.399999999999995, 6.400000000000004}, {9.399999999999995, 
+       7.200000000000005}}], InsetBox[
+       TagBox[
+        StyleBox[
+         TagBox[
+          SubsuperscriptBox["\[Chi]", "1", "0"],
+          DisplayForm],
+         FontFamily->"Helvetica",
+         FontSize->14.34308300395257],
+        StyleForm[#, FontFamily -> "Helvetica", FontSize -> 
+         14.34308300395257]& ], {9.999999999999995, 5.8548000000000044}, 
+       ImageScaled[{Rational[1, 2], 1}]], 
+      {Dashing[{0.030000000000000002`, 0.030000000000000002`}], 
+       CircleBox[{9.999999999999995, 9.100000000000003}, 4.099999999999994, {
+        0.2213144423477913, 2.9202782112420023`}]}, 
+      PolygonBox[{{9.399999999999995, 13.199999999999996`}, {
+       10.599999999999994`, 13.599999999999996`}, {10.599999999999994`, 
+       12.799999999999995`}}], InsetBox[
+       TagBox[
+        StyleBox[
+         TagBox[
+          SubscriptBox["\[Sigma]", "2"],
+          DisplayForm],
+         FontFamily->"Helvetica",
+         FontSize->14.34308300395257],
+        StyleForm[#, FontFamily -> "Helvetica", FontSize -> 
+         14.34308300395257]& ], {9.999999999999995, 14.145199999999996}, 
+       ImageScaled[{Rational[1, 2], 0}]], 
+      {PointSize[0.04], PointBox[{6., 10.}], 
+       PointBox[{13.99999999999999, 10.}]}, InsetBox[
+       TagBox[
+        StyleBox[
+         TagBox[
+          RowBox[{"T1", " ", "P12", " ", "N12"}],
+          DisplayForm],
+         FontFamily->"Helvetica",
+         FontSize->11.474466403162056`],
+        StyleForm[#, FontFamily -> "Helvetica", FontSize -> 
+         11.474466403162056`]& ], {10., -0.5}, 
+       ImageScaled[{Rational[1, 2], 0}]]},
+     AspectRatio->1,
+     PlotRange->{{-1, 21}, {-1, 21}}], {22, 0}, {0, 0}, {22, 22}], InsetBox[
+    TagBox[
+     StyleBox[
+      TagBox[
+       SubscriptBox["\[Nu]", "1"],
+       DisplayForm],
+      FontFamily->"Helvetica",
+      FontSize->17.21169960474308],
+     StyleForm[#, FontFamily -> "Helvetica", FontSize -> 
+      17.21169960474308]& ], {17.5, 47.959999999999994}, 
+    ImageScaled[{Rational[1, 2], Rational[1, 2]}]], InsetBox[
+    TagBox[
+     StyleBox[
+      TagBox["\[RightArrow]",
+       DisplayForm],
+      FontFamily->"Helvetica",
+      FontSize->17.21169960474308],
+     StyleForm[#, FontFamily -> "Helvetica", FontSize -> 
+      17.21169960474308]& ], {22., 47.959999999999994}, 
+    ImageScaled[{Rational[1, 2], Rational[1, 2]}]], InsetBox[
+    TagBox[
+     StyleBox[
+      TagBox[
+       SubscriptBox["\[Nu]", "1"],
+       DisplayForm],
+      FontFamily->"Helvetica",
+      FontSize->17.21169960474308],
+     StyleForm[#, FontFamily -> "Helvetica", FontSize -> 
+      17.21169960474308]& ], {26.5, 47.959999999999994}, 
+    ImageScaled[{Rational[1, 2], Rational[1, 2]}]]},
+  AspectRatio->1.15,
+  ImageSize->{288, 288},
+  PlotRange->{{0, 44}, {0, 50.599999999999994`}}]], "Print",
+ CellChangeTimes->{{3.7516422932077208`*^9, 3.75164230249228*^9}, {
+   3.7516424793889627`*^9, 3.75164248711506*^9}, {3.751642641241365*^9, 
+   3.7516426457054567`*^9}, 3.751656293926292*^9, 3.757245326625359*^9}],
+
+Cell[BoxData[
+ GraphicsBox[{InsetBox[
+    GraphicsBox[
+     {Thickness[0.005], 
+      LineBox[{{-1.0009326700810561`*^-11, 10.}, {5.999999999982448, 10.}}], 
+      PolygonBox[{{3.6, 10.}, {2.4, 9.6}, {2.4, 10.4}}], InsetBox[
+       TagBox[
+        StyleBox[
+         TagBox[
+          SubscriptBox["\[Nu]", "1"],
+          DisplayForm],
+         FontFamily->"Helvetica",
+         FontSize->14.34308300395257],
+        StyleForm[#, FontFamily -> "Helvetica", FontSize -> 
+         14.34308300395257]& ], {3., 9.0548}, 
+       ImageScaled[{Rational[1, 2], 1}]], 
+      LineBox[{{20.00000000000066, 10.}, {13.999999999999321`, 10.}}], 
+      PolygonBox[{{17.599999999999994`, 10.}, {16.39999999999999, 10.4}, {
+       16.39999999999999, 9.6}}], InsetBox[
+       TagBox[
+        StyleBox[
+         TagBox[
+          SubscriptBox["\[Nu]", "1"],
+          DisplayForm],
+         FontFamily->"Helvetica",
+         FontSize->14.34308300395257],
+        StyleForm[#, FontFamily -> "Helvetica", FontSize -> 
+         14.34308300395257]& ], {16.999999999999993, 10.9452}, 
+       ImageScaled[{Rational[1, 2], 0}]], 
+      CircleBox[{9.999999999999995, 10.899999999999997}, 4.099999999999994, {
+       3.3629070959375835`, 6.0618708648317945`}], 
+      PolygonBox[{{10.599999999999994`, 6.800000000000004}, {
+       9.399999999999995, 6.400000000000004}, {9.399999999999995, 
+       7.200000000000005}}], InsetBox[
+       TagBox[
+        StyleBox[
+         TagBox[
+          SubsuperscriptBox["\[Chi]", "2", "0"],
+          DisplayForm],
+         FontFamily->"Helvetica",
+         FontSize->14.34308300395257],
+        StyleForm[#, FontFamily -> "Helvetica", FontSize -> 
+         14.34308300395257]& ], {9.999999999999995, 5.8548000000000044}, 
+       ImageScaled[{Rational[1, 2], 1}]], 
+      {Dashing[{0.030000000000000002`, 0.030000000000000002`}], 
+       CircleBox[{9.999999999999995, 9.100000000000003}, 4.099999999999994, {
+        0.2213144423477913, 2.9202782112420023`}]}, 
+      PolygonBox[{{9.399999999999995, 13.199999999999996`}, {
+       10.599999999999994`, 13.599999999999996`}, {10.599999999999994`, 
+       12.799999999999995`}}], InsetBox[
+       TagBox[
+        StyleBox[
+         TagBox[
+          SubscriptBox["\[Sigma]", "2"],
+          DisplayForm],
+         FontFamily->"Helvetica",
+         FontSize->14.34308300395257],
+        StyleForm[#, FontFamily -> "Helvetica", FontSize -> 
+         14.34308300395257]& ], {9.999999999999995, 14.145199999999996}, 
+       ImageScaled[{Rational[1, 2], 0}]], 
+      {PointSize[0.04], PointBox[{6., 10.}], 
+       PointBox[{13.99999999999999, 10.}]}, InsetBox[
+       TagBox[
+        StyleBox[
+         TagBox[
+          RowBox[{"T1", " ", "P13", " ", "N13"}],
+          DisplayForm],
+         FontFamily->"Helvetica",
+         FontSize->11.474466403162056`],
+        StyleForm[#, FontFamily -> "Helvetica", FontSize -> 
+         11.474466403162056`]& ], {10., -0.5}, 
+       ImageScaled[{Rational[1, 2], 0}]]},
+     AspectRatio->1,
+     PlotRange->{{-1, 21}, {-1, 21}}], {0, 22}, {0, 0}, {22, 22}], InsetBox[
+    TagBox[
+     StyleBox[
+      TagBox[
+       SubscriptBox["\[Nu]", "1"],
+       DisplayForm],
+      FontFamily->"Helvetica",
+      FontSize->17.21169960474308],
+     StyleForm[#, FontFamily -> "Helvetica", FontSize -> 
+      17.21169960474308]& ], {17.5, 47.959999999999994}, 
+    ImageScaled[{Rational[1, 2], Rational[1, 2]}]], InsetBox[
+    TagBox[
+     StyleBox[
+      TagBox["\[RightArrow]",
+       DisplayForm],
+      FontFamily->"Helvetica",
+      FontSize->17.21169960474308],
+     StyleForm[#, FontFamily -> "Helvetica", FontSize -> 
+      17.21169960474308]& ], {22., 47.959999999999994}, 
+    ImageScaled[{Rational[1, 2], Rational[1, 2]}]], InsetBox[
+    TagBox[
+     StyleBox[
+      TagBox[
+       SubscriptBox["\[Nu]", "1"],
+       DisplayForm],
+      FontFamily->"Helvetica",
+      FontSize->17.21169960474308],
+     StyleForm[#, FontFamily -> "Helvetica", FontSize -> 
+      17.21169960474308]& ], {26.5, 47.959999999999994}, 
+    ImageScaled[{Rational[1, 2], Rational[1, 2]}]]},
+  AspectRatio->1.15,
+  ImageSize->{392., 392.},
+  PlotRange->{{0, 44}, {0, 50.599999999999994`}}]], "Print",
+ CellChangeTimes->{{3.7516422932077208`*^9, 3.75164230249228*^9}, {
+   3.7516424793889627`*^9, 3.75164248711506*^9}, {3.751642641241365*^9, 
+   3.7516426457054567`*^9}, 3.751656293926292*^9, 3.757245326628152*^9}]
 }, Open  ]],
 
 Cell[BoxData[
@@ -1482,46 +2225,143 @@ Cell[BoxData[
     RowBox[{"{", 
      RowBox[{"ComposedChar", "[", 
       RowBox[{"\<\"\\\\nu\"\>", ",", "1"}], "]"}], "}"}]}], "]"}], "[", 
-  TagBox[
-   RowBox[{"(", "\[NoBreak]", GridBox[{
-      {
-       InterpretationBox[
-        RowBox[{"\<\"[\"\>", "\[InvisibleSpace]", "\<\"T1 P1 N1\"\>", 
-         "\[InvisibleSpace]", "\<\"]\"\>"}],
-        SequenceForm["[", "T1 P1 N1", "]"],
-        Editable->False], 
-       InterpretationBox[
-        RowBox[{"\<\"[\"\>", "\[InvisibleSpace]", "\<\"T1 P2 N2\"\>", 
-         "\[InvisibleSpace]", "\<\"]\"\>"}],
-        SequenceForm["[", "T1 P2 N2", "]"],
-        Editable->False]},
-      {
-       InterpretationBox[
-        RowBox[{"\<\"[\"\>", "\[InvisibleSpace]", "\<\"T1 P3 N3\"\>", 
-         "\[InvisibleSpace]", "\<\"]\"\>"}],
-        SequenceForm["[", "T1 P3 N3", "]"],
-        Editable->False], 
-       InterpretationBox[
-        RowBox[{"\<\"[\"\>", "\[InvisibleSpace]", "\<\"T1 P4 N4\"\>", 
-         "\[InvisibleSpace]", "\<\"]\"\>"}],
-        SequenceForm["[", "T1 P4 N4", "]"],
-        Editable->False]}
-     },
-     GridBoxAlignment->{
-      "Columns" -> {{Center}}, "ColumnsIndexed" -> {}, "Rows" -> {{Baseline}},
-        "RowsIndexed" -> {}},
-     GridBoxSpacings->{"Columns" -> {
-         Offset[0.27999999999999997`], {
-          Offset[0.7]}, 
-         Offset[0.27999999999999997`]}, "ColumnsIndexed" -> {}, "Rows" -> {
-         Offset[0.2], {
-          Offset[0.4]}, 
-         Offset[0.2]}, "RowsIndexed" -> {}}], "\[NoBreak]", ")"}],
-   Function[BoxForm`e$, 
-    MatrixForm[BoxForm`e$]]], "]"}]], "Output",
+  RowBox[{
+   TagBox[
+    RowBox[{"(", "\[NoBreak]", GridBox[{
+       {
+        InterpretationBox[
+         RowBox[{"\<\"[\"\>", "\[InvisibleSpace]", "\<\"T1 P1 N1\"\>", 
+          "\[InvisibleSpace]", "\<\"]\"\>"}],
+         SequenceForm["[", "T1 P1 N1", "]"],
+         Editable->False], 
+        InterpretationBox[
+         RowBox[{"\<\"[\"\>", "\[InvisibleSpace]", "\<\"T1 P2 N2\"\>", 
+          "\[InvisibleSpace]", "\<\"]\"\>"}],
+         SequenceForm["[", "T1 P2 N2", "]"],
+         Editable->False]},
+       {
+        InterpretationBox[
+         RowBox[{"\<\"[\"\>", "\[InvisibleSpace]", "\<\"T1 P3 N3\"\>", 
+          "\[InvisibleSpace]", "\<\"]\"\>"}],
+         SequenceForm["[", "T1 P3 N3", "]"],
+         Editable->False], 
+        InterpretationBox[
+         RowBox[{"\<\"[\"\>", "\[InvisibleSpace]", "\<\"T1 P4 N4\"\>", 
+          "\[InvisibleSpace]", "\<\"]\"\>"}],
+         SequenceForm["[", "T1 P4 N4", "]"],
+         Editable->False]}
+      },
+      GridBoxAlignment->{
+       "Columns" -> {{Center}}, "ColumnsIndexed" -> {}, 
+        "Rows" -> {{Baseline}}, "RowsIndexed" -> {}},
+      GridBoxSpacings->{"Columns" -> {
+          Offset[0.27999999999999997`], {
+           Offset[0.7]}, 
+          Offset[0.27999999999999997`]}, "ColumnsIndexed" -> {}, "Rows" -> {
+          Offset[0.2], {
+           Offset[0.4]}, 
+          Offset[0.2]}, "RowsIndexed" -> {}}], "\[NoBreak]", ")"}],
+    Function[BoxForm`e$, 
+     MatrixForm[BoxForm`e$]]], ",", 
+   TagBox[
+    RowBox[{"(", "\[NoBreak]", GridBox[{
+       {
+        InterpretationBox[
+         RowBox[{"\<\"[\"\>", "\[InvisibleSpace]", "\<\"T1 P5 N5\"\>", 
+          "\[InvisibleSpace]", "\<\"]\"\>"}],
+         SequenceForm["[", "T1 P5 N5", "]"],
+         Editable->False], 
+        InterpretationBox[
+         RowBox[{"\<\"[\"\>", "\[InvisibleSpace]", "\<\"T1 P6 N6\"\>", 
+          "\[InvisibleSpace]", "\<\"]\"\>"}],
+         SequenceForm["[", "T1 P6 N6", "]"],
+         Editable->False]},
+       {
+        InterpretationBox[
+         RowBox[{"\<\"[\"\>", "\[InvisibleSpace]", "\<\"T1 P7 N7\"\>", 
+          "\[InvisibleSpace]", "\<\"]\"\>"}],
+         SequenceForm["[", "T1 P7 N7", "]"],
+         Editable->False], 
+        InterpretationBox[
+         RowBox[{"\<\"[\"\>", "\[InvisibleSpace]", "\<\"T1 P8 N8\"\>", 
+          "\[InvisibleSpace]", "\<\"]\"\>"}],
+         SequenceForm["[", "T1 P8 N8", "]"],
+         Editable->False]}
+      },
+      GridBoxAlignment->{
+       "Columns" -> {{Center}}, "ColumnsIndexed" -> {}, 
+        "Rows" -> {{Baseline}}, "RowsIndexed" -> {}},
+      GridBoxSpacings->{"Columns" -> {
+          Offset[0.27999999999999997`], {
+           Offset[0.7]}, 
+          Offset[0.27999999999999997`]}, "ColumnsIndexed" -> {}, "Rows" -> {
+          Offset[0.2], {
+           Offset[0.4]}, 
+          Offset[0.2]}, "RowsIndexed" -> {}}], "\[NoBreak]", ")"}],
+    Function[BoxForm`e$, 
+     MatrixForm[BoxForm`e$]]], ",", 
+   TagBox[
+    RowBox[{"(", "\[NoBreak]", GridBox[{
+       {
+        InterpretationBox[
+         RowBox[{"\<\"[\"\>", "\[InvisibleSpace]", "\<\"T1 P9 N9\"\>", 
+          "\[InvisibleSpace]", "\<\"]\"\>"}],
+         SequenceForm["[", "T1 P9 N9", "]"],
+         Editable->False], 
+        InterpretationBox[
+         RowBox[{"\<\"[\"\>", "\[InvisibleSpace]", "\<\"T1 P10 N10\"\>", 
+          "\[InvisibleSpace]", "\<\"]\"\>"}],
+         SequenceForm["[", "T1 P10 N10", "]"],
+         Editable->False]},
+       {
+        InterpretationBox[
+         RowBox[{"\<\"[\"\>", "\[InvisibleSpace]", "\<\"T1 P11 N11\"\>", 
+          "\[InvisibleSpace]", "\<\"]\"\>"}],
+         SequenceForm["[", "T1 P11 N11", "]"],
+         Editable->False], 
+        InterpretationBox[
+         RowBox[{"\<\"[\"\>", "\[InvisibleSpace]", "\<\"T1 P12 N12\"\>", 
+          "\[InvisibleSpace]", "\<\"]\"\>"}],
+         SequenceForm["[", "T1 P12 N12", "]"],
+         Editable->False]}
+      },
+      GridBoxAlignment->{
+       "Columns" -> {{Center}}, "ColumnsIndexed" -> {}, 
+        "Rows" -> {{Baseline}}, "RowsIndexed" -> {}},
+      GridBoxSpacings->{"Columns" -> {
+          Offset[0.27999999999999997`], {
+           Offset[0.7]}, 
+          Offset[0.27999999999999997`]}, "ColumnsIndexed" -> {}, "Rows" -> {
+          Offset[0.2], {
+           Offset[0.4]}, 
+          Offset[0.2]}, "RowsIndexed" -> {}}], "\[NoBreak]", ")"}],
+    Function[BoxForm`e$, 
+     MatrixForm[BoxForm`e$]]], ",", 
+   TagBox[
+    RowBox[{"(", "\[NoBreak]", GridBox[{
+       {
+        InterpretationBox[
+         RowBox[{"\<\"[\"\>", "\[InvisibleSpace]", "\<\"T1 P13 N13\"\>", 
+          "\[InvisibleSpace]", "\<\"]\"\>"}],
+         SequenceForm["[", "T1 P13 N13", "]"],
+         Editable->False], "Null"},
+       {"Null", "Null"}
+      },
+      GridBoxAlignment->{
+       "Columns" -> {{Center}}, "ColumnsIndexed" -> {}, 
+        "Rows" -> {{Baseline}}, "RowsIndexed" -> {}},
+      GridBoxSpacings->{"Columns" -> {
+          Offset[0.27999999999999997`], {
+           Offset[0.7]}, 
+          Offset[0.27999999999999997`]}, "ColumnsIndexed" -> {}, "Rows" -> {
+          Offset[0.2], {
+           Offset[0.4]}, 
+          Offset[0.2]}, "RowsIndexed" -> {}}], "\[NoBreak]", ")"}],
+    Function[BoxForm`e$, 
+     MatrixForm[BoxForm`e$]]]}], "]"}]], "Output",
  CellChangeTimes->{{3.7516422933005047`*^9, 3.7516423025246572`*^9}, {
    3.7516424794026947`*^9, 3.751642487153391*^9}, {3.751642641277617*^9, 
-   3.75164264574018*^9}, 3.751656294004924*^9}]
+   3.75164264574018*^9}, 3.751656294004924*^9, 3.757245326629754*^9}]
 }, Open  ]],
 
 Cell["Amplitude in process..", "Text",
@@ -4142,145 +4982,148 @@ Cell[400, 13, 1115, 19, 109, "Text"],
 Cell[1518, 34, 115, 2, 30, "Input"],
 Cell[CellGroupData[{
 Cell[1658, 40, 640, 13, 155, "Input"],
-Cell[2301, 55, 2053, 29, 32, "Output"],
+Cell[2301, 55, 2075, 29, 32, "Output"],
 Cell[CellGroupData[{
-Cell[4379, 88, 2023, 29, 22, "Print"],
-Cell[6405, 119, 2050, 29, 24, "Print"],
-Cell[8458, 150, 2068, 29, 24, "Print"]
+Cell[4401, 88, 2047, 29, 22, "Print"],
+Cell[6451, 119, 2072, 29, 24, "Print"],
+Cell[8526, 150, 2090, 29, 24, "Print"]
 }, Open  ]],
-Cell[10541, 182, 2053, 29, 32, "Output"],
-Cell[12597, 213, 2053, 29, 30, "Output"],
+Cell[10631, 182, 2077, 29, 32, "Output"],
+Cell[12711, 213, 2074, 29, 30, "Output"],
 Cell[CellGroupData[{
-Cell[14675, 246, 2023, 29, 22, "Print"],
-Cell[16701, 277, 2035, 29, 22, "Print"],
-Cell[18739, 308, 2039, 29, 24, "Print"],
-Cell[20781, 339, 2045, 29, 22, "Print"]
+Cell[14810, 246, 2045, 29, 22, "Print"],
+Cell[16858, 277, 2059, 29, 22, "Print"],
+Cell[18920, 308, 2059, 29, 24, "Print"],
+Cell[20982, 339, 2067, 29, 22, "Print"]
 }, Open  ]],
-Cell[22841, 371, 2052, 29, 30, "Output"]
+Cell[23064, 371, 2077, 29, 30, "Output"]
 }, Open  ]],
-Cell[24908, 403, 92, 1, 30, "Input"],
-Cell[25003, 406, 206, 3, 38, "Text"],
+Cell[25156, 403, 92, 1, 30, "Input"],
+Cell[25251, 406, 206, 3, 38, "Text"],
 Cell[CellGroupData[{
-Cell[25234, 413, 685, 15, 76, "Input"],
+Cell[25482, 413, 685, 15, 76, "Input"],
 Cell[CellGroupData[{
-Cell[25944, 432, 2474, 35, 22, "Print"],
-Cell[28421, 469, 2487, 35, 24, "Print"],
-Cell[30911, 506, 2520, 35, 24, "Print"],
-Cell[33434, 543, 2497, 35, 22, "Print"],
-Cell[35934, 580, 2475, 35, 22, "Print"],
-Cell[38412, 617, 2489, 35, 22, "Print"],
-Cell[40904, 654, 2491, 35, 24, "Print"],
-Cell[43398, 691, 2497, 35, 22, "Print"]
+Cell[26192, 432, 2474, 35, 22, "Print"],
+Cell[28669, 469, 2487, 35, 24, "Print"],
+Cell[31159, 506, 2520, 35, 24, "Print"],
+Cell[33682, 543, 2497, 35, 22, "Print"],
+Cell[36182, 580, 2475, 35, 22, "Print"],
+Cell[38660, 617, 2489, 35, 22, "Print"],
+Cell[41152, 654, 2491, 35, 24, "Print"],
+Cell[43646, 691, 2497, 35, 22, "Print"]
 }, Open  ]]
 }, Open  ]],
-Cell[45922, 730, 815, 23, 118, "Text"],
-Cell[46740, 755, 97, 1, 33, "Text"],
-Cell[46840, 758, 623, 14, 35, "Input"],
+Cell[46170, 730, 815, 23, 118, "Text"],
+Cell[46988, 755, 97, 1, 33, "Text"],
+Cell[47088, 758, 623, 14, 35, "Input"],
 Cell[CellGroupData[{
-Cell[47488, 776, 129, 2, 32, "Input"],
+Cell[47736, 776, 129, 2, 32, "Input"],
 Cell[CellGroupData[{
-Cell[47642, 782, 396, 8, 24, "Print"],
-Cell[48041, 792, 396, 8, 24, "Print"],
-Cell[48440, 802, 2957, 74, 296, "Print"]
+Cell[47890, 782, 396, 8, 24, "Print"],
+Cell[48289, 792, 396, 8, 24, "Print"],
+Cell[48688, 802, 2957, 74, 296, "Print"]
 }, Open  ]],
-Cell[51412, 879, 1648, 39, 69, "Output"]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[53097, 923, 1425, 38, 56, "Input"],
-Cell[CellGroupData[{
-Cell[54547, 965, 226, 3, 22, "Print"],
-Cell[54776, 970, 630, 13, 24, "Print"],
-Cell[55409, 985, 249, 3, 24, "Print"],
-Cell[55661, 990, 469, 9, 24, "Print"],
-Cell[56133, 1001, 226, 3, 22, "Print"],
-Cell[56362, 1006, 644, 13, 24, "Print"],
-Cell[57009, 1021, 540, 10, 24, "Print"],
-Cell[57552, 1033, 250, 3, 22, "Print"],
-Cell[57805, 1038, 395, 8, 22, "Print"],
-Cell[58203, 1048, 485, 9, 24, "Print"],
-Cell[58691, 1059, 226, 3, 22, "Print"],
-Cell[58920, 1064, 617, 12, 24, "Print"],
-Cell[59540, 1078, 226, 3, 22, "Print"],
-Cell[59769, 1083, 423, 8, 24, "Print"],
-Cell[60195, 1093, 472, 9, 24, "Print"],
-Cell[60670, 1104, 472, 9, 24, "Print"],
-Cell[61145, 1115, 228, 3, 22, "Print"],
-Cell[61376, 1120, 616, 12, 24, "Print"],
-Cell[61995, 1134, 404, 8, 22, "Print"],
-Cell[62402, 1144, 447, 9, 24, "Print"],
-Cell[62852, 1155, 12863, 316, 515, "Print"]
-}, Open  ]],
-Cell[75730, 1474, 1941, 49, 50, "Output"]
-}, Open  ]],
-Cell[77686, 1526, 202, 4, 46, "Text"],
-Cell[CellGroupData[{
-Cell[77913, 1534, 278, 4, 32, "Input"],
-Cell[CellGroupData[{
-Cell[78216, 1542, 416, 6, 22, "Print"],
-Cell[78635, 1550, 635, 11, 24, "Print"],
-Cell[79273, 1563, 662, 12, 24, "Print"],
-Cell[79938, 1577, 592, 11, 24, "Print"]
-}, Open  ]],
-Cell[80545, 1591, 32335, 846, 637, "Output"]
+Cell[51660, 879, 1648, 39, 69, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[112917, 2442, 691, 14, 35, "Input"],
+Cell[53345, 923, 1425, 38, 56, "Input"],
 Cell[CellGroupData[{
-Cell[113633, 2460, 2269, 32, 22, "Print"],
-Cell[115905, 2494, 2486, 37, 24, "Print"],
-Cell[118394, 2533, 2517, 38, 24, "Print"],
-Cell[120914, 2573, 2447, 37, 24, "Print"],
-Cell[123364, 2612, 2269, 32, 22, "Print"],
-Cell[125636, 2646, 2532, 40, 24, "Print"],
-Cell[128171, 2688, 2268, 32, 23, "Print"],
-Cell[130442, 2722, 2270, 32, 22, "Print"]
+Cell[54795, 965, 248, 3, 22, "Print"],
+Cell[55046, 970, 650, 13, 24, "Print"],
+Cell[55699, 985, 273, 3, 24, "Print"],
+Cell[55975, 990, 491, 9, 24, "Print"],
+Cell[56469, 1001, 248, 3, 22, "Print"],
+Cell[56720, 1006, 666, 13, 24, "Print"],
+Cell[57389, 1021, 560, 10, 24, "Print"],
+Cell[57952, 1033, 270, 3, 22, "Print"],
+Cell[58225, 1038, 417, 8, 22, "Print"],
+Cell[58645, 1048, 507, 9, 24, "Print"],
+Cell[59155, 1059, 248, 3, 22, "Print"],
+Cell[59406, 1064, 639, 12, 24, "Print"],
+Cell[60048, 1078, 248, 3, 22, "Print"],
+Cell[60299, 1083, 447, 8, 24, "Print"],
+Cell[60749, 1093, 496, 9, 24, "Print"],
+Cell[61248, 1104, 495, 9, 24, "Print"],
+Cell[61746, 1115, 250, 3, 22, "Print"],
+Cell[61999, 1120, 639, 12, 24, "Print"],
+Cell[62641, 1134, 428, 8, 22, "Print"],
+Cell[63072, 1144, 472, 9, 24, "Print"],
+Cell[63547, 1155, 12713, 312, 296, "Print"],
+Cell[76263, 1469, 12711, 312, 296, "Print"],
+Cell[88977, 1783, 13272, 321, 296, "Print"],
+Cell[102252, 2106, 4383, 108, 400, "Print"]
+}, Open  ]],
+Cell[106650, 2217, 5758, 146, 50, "Output"]
+}, Open  ]],
+Cell[112423, 2366, 202, 4, 46, "Text"],
+Cell[CellGroupData[{
+Cell[112650, 2374, 278, 4, 32, "Input"],
+Cell[CellGroupData[{
+Cell[112953, 2382, 416, 6, 22, "Print"],
+Cell[113372, 2390, 635, 11, 24, "Print"],
+Cell[114010, 2403, 662, 12, 24, "Print"],
+Cell[114675, 2417, 592, 11, 24, "Print"]
+}, Open  ]],
+Cell[115282, 2431, 32335, 846, 637, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[147654, 3282, 691, 14, 35, "Input"],
+Cell[CellGroupData[{
+Cell[148370, 3300, 2269, 32, 22, "Print"],
+Cell[150642, 3334, 2486, 37, 24, "Print"],
+Cell[153131, 3373, 2517, 38, 24, "Print"],
+Cell[155651, 3413, 2447, 37, 24, "Print"],
+Cell[158101, 3452, 2269, 32, 22, "Print"],
+Cell[160373, 3486, 2532, 40, 24, "Print"],
+Cell[162908, 3528, 2268, 32, 23, "Print"],
+Cell[165179, 3562, 2270, 32, 22, "Print"]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[132761, 2760, 246, 3, 30, "Input"],
-Cell[133010, 2765, 9031, 226, 293, "Output"]
+Cell[167498, 3600, 246, 3, 30, "Input"],
+Cell[167747, 3605, 9031, 226, 293, "Output"]
 }, Open  ]],
-Cell[142056, 2994, 198, 4, 46, "Text"],
+Cell[176793, 3834, 198, 4, 46, "Text"],
 Cell[CellGroupData[{
-Cell[142279, 3002, 3862, 85, 152, "Input"],
-Cell[146144, 3089, 4062, 110, 120, "Output"]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[150243, 3204, 616, 18, 32, "Input"],
-Cell[150862, 3224, 2421, 59, 88, "Output"]
-}, Open  ]],
-Cell[153298, 3286, 331, 9, 87, "DisplayFormula"],
-Cell[CellGroupData[{
-Cell[153654, 3299, 521, 12, 32, "Input"],
-Cell[154178, 3313, 2449, 59, 88, "Output"]
-}, Open  ]],
-Cell[156642, 3375, 566, 15, 134, "DisplayFormula"],
-Cell[CellGroupData[{
-Cell[157233, 3394, 2559, 53, 35, "Input"],
-Cell[159795, 3449, 2041, 45, 61, "Output"]
-}, Open  ]],
-Cell[161851, 3497, 182, 2, 35, "Subsubsection"],
-Cell[CellGroupData[{
-Cell[162058, 3503, 160, 3, 61, "Section"],
-Cell[CellGroupData[{
-Cell[162243, 3510, 46, 1, 30, "Input"],
-Cell[162292, 3513, 799, 11, 62, "Print"]
-}, Open  ]],
-Cell[163106, 3527, 12958, 289, 565, "Input"],
-Cell[CellGroupData[{
-Cell[176089, 3820, 294, 7, 35, "Input"],
-Cell[176386, 3829, 3551, 103, 166, "Output"]
-}, Open  ]],
-Cell[179952, 3935, 219, 3, 33, "Text"],
-Cell[CellGroupData[{
-Cell[180196, 3942, 484, 12, 32, "Input"],
-Cell[180683, 3956, 1783, 53, 103, "Output"]
+Cell[177016, 3842, 3862, 85, 152, "Input"],
+Cell[180881, 3929, 4062, 110, 120, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[182503, 4014, 108, 1, 35, "Subsubsection"],
+Cell[184980, 4044, 616, 18, 32, "Input"],
+Cell[185599, 4064, 2421, 59, 88, "Output"]
+}, Open  ]],
+Cell[188035, 4126, 331, 9, 87, "DisplayFormula"],
 Cell[CellGroupData[{
-Cell[182636, 4019, 1603, 37, 35, "Input"],
-Cell[184242, 4058, 2076, 59, 103, "Output"]
+Cell[188391, 4139, 521, 12, 32, "Input"],
+Cell[188915, 4153, 2449, 59, 88, "Output"]
+}, Open  ]],
+Cell[191379, 4215, 566, 15, 134, "DisplayFormula"],
+Cell[CellGroupData[{
+Cell[191970, 4234, 2559, 53, 35, "Input"],
+Cell[194532, 4289, 2041, 45, 61, "Output"]
+}, Open  ]],
+Cell[196588, 4337, 182, 2, 35, "Subsubsection"],
+Cell[CellGroupData[{
+Cell[196795, 4343, 160, 3, 61, "Section"],
+Cell[CellGroupData[{
+Cell[196980, 4350, 46, 1, 30, "Input"],
+Cell[197029, 4353, 799, 11, 62, "Print"]
+}, Open  ]],
+Cell[197843, 4367, 12958, 289, 565, "Input"],
+Cell[CellGroupData[{
+Cell[210826, 4660, 294, 7, 35, "Input"],
+Cell[211123, 4669, 3551, 103, 166, "Output"]
+}, Open  ]],
+Cell[214689, 4775, 219, 3, 33, "Text"],
+Cell[CellGroupData[{
+Cell[214933, 4782, 484, 12, 32, "Input"],
+Cell[215420, 4796, 1783, 53, 103, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[217240, 4854, 108, 1, 35, "Subsubsection"],
+Cell[CellGroupData[{
+Cell[217373, 4859, 1603, 37, 35, "Input"],
+Cell[218979, 4898, 2076, 59, 103, "Output"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]]
