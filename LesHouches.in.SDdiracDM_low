@@ -14,17 +14,17 @@ BLOCK SMINPUTS
 
 BLOCK MINPAR
    1   2.6000000E-01    # LambdaIN
-   2   2.1188120E+02    # MDFInput
-   3   7.6489948E+07    # MS12Input
-   4   1.4851956E+07    # MS22Input
+   2   2.1009499E+02    # MDFInput
+   3   2.2086037E+06    # MS12Input
+   4   1.9452473E+06    # MS22Input
    5   0.0000000E+00    # LamS1HInput
    6   0.0000000E+00    # LamS2HInput
    7   0.0000000E+00    # LamSPHInput
-   8   2.1940389E-02    # LamSInput
-   9   4.3931029E-02    # LamSPInput
-   10   5.9142271E+02    # vSInput
-   11   2.4721151E-03    # YRDInput
-   12   7.6525368E-02    # YRCInput
+   8   3.0611383E-04    # LamSInput
+   9   6.2566092E-02    # LamSPInput
+   10   8.5550982E+02    # vSInput
+   11   1.7860160E-04    # YRDInput
+   12   1.6618427E-02    # YRCInput
 
 BLOCK SPHENOINPUT
    1   -1              # error level
