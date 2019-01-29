@@ -80,7 +80,7 @@ LagS = -( MS12 conj[S1].S1 + LamS1H conj[S1].S1.conj[H].H  + LamS/2 conj[S1].S1.
 
 LagSP = -( 1/2 mP2 SP.SP + LamSPH SP.SP.conj[H].H + 1/2 LamSP SP.SP.SP.SP ); 
 
-Lagint = -( YRA1 ru.l.S1 + YRA2 ru.l.S2 + YRB1 nl1.vr.conj[S1] + YRB2 nl1.vr.conj[S2] + YRC nr2.nl1.SP + YNU vr.l.H );
+Lagint = -( YRA1 ru.l.S1 + YRA2 ru.l.S2 + YRB1 nl1.vr.conj[S1] + YRB2 nl1.vr.conj[S2] + YRC nr2.nl1.SP (*+ YNU vr.l.H*) );
 
 (* Gauge Sector *)
 

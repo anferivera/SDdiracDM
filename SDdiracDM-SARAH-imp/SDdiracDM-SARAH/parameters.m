@@ -163,10 +163,10 @@ ParameterDefinitions = {
 {ZH,     { Description -> "Scalar-Mixing-Matrix"}},
 {\[Alpha],  { Description -> "Scalar mixing angle" }},
 
-{YNU,       { LaTeX -> "y_v",   
+(*{YNU,       { LaTeX -> "y_v",   
               Real -> True, 
               LesHouches -> YNU,
-              OutputName-> YNU }},
+              OutputName-> YNU }},*)
 
 {VSs,       {   (* Rotation matrix *)
                 LaTeX -> "VS",

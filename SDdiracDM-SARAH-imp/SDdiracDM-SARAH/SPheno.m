@@ -42,7 +42,6 @@ BoundaryLowScaleInput={
  {vS, vSInput},
  {YRD, YRDInput},
  {YRC, YRCInput},
- {YNU, LHInput[YNU]},
  
  {YRA1, LHInput[YRA1]},
  {YRA2, LHInput[YRA2]},
