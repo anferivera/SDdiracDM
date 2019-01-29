@@ -35,7 +35,7 @@ for n in range(0,Num):
     LamS = 0.     
     LamSP = 1.0E-01    #ms ~ sqrt(2*lambdaSP)*vs -> bigg, i.e. mh2 heavier
     vS = np.exp(np.random.uniform(np.log(10**(2)),np.log(3.*10**(4))))
-    YRD = 1.0E-02
+    YRD = 1.0
     YRC = 1.0E-01
     MDF = np.exp(np.random.uniform(np.log(10**(2)),np.log(10**(4))))
     #MDF = vS*YRC/np.sqrt(2) + np.random.uniform(0.5,10.)
@@ -136,7 +136,18 @@ for n in range(0,Num):
     SPheno_output = subprocess.getoutput('cat SPheno.spc.SDdiracDM')
     
     ###  Run micromegas and take the relic density. 
+    '''
     mo = subprocess.getoutput('~/Work/micromegas_4.2.5/SDdiracDM/./CalcOmega') #Only DM
+    
+    Omega = eval(mo.split('Omega h^2=')[1].split()[0])
+    
+    # Choose Omega at to 3 sigma
+    if Omega > 0.5:
+        continue
+    if Omega < 0.04:
+        continue
+    '''
+    mo = subprocess.getoutput('~/Work/micromegas_4.2.5/SDdiracDM/./CalcOmega_with_DI_Detection') #Full
     
     if len(mo.split()) == 2:
         continue
@@ -144,14 +155,6 @@ for n in range(0,Num):
     Omega = eval(mo.split('Omega h^2=')[1].split()[0])
     #print("n=",n,"Omega=",Omega)
     
-    # Choose Omega near to 3 sigma
-    if Omega > 0.14:
-        continue
-    if Omega < 0.10:
-        continue
-
-    mo = subprocess.getoutput('~/Work/micromegas_4.2.5/SDdiracDM/./CalcOmega_with_DI_Detection') #Full
-     
     ### Direct Detection: CDM-nucleon cross sections[pb]
     PSI = eval(mo.split('CDM-nucleon cross sections[pb]:')[1].split()[2])
     PSD = eval(mo.split('CDM-nucleon cross sections[pb]:')[1].split()[4])
@@ -226,7 +229,7 @@ xd=pd.DataFrame(x,columns=['MDF','MS12','MS22','LamS1H','LamS2H','LamSPH','LamS'
                            ,'ZH22','BRh1gg','BRh2gg'])
 
 #argv[2] will be the number in the end of the file extension: example: xd_scan1.csv
-xd.to_csv('xd_scanhd001-'+sys.argv[2]+'.csv')
+xd.to_csv('xd_scanhd1-'+sys.argv[2]+'.csv')
 
 t4=time.time() 
-print ("The program spent", t4-t1, "s running",Num,"times -> xd_scanhd001",sys.argv[2],".csv")
+print ("The program spent", t4-t1, "s running",Num,"times -> xd_scanhd1",sys.argv[2],".csv")

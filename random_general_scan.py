@@ -27,18 +27,18 @@ for n in range(0,Num):
     #Random parameters as input  
     #BLOCK MINPAR
     vevSM = 244.874425
-    MS12 = 9.0E+06
+    MS12 = np.exp(np.random.uniform(np.log(10**(6)),np.log(10**(8))))
     MS22 = MS12
     LamS1H = np.exp(np.random.uniform(np.log(10**(-4)),np.log(10**(-1))))
     LamS2H = LamS1H
     LamSPH = np.exp(np.random.uniform(np.log(10**(-4)),np.log(10**(-1))))
     LamS = 0.     
-    LamSP = 1.0E-01    #ms ~ sqrt(2*lambdaSP)*vs -> bigg, i.e. mh2 heavier
+    # ms ~ sqrt(2*lambdaSP)*vs -> bigg, i.e. mh2 heavier
+    LamSP = np.exp(np.random.uniform(np.log(10**(-2)),np.log(10**(0))))  
     vS = np.exp(np.random.uniform(np.log(10**(2)),np.log(3.*10**(4))))
-    YRD = 1.0E-02
-    YRC = 1.0E-01
+    YRD = np.exp(np.random.uniform(np.log(10**(-4)),np.log(10**(0))))
+    YRC = np.exp(np.random.uniform(np.log(10**(-2)),np.log(10**(0))))
     MDF = np.exp(np.random.uniform(np.log(10**(2)),np.log(10**(4))))
-    #MDF = vS*YRC/np.sqrt(2) + np.random.uniform(0.5,10.)
     
     ###  NEUTRINO EXPERIMENTAL VALUES ###################################################
     #phases of the PMNS matrix and the R 
@@ -151,7 +151,7 @@ for n in range(0,Num):
         continue
 
     mo = subprocess.getoutput('~/Work/micromegas_4.2.5/SDdiracDM/./CalcOmega_with_DI_Detection') #Full
-     
+    
     ### Direct Detection: CDM-nucleon cross sections[pb]
     PSI = eval(mo.split('CDM-nucleon cross sections[pb]:')[1].split()[2])
     PSD = eval(mo.split('CDM-nucleon cross sections[pb]:')[1].split()[4])
@@ -226,7 +226,7 @@ xd=pd.DataFrame(x,columns=['MDF','MS12','MS22','LamS1H','LamS2H','LamSPH','LamS'
                            ,'ZH22','BRh1gg','BRh2gg'])
 
 #argv[2] will be the number in the end of the file extension: example: xd_scan1.csv
-xd.to_csv('xd_scanhd001-'+sys.argv[2]+'.csv')
+xd.to_csv('xd_scan-general-'+sys.argv[2]+'.csv')
 
 t4=time.time() 
-print ("The program spent", t4-t1, "s running",Num,"times -> xd_scanhd001",sys.argv[2],".csv")
+print ("The program spent", t4-t1, "s running",Num,"times -> xd_scan",sys.argv[2],".csv")

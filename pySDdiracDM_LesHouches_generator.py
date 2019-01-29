@@ -115,16 +115,6 @@ def buildSLHAinFile():
 	LHA.blocks['DECAYOPTIONS'].entries[1117]='0.     # Use defined counter-terms '
 	LHA.blocks['DECAYOPTIONS'].entries[1118]='1.     # Use everywhere loop-corrected masses for loop-induced decays '
 
-	LHA.blocks['YNUIN'].entries[1,1]=' 0.000000E-00         # YNU(1,1)'
-	LHA.blocks['YNUIN'].entries[1,2]=' 0.000000E-00         # YNU(1,2)'
-	LHA.blocks['YNUIN'].entries[1,3]=' 0.000000E-00         # YNU(1,3)'
-	LHA.blocks['YNUIN'].entries[2,1]=' 0.000000E-00         # YNU(2,1)'
-	LHA.blocks['YNUIN'].entries[2,2]=' 0.000000E-00         # YNU(2,2)'
-	LHA.blocks['YNUIN'].entries[2,3]=' 0.000000E-00         # YNU(2,3)'
-	LHA.blocks['YNUIN'].entries[3,1]=' 0.000000E-00         # YNU(3,1)'
-	LHA.blocks['YNUIN'].entries[3,2]=' 0.000000E-00         # YNU(3,2)'
-	LHA.blocks['YNUIN'].entries[3,3]=' 0.000000E-00         # YNU(3,3)'
-
 	LHA.blocks['YRA1IN'].entries[1]='1.000000E-02         # YRA1(1)'
 	LHA.blocks['YRA1IN'].entries[2]='2.000000E-02         # YRA1(2)'
 	LHA.blocks['YRA1IN'].entries[3]='3.000000E-03         # YRA1(3)'
