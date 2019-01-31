@@ -27,17 +27,17 @@ for n in range(0,Num):
     #Random parameters as input  
     #BLOCK MINPAR
     vevSM = 244.874425
-    MS12 = np.exp(np.random.uniform(np.log(10**(6)),np.log(10**(8))))
+    MS12 = np.exp(np.random.uniform(np.log(10**(6)),np.log(4.*10**(8))))
     MS22 = MS12
     LamS1H = np.exp(np.random.uniform(np.log(10**(-4)),np.log(10**(-1))))
     LamS2H = LamS1H
-    LamSPH = np.exp(np.random.uniform(np.log(10**(-4)),np.log(10**(-1))))
+    LamSPH = np.exp(np.random.uniform(np.log(10**(-4)),np.log(5.*10**(-2))))
     LamS = 0.     
     # ms ~ sqrt(2*lambdaSP)*vs -> bigg, i.e. mh2 heavier
     LamSP = np.exp(np.random.uniform(np.log(10**(-2)),np.log(10**(0))))  
-    vS = np.exp(np.random.uniform(np.log(10**(2)),np.log(3.*10**(4))))
-    YRD = np.exp(np.random.uniform(np.log(10**(-4)),np.log(10**(0))))
-    YRC = np.exp(np.random.uniform(np.log(10**(-2)),np.log(10**(0))))
+    vS = np.exp(np.random.uniform(np.log(10**(2)),np.log(2.*10**(4))))
+    YRD = np.exp(np.random.uniform(np.log(10**(-4)),np.log(3.*10**(-1))))
+    YRC = np.exp(np.random.uniform(np.log(2.*10**(-2)),np.log(10**(0))))
     MDF = np.exp(np.random.uniform(np.log(10**(2)),np.log(10**(4))))
     
     ###  NEUTRINO EXPERIMENTAL VALUES ###################################################
