@@ -136,24 +136,21 @@ for n in range(0,Num):
     SPheno_output = subprocess.getoutput('cat SPheno.spc.SDdiracDM')
     
     ###  Run micromegas and take the relic density. 
-    '''
     mo = subprocess.getoutput('~/Work/micromegas_4.2.5/SDdiracDM/./CalcOmega') #Only DM
-    
-    Omega = eval(mo.split('Omega h^2=')[1].split()[0])
-    
-    # Choose Omega at to 3 sigma
-    if Omega > 0.5:
-        continue
-    if Omega < 0.04:
-        continue
-    '''
-    mo = subprocess.getoutput('~/Work/micromegas_4.2.5/SDdiracDM/./CalcOmega_with_DI_Detection') #Full
     
     if len(mo.split()) == 2:
         continue
     
     Omega = eval(mo.split('Omega h^2=')[1].split()[0])
     #print("n=",n,"Omega=",Omega)
+    
+    # Choose Omega near to 3 sigma
+    if Omega > 0.14:
+        continue
+    if Omega < 0.10:
+        continue
+
+    mo = subprocess.getoutput('~/Work/micromegas_4.2.5/SDdiracDM/./CalcOmega_with_DI_Detection') #Full
     
     ### Direct Detection: CDM-nucleon cross sections[pb]
     PSI = eval(mo.split('CDM-nucleon cross sections[pb]:')[1].split()[2])
