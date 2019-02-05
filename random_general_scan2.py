@@ -145,9 +145,9 @@ for n in range(0,Num):
     #print("n=",n,"Omega=",Omega)
     
     # Choose Omega near to 3 sigma
-    if Omega > 0.14:
+    if Omega > 0.13:
         continue
-    if Omega < 0.10:
+    if Omega < 0.11:
         continue
 
     mo = subprocess.getoutput('~/Work/micromegas_4.2.5/SDdiracDM/./CalcOmega_with_DI_Detection') #Full
