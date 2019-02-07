@@ -14,17 +14,17 @@ BLOCK SMINPUTS
 
 BLOCK MINPAR
    1   2.6000000E-01    # LambdaIN
-   2   2.1857819E+03    # MDFInput
-   3   1.4616662E+06    # MS12Input
-   4   1.4616662E+06    # MS22Input
-   5   7.0787454E-02    # LamS1HInput
-   6   7.0787454E-02    # LamS2HInput
-   7   4.1838141E-04    # LamSPHInput
+   2   6.8533073E+03    # MDFInput
+   3   6.7542714E+06    # MS12Input
+   4   6.7542714E+06    # MS22Input
+   5   8.4574410E-04    # LamS1HInput
+   6   8.4574410E-04    # LamS2HInput
+   7   1.6504793E-04    # LamSPHInput
    8   0.0000000E+00    # LamSInput
-   9   1.1446872E-01    # LamSPInput
-   10   8.7760952E+02    # vSInput
-   11   2.5897870E-03    # YRDInput
-   12   5.9752895E-02    # YRCInput
+   9   1.0503143E-01    # LamSPInput
+   10   7.1302317E+03    # vSInput
+   11   1.0509259E-04    # YRDInput
+   12   6.7685567E-01    # YRCInput
 
 BLOCK SPHENOINPUT
    1   -1              # error level
@@ -109,20 +109,20 @@ BLOCK DECAYOPTIONS
 
 BLOCK YRA1IN
    1   0.000000E+00    # YRA1(1)
-   2   9.364840E-02    # YRA1(2)
-   3   3.557848E-02    # YRA1(3)
+   2   1.548456E-04    # YRA1(2)
+   3   1.852507E-02    # YRA1(3)
 
 BLOCK YRA2IN
    1   0.000000E+00    # YRA2(1)
-   2   8.879825E-02    # YRA2(2)
-   3   2.938713E-03    # YRA2(3)
+   2   2.999600E-04    # YRA2(2)
+   3   5.052515E-02    # YRA2(3)
 
 BLOCK YRB1IN
-   1   -2.778414E-06    # YRB1(1)
-   2   -1.317132E-05    # YRB1(2)
-   3   -1.358140E-05    # YRB1(3)
+   1   -1.488220E-03    # YRB1(1)
+   2   -1.124263E-03    # YRB1(2)
+   3   1.773269E-03    # YRB1(3)
 
 BLOCK YRB2IN
-   1   2.308335E-06    # YRB2(1)
-   2   1.325459E-05    # YRB2(2)
-   3   1.507642E-05    # YRB2(3)
+   1   5.437143E-04    # YRB2(1)
+   2   4.020461E-04    # YRB2(2)
+   3   -6.589384E-04    # YRB2(3)
