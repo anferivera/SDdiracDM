@@ -6,7 +6,7 @@ BLOCK MODSEL
 
 BLOCK SMINPUTS
    2   1.166370E-05    # G_F,Fermi constant
-   3   1.187000E-01    # alpha_s(MZ) SM MSbar
+   3   1.187001E-01    # alpha_s(MZ) SM MSbar
    4   9.118870E+01    # Z-boson pole mass
    5   4.180000E+00    # m_b(mb) SM MSbar
    6   1.735000E+02    # m_top(pole)
