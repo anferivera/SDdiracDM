@@ -6,7 +6,7 @@ BLOCK MODSEL
 
 BLOCK SMINPUTS
    2   1.166370E-05    # G_F,Fermi constant
-   3   1.187001E-01    # alpha_s(MZ) SM MSbar
+   3   1.187000E-01    # alpha_s(MZ) SM MSbar
    4   9.118870E+01    # Z-boson pole mass
    5   4.180000E+00    # m_b(mb) SM MSbar
    6   1.735000E+02    # m_top(pole)
@@ -14,17 +14,17 @@ BLOCK SMINPUTS
 
 BLOCK MINPAR
    1   2.6000000E-01    # LambdaIN
-   2   1.1460264E+03    # MDFInput
-   3   6.7480264E+06    # MS12Input
-   4   6.7480264E+06    # MS22Input
-   5   9.4534654E-03    # LamS1HInput
-   6   9.4534654E-03    # LamS2HInput
-   7   5.5558950E-03    # LamSPHInput
+   2   4.1528081E+03    # MDFInput
+   3   2.4208395E+07    # MS12Input
+   4   2.4208395E+07    # MS22Input
+   5   5.2046146E-03    # LamS1HInput
+   6   5.2046146E-03    # LamS2HInput
+   7   1.5235654E-03    # LamSPHInput
    8   0.0000000E+00    # LamSInput
-   9   2.2564050E-01    # LamSPInput
-   10   1.8932925E+02    # vSInput
-   11   1.2656632E-03    # YRDInput
-   12   3.5201317E-02    # YRCInput
+   9   6.8476449E-01    # LamSPInput
+   10   8.9902896E+02    # vSInput
+   11   5.2104320E-03    # YRDInput
+   12   4.7703744E-02    # YRCInput
 
 BLOCK SPHENOINPUT
    1   -1              # error level
@@ -109,20 +109,20 @@ BLOCK DECAYOPTIONS
 
 BLOCK YRA1IN
    1   0.000000E+00    # YRA1(1)
-   2   1.401635E-01    # YRA1(2)
-   3   2.800997E-01    # YRA1(3)
+   2   9.688687E-04    # YRA1(2)
+   3   8.783880E-03    # YRA1(3)
 
 BLOCK YRA2IN
    1   0.000000E+00    # YRA2(1)
-   2   4.850062E-01    # YRA2(2)
-   3   1.068734E-02    # YRA2(3)
+   2   2.687526E-03    # YRA2(2)
+   3   2.100391E-01    # YRA2(3)
 
 BLOCK YRB1IN
-   1   -1.201432E-05    # YRB1(1)
-   2   -5.916846E-05    # YRB1(2)
-   3   -5.082915E-05    # YRB1(3)
+   1   -1.699388E-04    # YRB1(1)
+   2   -1.308638E-04    # YRB1(2)
+   3   1.912907E-04    # YRB1(3)
 
 BLOCK YRB2IN
-   1   -1.226782E-06    # YRB2(1)
-   2   1.336228E-05    # YRB2(2)
-   3   2.020047E-05    # YRB2(3)
+   1   6.058999E-06    # YRB2(1)
+   2   8.032680E-07    # YRB2(2)
+   3   -1.289372E-05    # YRB2(3)
