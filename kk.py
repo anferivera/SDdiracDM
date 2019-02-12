@@ -150,7 +150,7 @@ for n in range(0,Num):
     mChi2 = eval(SPheno_output.split('# Fe_3')[1].split()[29])
     mh1 = eval(SPheno_output.split('Block MASS')[1].split()[9])
     mh2 = eval(SPheno_output.split('Block MASS')[1].split()[13])  
-       
+    
     # Cut in mChi1 < 3 TeV
     if mChi1 < 2. or mChi1 > 3000.:
         continue
@@ -158,7 +158,7 @@ for n in range(0,Num):
     # cut in m_higgses bigger thant 124.5 (heavy)
     if mh1 < 124.5 or mh2 < 124.4:
         continue
-     
+    
     ###  Run micromegas and take the relic density. 
     mo = subprocess.getoutput('~/Work/micromegas_4.2.5/SDdiracDM/./CalcOmega') #Only DM
     
@@ -166,13 +166,7 @@ for n in range(0,Num):
         continue
     
     Omega = eval(mo.split('Omega h^2=')[1].split()[0])
-    #print("n=",n,"Omega=",Omega)
-    
-    # Choose Omega near to 10 sigma
-    if Omega > 0.13:
-        continue
-    if Omega < 0.11:
-        continue
+    print("n=",n,"Omega=",Omega)
 
     mo = subprocess.getoutput('~/Work/micromegas_4.2.5/SDdiracDM/./CalcOmega_with_DI_Detection') #Full
     
