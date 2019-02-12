@@ -36,15 +36,14 @@ for n in range(0,Num):
     #Random parameters as input  
     #BLOCK MINPAR
     vevSM = 244.874425
-    MS12 = np.exp(np.random.uniform(np.log(10**(6)),np.log(4.*10**(8))))
+    MS12 = np.exp(np.random.uniform(np.log(10**(6)),np.log(25.*10**(8))))
     MS22 = MS12
     LamS1H = np.exp(np.random.uniform(np.log(10**(-4)),np.log(10**(-1))))
     LamS2H = LamS1H
     LamSPH = np.exp(np.random.uniform(np.log(10**(-4)),np.log(10**(-2))))
-    #mh2 = LamS*vS -> LamS no cero
+    #mh2 = LamSP*vS -> LamS no cero
     LamS = np.exp(np.random.uniform(np.log(10**(-4)),np.log(10**(1))))    
-    # ms ~ sqrt(2*lambdaSP)*vs -> bigg, i.e. mh2 heavier
-    LamSP = np.exp(np.random.uniform(np.log(10**(-3)),np.log(10**(0))))  
+    LamSP = np.exp(np.random.uniform(np.log(10**(-3)),np.log(10**(1))))  
     vS = np.exp(np.random.uniform(np.log(10**(2)),np.log(10**(5))))
     YRD = np.exp(np.random.uniform(np.log(10**(-5)),np.log(10**(0))))*signo()
     YRC = np.exp(np.random.uniform(np.log(10**(-3)),np.log(10**(1))))*signo()
@@ -156,7 +155,7 @@ for n in range(0,Num):
         continue
       
     # cut in m_higgses bigger thant 124.5 (heavy)
-    if mh1 < 124.5 or mh2 < 124.4:
+    if mh1 < 124.5 or mh2 < 124.5:
         continue
      
     ###  Run micromegas and take the relic density. 
