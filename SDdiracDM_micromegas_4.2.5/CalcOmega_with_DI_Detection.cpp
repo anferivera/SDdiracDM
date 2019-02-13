@@ -54,6 +54,7 @@ int main(int argc, char** argv)
   double Nmass=0.939; /*nucleon mass*/
   double SCcoeff;  
   
+printf("\n======== Direct Detection ========\n");
 
 printf("\n==== Calculation of CDM-nucleons amplitudes  =====\n");   
 printf("         TREE LEVEL\n");
@@ -85,47 +86,7 @@ printf("         BOX DIAGRAMS\n");
     
     
 }
-
-
-
-{
-  double dNdE[300];
-  double nEvents;
-  double nEventsCut;
-
-printf("\n======== Direct Detection ========\n");    
-
-
-
-
-  nEvents=nucleusRecoil(Maxwell,73,Z_Ge,J_Ge73,SxxGe73,dNdE);
-  printf("73Ge: Total number of events=%.2E /day/kg\n",nEvents);
-  nEventsCut=cutRecoilResult(dNdE,10,50);
-  printf("Number of events in 10 - 50 KeV region=%.2E /day/kg\n",nEventsCut);                                   ;
-  fprintf(omega,"301 %6.6lf #\n",nEvents);
-                                                                                                         
-  nEvents=nucleusRecoil(Maxwell,131,Z_Xe,J_Xe131,SxxXe131,dNdE);
-  printf("131Xe: Total number of events=%.2E /day/kg\n",nEvents);
-  nEventsCut=cutRecoilResult(dNdE,10,50);
-  printf("Number of events in 10 - 50 KeV region=%.2E /day/kg\n",nEventsCut);                                   
-  fprintf(omega,"302 %6.6lf #\n",nEvents);
   
-  nEvents=nucleusRecoil(Maxwell,23,Z_Na,J_Na23,SxxNa23,dNdE);
-  printf("23Na: Total number of events=%.2E /day/kg\n",nEvents);
-  nEventsCut=cutRecoilResult(dNdE,10,50);
-  printf("Number of events in 10 - 50 KeV region=%.2E /day/kg\n",nEventsCut);  
-  fprintf(omega,"303 %6.6lf #\n",nEvents);
-  
-  nEvents=nucleusRecoil(Maxwell,127,Z_I,J_I127,SxxI127,dNdE);
-  printf("I127: Total number of events=%.2E /day/kg\n",nEvents);
-  nEventsCut=cutRecoilResult(dNdE,10,50);
-  printf("Number of events in 10 - 50 KeV region=%.2E /day/kg\n",nEventsCut);  
-  fprintf(omega,"304 %6.6lf #\n",nEvents);
-
-
-}
-
-
 { 
   int err,i;
   double Emin=1,/* Energy cut  in GeV   */  sigmaV;
@@ -147,43 +108,7 @@ printf("\n==== Indirect detection =======\n");
                        4-print cross sections             
     */
 
-
-
-  if(SpA)
-  { 
-     double fi=0.1,dfi=0.05; /* angle of sight and 1/2 of cone angle in [rad] */ 
-
-     gammaFluxTab(fi,dfi, sigmaV, SpA,  FluxA);     
-     printf("Photon flux  for angle of sight f=%.2f[rad]\n"
-     "and spherical region described by cone with angle %.2f[rad]\n",fi,2*dfi);
-#ifdef SHOWPLOTS
-     sprintf(txt,"Photon flux[cm^2 s GeV]^{-1} at f=%.2f[rad], cone angle %.2f[rad]",fi,2*dfi);
-     displaySpectrum(txt,Emin,Mcdm,FluxA);
-#endif
-     printf("Photon flux = %.2E[cm^2 s GeV]^{-1} for E=%.1f[GeV]\n",SpectdNdE(Etest, FluxA), Etest);       
-  }
-
-  if(SpE)
-  { 
-    posiFluxTab(Emin, sigmaV, SpE,  FluxE);
-#ifdef SHOWPLOTS     
-    displaySpectrum("positron flux [cm^2 s sr GeV]^{-1}" ,Emin,Mcdm,FluxE);
-#endif
-    printf("Positron flux  =  %.2E[cm^2 sr s GeV]^{-1} for E=%.1f[GeV] \n",
-    SpectdNdE(Etest, FluxE),  Etest);           
-  }
-  
-  if(SpP)
-  { 
-    pbarFluxTab(Emin, sigmaV, SpP,  FluxP  ); 
-#ifdef SHOWPLOTS    
-     displaySpectrum("antiproton flux [cm^2 s sr GeV]^{-1}" ,Emin, Mcdm,FluxP);
-#endif
-    printf("Antiproton flux  =  %.2E[cm^2 sr s GeV]^{-1} for E=%.1f[GeV] \n",
-    SpectdNdE(Etest, FluxP),  Etest);             
-  }
 }  
-
 
        fclose(channels);
        fclose(omega);
