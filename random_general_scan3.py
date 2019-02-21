@@ -45,9 +45,13 @@ for n in range(0,Num):
     LamS = np.exp(np.random.uniform(np.log(10**(-4)),np.log(10**(1))))    
     LamSP = np.exp(np.random.uniform(np.log(10**(-3)),np.log(10**(1))))  
     vS = np.exp(np.random.uniform(np.log(10**(2)),np.log(10**(5))))
-    YRD = np.exp(np.random.uniform(np.log(10**(-5)),np.log(10**(0))))*signo()
+    YRD = np.exp(np.random.uniform(np.log(10**(-6)),np.log(10**(0))))*signo()
     YRC = np.exp(np.random.uniform(np.log(3.*10**(-3)),np.log(10**(1))))*signo()
     MDF = np.exp(np.random.uniform(np.log(10**(2)),np.log(10**(4))))
+    
+    # Strong cut: when DM is almost a pure doublet -> U11~1 (no run SPHENO)
+    if vS*YRC/np.sqrt(2) > 3000.:
+        continue    
     
     ###  NEUTRINO EXPERIMENTAL VALUES ###################################################
     #phases of the PMNS matrix and the R 
@@ -154,7 +158,7 @@ for n in range(0,Num):
     if mChi1 < 2. or mChi1 > 3000.:
         continue
       
-    # cut in m_higgses bigger thant 124.5 (heavy)
+    # cut in m_higgses bigger than 124.5 (heavy higgses)
     if mh1 < 124.5 or mh2 < 124.5:
         continue
      
