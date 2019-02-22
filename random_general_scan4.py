@@ -46,7 +46,7 @@ for n in range(0,Num):
     LamSP = np.exp(np.random.uniform(np.log(10**(-3)),np.log(10**(1))))  
     vS = np.exp(np.random.uniform(np.log(10**(2)),np.log(10**(5))))
     YRD = np.exp(np.random.uniform(np.log(10**(-6)),np.log(10**(0))))*signo()
-    YRC = np.exp(np.random.uniform(np.log(3.*10**(-3)),np.log(10**(1))))*signo()
+    YRC = np.exp(np.random.uniform(np.log(10**(-2)),np.log(10**(1))))*signo()
     MDF = np.exp(np.random.uniform(np.log(10**(2)),np.log(10**(4))))
     
     # Strong cut: when DM is almost a pure doublet -> U11~1 (no run SPHENO)
@@ -154,8 +154,8 @@ for n in range(0,Num):
     mh1 = eval(SPheno_output.split('Block MASS')[1].split()[9])
     mh2 = eval(SPheno_output.split('Block MASS')[1].split()[13])  
        
-    # Cut in mChi1 < 3 TeV
-    if mChi1 < 2. or mChi1 > 3000.:
+    # Cut in mChi1 < 3 TeV -> Bias
+    if mChi1 < 60. or mChi1 > 3000.:
         continue
       
     # cut in m_higgses bigger than 124.5 (heavy higgses)
