@@ -42,15 +42,15 @@ for n in range(0,Num):
     LamS2H = LamS1H
     LamSPH = np.exp(np.random.uniform(np.log(10**(-4)),np.log(10**(-2))))
     #mh2 = LamSP*vS -> LamS no cero
-    LamS = np.exp(np.random.uniform(np.log(10**(-4)),np.log(10**(1))))    
-    LamSP = np.exp(np.random.uniform(np.log(10**(-3)),np.log(10**(1))))  
+    LamS = np.exp(np.random.uniform(np.log(10**(-4)),np.log(10**(0))))    
+    LamSP = np.exp(np.random.uniform(np.log(10**(-3)),np.log(10**(0))))  
     vS = np.exp(np.random.uniform(np.log(10**(2)),np.log(10**(5))))
     YRD = np.exp(np.random.uniform(np.log(10**(-6)),np.log(10**(0))))*signo()
-    YRC = np.exp(np.random.uniform(np.log(10**(-2)),np.log(10**(1))))*signo()
-    MDF = np.exp(np.random.uniform(np.log(10**(2)),np.log(10**(4))))
+    YRC = np.exp(np.random.uniform(np.log(10**(-2)),np.log(10**(0))))*signo()
+    MDF = np.exp(np.random.uniform(np.log(10**(2)),np.log(3.*10**(3))))
     
     # Strong cut: when DM is almost a pure doublet -> U11~1 (no run SPHENO)
-    if vS*YRC/np.sqrt(2) > 3000.:
+    if vS*YRC/np.sqrt(2) > 1500.:
         continue    
     
     ###  NEUTRINO EXPERIMENTAL VALUES ###################################################
@@ -155,7 +155,7 @@ for n in range(0,Num):
     mh2 = eval(SPheno_output.split('Block MASS')[1].split()[13])  
        
     # Cut in mChi1 < 3 TeV -> Bias
-    if mChi1 < 60. or mChi1 > 3000.:
+    if mChi1 < 60. or mChi1 > 1500.:
         continue
       
     # cut in m_higgses bigger than 124.5 (heavy higgses)
@@ -172,7 +172,7 @@ for n in range(0,Num):
     #print("n=",n,"Omega=",Omega)
     
     # Choose Omega to 5 sigma 2018
-    if Omega > 0.125:
+    if Omega > 0.1250:
         continue
     if Omega < 0.11499999:
         continue
