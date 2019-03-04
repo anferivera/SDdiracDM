@@ -36,7 +36,7 @@ for n in range(0,Num):
     #Random parameters as input  
     #BLOCK MINPAR
     vevSM = 244.874425
-    MS12 = np.exp(np.random.uniform(np.log(10**(6)),np.log(25.*10**(8))))
+    MS12 = np.exp(np.random.uniform(np.log(10**(6)),np.log(4.*10**(8))))
     MS22 = MS12
     LamS1H = np.exp(np.random.uniform(np.log(10**(-4)),np.log(10**(-1))))
     LamS2H = LamS1H
