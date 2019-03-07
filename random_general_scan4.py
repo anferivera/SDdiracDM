@@ -46,7 +46,7 @@ for n in range(0,Num):
     LamSP = np.exp(np.random.uniform(np.log(10**(-3)),np.log(3.)))  
     vS = np.exp(np.random.uniform(np.log(10**(2)),np.log(10**(5))))
     YRD = np.exp(np.random.uniform(np.log(10**(-6)),np.log(3.)))*signo()
-    YRC = np.exp(np.random.uniform(np.log(10**(-4)),np.log(3.)))*signo()
+    YRC = np.exp(np.random.uniform(np.log(3.*10**(-3)),np.log(3.)))*signo()
     MDF = np.exp(np.random.uniform(np.log(10**(2)),np.log(3.*10**(3))))
     
     # Strong cut: when DM is almost a pure doublet -> U11~1 (no run SPHENO)
