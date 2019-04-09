@@ -121,22 +121,22 @@ ParameterDefinitions = {
 {LamS1H,     { LaTeX -> "\\lambda^{S1H}",
               Real -> True, 
               LesHouches -> LS1H,
-              OutputName -> "LS1H" }},
+              OutputName -> LS1H }},
 
 {LamS2H,     { LaTeX -> "\\lambda^{S2H}",
               Real -> True, 
               LesHouches -> LS2H,
-              OutputName -> "LS2H" }},
+              OutputName -> LS2H }},
 
 {LamS,      { LaTeX -> "\\lambda^{S}",
               Real -> True, 
               LesHouches -> LS,
-              OutputName -> "LS" }},  
+              OutputName -> LS }},  
               
 {LamSPH,     { LaTeX -> "\\lambda^{SPH}",
               Real -> True, 
               LesHouches -> LSPH,
-              OutputName -> "LSPH" }},                          
+              OutputName -> LSPH }},                          
 
 {mP2,       { (*Description -> "mP2-parameter",*)
               LaTeX -> "m_{SP}^{2}",
@@ -148,7 +148,7 @@ ParameterDefinitions = {
               Real -> True, 
               (*DependenceNum -> Mass[phiS]^2/(4*vS^2),*)
               LesHouches -> LSP,
-              OutputName ->"LSP" }},      
+              OutputName -> LSP }},      
               
 {vS,{ 
      Dependence -> None, 
@@ -173,7 +173,6 @@ ParameterDefinitions = {
                 Real -> True,                 
                 LesHouches ->  VSs,
                 OutputName-> VSs }}
-
  }; 
  
 
