@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       157,          7]
-NotebookDataLength[   1335878,      23608]
-NotebookOptionsPosition[   1312786,      23037]
-NotebookOutlinePosition[   1313291,      23055]
-CellTagsIndexPosition[   1313248,      23052]
+NotebookDataLength[   1336026,      23608]
+NotebookOptionsPosition[   1312923,      23037]
+NotebookOutlinePosition[   1313436,      23055]
+CellTagsIndexPosition[   1313393,      23052]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -3234,7 +3234,7 @@ Cell[BoxData[
  InterpretationBox[
   RowBox[{"\<\"Initialize field: \"\>", "\[InvisibleSpace]", 
    DynamicBox[ToBoxes[SARAH`DynamicInitFields, StandardForm],
-    ImageSizeCache->{80., {0., 12.}}]}],
+    ImageSizeCache->{230., {3., 13.}}]}],
   SequenceForm["Initialize field: ", 
    Dynamic[SARAH`DynamicInitFields]],
   Editable->False]], "Print",
@@ -3301,7 +3301,7 @@ Cell[BoxData[
   RowBox[{"\<\"Preprocessing necessary information: \"\>", 
    "\[InvisibleSpace]", 
    DynamicBox[ToBoxes[SARAH`DynamicInitMisc, StandardForm],
-    ImageSizeCache->{80., {0., 12.}}]}],
+    ImageSizeCache->{210., {3., 13.}}]}],
   SequenceForm["Preprocessing necessary information: ", 
    Dynamic[SARAH`DynamicInitMisc]],
   Editable->False]], "Print",
@@ -3367,7 +3367,7 @@ Cell[BoxData[
  InterpretationBox[
   RowBox[{"\<\"Checking for anomalies: \"\>", "\[InvisibleSpace]", 
    DynamicBox[ToBoxes[SARAH`DynamicCheckAnomalies, StandardForm],
-    ImageSizeCache->{788.5, {26., 15.}}]}],
+    ImageSizeCache->{270., {3., 13.}}]}],
   SequenceForm["Checking for anomalies: ", 
    Dynamic[SARAH`DynamicCheckAnomalies]],
   Editable->False]], "Print",
@@ -3555,11 +3555,11 @@ Cell[BoxData[
  InterpretationBox[
   RowBox[{"\<\"  ... for scalars: \"\>", "\[InvisibleSpace]", 
    DynamicBox[ToBoxes[SARAH`DynamicKineticScalarNr, StandardForm],
-    ImageSizeCache->{10., {0., 12.}}], "\[InvisibleSpace]", "\<\"/\"\>", 
+    ImageSizeCache->{280., {3., 13.}}], "\[InvisibleSpace]", "\<\"/\"\>", 
    "\[InvisibleSpace]", "14", "\[InvisibleSpace]", "\<\" (\"\>", 
    "\[InvisibleSpace]", 
    DynamicBox[ToBoxes[SARAH`DynamicKineticScalarName, StandardForm],
-    ImageSizeCache->{80., {0., 12.}}], "\[InvisibleSpace]", "\<\")\"\>"}],
+    ImageSizeCache->{300., {3., 13.}}], "\[InvisibleSpace]", "\<\")\"\>"}],
   SequenceForm["  ... for scalars: ", 
    Dynamic[SARAH`DynamicKineticScalarNr], "/", 14, " (", 
    Dynamic[SARAH`DynamicKineticScalarName], ")"],
@@ -3626,11 +3626,11 @@ Cell[BoxData[
  InterpretationBox[
   RowBox[{"\<\"  ... for fermions: \"\>", "\[InvisibleSpace]", 
    DynamicBox[ToBoxes[SARAH`DynamicKineticFermionNr, StandardForm],
-    ImageSizeCache->{20., {0., 12.}}], "\[InvisibleSpace]", "\<\"/\"\>", 
+    ImageSizeCache->{290., {3., 13.}}], "\[InvisibleSpace]", "\<\"/\"\>", 
    "\[InvisibleSpace]", "14", "\[InvisibleSpace]", "\<\" (\"\>", 
    "\[InvisibleSpace]", 
    DynamicBox[ToBoxes[SARAH`DynamicKineticFermionName, StandardForm],
-    ImageSizeCache->{80., {0., 12.}}], "\[InvisibleSpace]", "\<\")\"\>"}],
+    ImageSizeCache->{310., {3., 13.}}], "\[InvisibleSpace]", "\<\")\"\>"}],
   SequenceForm["  ... for fermions: ", 
    Dynamic[SARAH`DynamicKineticFermionNr], "/", 14, " (", 
    Dynamic[SARAH`DynamicKineticFermionName], ")"],
@@ -3697,11 +3697,11 @@ Cell[BoxData[
  InterpretationBox[
   RowBox[{"\<\"Calculate vector self-interactions: \"\>", "\[InvisibleSpace]", 
    DynamicBox[ToBoxes[SARAH`DynamicVectorNr, StandardForm],
-    ImageSizeCache->{10., {0., 12.}}], "\[InvisibleSpace]", "\<\"/\"\>", 
+    ImageSizeCache->{210., {3., 13.}}], "\[InvisibleSpace]", "\<\"/\"\>", 
    "\[InvisibleSpace]", "3", "\[InvisibleSpace]", "\<\" (\"\>", 
    "\[InvisibleSpace]", 
    DynamicBox[ToBoxes[SARAH`DynamicVectorName, StandardForm],
-    ImageSizeCache->{80., {0., 12.}}], "\[InvisibleSpace]", "\<\")\"\>"}],
+    ImageSizeCache->{230., {3., 13.}}], "\[InvisibleSpace]", "\<\")\"\>"}],
   SequenceForm["Calculate vector self-interactions: ", 
    Dynamic[SARAH`DynamicVectorNr], "/", 3, " (", 
    Dynamic[SARAH`DynamicVectorName], ")"],
@@ -3768,11 +3768,11 @@ Cell[BoxData[
  InterpretationBox[
   RowBox[{"\<\"Calculate gauge transformations: \"\>", "\[InvisibleSpace]", 
    DynamicBox[ToBoxes[SARAH`DynamicGaugeTNr, StandardForm],
-    ImageSizeCache->{20., {0., 12.}}], "\[InvisibleSpace]", "\<\"/\"\>", 
+    ImageSizeCache->{210., {3., 13.}}], "\[InvisibleSpace]", "\<\"/\"\>", 
    "\[InvisibleSpace]", "17", "\[InvisibleSpace]", "\<\" (\"\>", 
    "\[InvisibleSpace]", 
    DynamicBox[ToBoxes[SARAH`DynamicGaugeTName, StandardForm],
-    ImageSizeCache->{80., {0., 12.}}], "\[InvisibleSpace]", "\<\")\"\>"}],
+    ImageSizeCache->{230., {3., 13.}}], "\[InvisibleSpace]", "\<\")\"\>"}],
   SequenceForm["Calculate gauge transformations: ", 
    Dynamic[SARAH`DynamicGaugeTNr], "/", 17, " (", 
    Dynamic[SARAH`DynamicGaugeTName], ")"],
@@ -4149,21 +4149,21 @@ Cell[BoxData[
       RowBox[{"conj", "[", "H", "]"}], ".", "e", ".", "l"}]}]}], 
    "\[InvisibleSpace]", "\<\" (\"\>", "\[InvisibleSpace]", 
    DynamicBox[ToBoxes[
-     SARAH`DynamicStatusAddTerms[-SARAH`Yu 
+     SARAH`DynamicStatusAddTerms[(-SARAH`Yu) 
        Dot[$CellContext`u, SARAH`q, $CellContext`H] - SARAH`Yd Dot[
         Susyno`LieGroups`conj[$CellContext`H], SARAH`d, SARAH`q] - SARAH`Ye 
       Dot[
         Susyno`LieGroups`conj[$CellContext`H], Susyno`LieGroups`e, SARAH`l]], 
      StandardForm],
-    ImageSizeCache->{80., {0., 12.}}], "\[InvisibleSpace]", "\<\")\"\>"}],
+    ImageSizeCache->{1127., {33., 15.}}], "\[InvisibleSpace]", "\<\")\"\>"}],
   SequenceForm[
-  " ... adding: ", -SARAH`Yu Dot[$CellContext`u, SARAH`q, $CellContext`H] - 
+  " ... adding: ", (-SARAH`Yu) Dot[$CellContext`u, SARAH`q, $CellContext`H] - 
    SARAH`Yd Dot[
      Susyno`LieGroups`conj[$CellContext`H], SARAH`d, SARAH`q] - SARAH`Ye Dot[
      Susyno`LieGroups`conj[$CellContext`H], Susyno`LieGroups`e, SARAH`l], 
    " (", 
    Dynamic[
-    SARAH`DynamicStatusAddTerms[-SARAH`Yu 
+    SARAH`DynamicStatusAddTerms[(-SARAH`Yu) 
       Dot[$CellContext`u, SARAH`q, $CellContext`H] - SARAH`Yd Dot[
        Susyno`LieGroups`conj[$CellContext`H], SARAH`d, SARAH`q] - SARAH`Ye Dot[
        Susyno`LieGroups`conj[$CellContext`H], Susyno`LieGroups`e, SARAH`l]]], 
@@ -4242,21 +4242,22 @@ Cell[BoxData[
    "\[InvisibleSpace]", "\<\" (\"\>", "\[InvisibleSpace]", 
    DynamicBox[ToBoxes[
      SARAH`DynamicStatusAddTerms[$CellContext`mu2 Dot[
-         Susyno`LieGroups`conj[$CellContext`H], $CellContext`H] + 
-      Rational[-1, 2] $CellContext`Lambda1 Dot[
+         Susyno`LieGroups`conj[$CellContext`H], $CellContext`H] + (
+        Rational[-1, 2] $CellContext`Lambda1) Dot[
          Susyno`LieGroups`conj[$CellContext`H], $CellContext`H, 
          Susyno`LieGroups`conj[$CellContext`H], $CellContext`H]], 
      StandardForm],
-    ImageSizeCache->{80., {0., 12.}}], "\[InvisibleSpace]", "\<\")\"\>"}],
+    ImageSizeCache->{956.5, {56.9, 18.}}], "\[InvisibleSpace]", "\<\")\"\>"}],
+  
   SequenceForm[" ... adding: ", $CellContext`mu2 Dot[
-      Susyno`LieGroups`conj[$CellContext`H], $CellContext`H] + 
-   Rational[-1, 2] $CellContext`Lambda1 Dot[
+      Susyno`LieGroups`conj[$CellContext`H], $CellContext`H] + (
+     Rational[-1, 2] $CellContext`Lambda1) Dot[
       Susyno`LieGroups`conj[$CellContext`H], $CellContext`H, 
       Susyno`LieGroups`conj[$CellContext`H], $CellContext`H], " (", 
    Dynamic[
     SARAH`DynamicStatusAddTerms[$CellContext`mu2 Dot[
-        Susyno`LieGroups`conj[$CellContext`H], $CellContext`H] + 
-     Rational[-1, 2] $CellContext`Lambda1 Dot[
+        Susyno`LieGroups`conj[$CellContext`H], $CellContext`H] + (
+       Rational[-1, 2] $CellContext`Lambda1) Dot[
         Susyno`LieGroups`conj[$CellContext`H], $CellContext`H, 
         Susyno`LieGroups`conj[$CellContext`H], $CellContext`H]]], ")"],
   Editable->False]], "Print",
@@ -4329,16 +4330,16 @@ Cell[BoxData[
      RowBox[{"nr2", ".", "rd", ".", "H"}]}]}], 
    "\[InvisibleSpace]", "\<\" (\"\>", "\[InvisibleSpace]", 
    DynamicBox[ToBoxes[
-     SARAH`DynamicStatusAddTerms[-$CellContext`MDF 
+     SARAH`DynamicStatusAddTerms[(-$CellContext`MDF) 
        Dot[$CellContext`rd, $CellContext`ru] - $CellContext`YRD 
       Dot[SARAH`nr2, $CellContext`rd, $CellContext`H]], StandardForm],
-    ImageSizeCache->{80., {0., 12.}}], "\[InvisibleSpace]", "\<\")\"\>"}],
+    ImageSizeCache->{577., {6., 15.}}], "\[InvisibleSpace]", "\<\")\"\>"}],
   SequenceForm[
-  " ... adding: ", -$CellContext`MDF 
+  " ... adding: ", (-$CellContext`MDF) 
     Dot[$CellContext`rd, $CellContext`ru] - $CellContext`YRD 
    Dot[SARAH`nr2, $CellContext`rd, $CellContext`H], " (", 
    Dynamic[
-    SARAH`DynamicStatusAddTerms[-$CellContext`MDF 
+    SARAH`DynamicStatusAddTerms[(-$CellContext`MDF) 
       Dot[$CellContext`rd, $CellContext`ru] - $CellContext`YRD 
      Dot[SARAH`nr2, $CellContext`rd, $CellContext`H]]], ")"],
   Editable->False]], "Print",
@@ -4431,46 +4432,46 @@ Cell[BoxData[
       RowBox[{"conj", "[", "S2", "]"}], ".", "S2"}]}]}], 
    "\[InvisibleSpace]", "\<\" (\"\>", "\[InvisibleSpace]", 
    DynamicBox[ToBoxes[
-     SARAH`DynamicStatusAddTerms[-$CellContext`MS12 Dot[
+     SARAH`DynamicStatusAddTerms[(-$CellContext`MS12) Dot[
          Susyno`LieGroups`conj[SARAH`S1], SARAH`S1] - $CellContext`MS22 Dot[
         Susyno`LieGroups`conj[SARAH`S2], SARAH`S2] - $CellContext`LamS1H Dot[
         Susyno`LieGroups`conj[SARAH`S1], SARAH`S1, 
-        Susyno`LieGroups`conj[$CellContext`H], $CellContext`H] + 
-      Rational[-1, 2] SARAH`LamS Dot[
+        Susyno`LieGroups`conj[$CellContext`H], $CellContext`H] + (
+        Rational[-1, 2] SARAH`LamS) Dot[
          Susyno`LieGroups`conj[SARAH`S1], SARAH`S1, 
          Susyno`LieGroups`conj[SARAH`S1], SARAH`S1] - $CellContext`LamS2H 
       Dot[
         Susyno`LieGroups`conj[SARAH`S2], SARAH`S2, 
-        Susyno`LieGroups`conj[$CellContext`H], $CellContext`H] + 
-      Rational[-1, 2] SARAH`LamS Dot[
+        Susyno`LieGroups`conj[$CellContext`H], $CellContext`H] + (
+        Rational[-1, 2] SARAH`LamS) Dot[
          Susyno`LieGroups`conj[SARAH`S2], SARAH`S2, 
          Susyno`LieGroups`conj[SARAH`S2], SARAH`S2]], StandardForm],
-    ImageSizeCache->{80., {0., 12.}}], "\[InvisibleSpace]", "\<\")\"\>"}],
-  SequenceForm[" ... adding: ", -$CellContext`MS12 Dot[
+    ImageSizeCache->{1211., {158.9, 18.}}], "\[InvisibleSpace]", "\<\")\"\>"}],
+  SequenceForm[" ... adding: ", (-$CellContext`MS12) Dot[
       Susyno`LieGroups`conj[SARAH`S1], SARAH`S1] - $CellContext`MS22 Dot[
      Susyno`LieGroups`conj[SARAH`S2], SARAH`S2] - $CellContext`LamS1H Dot[
      Susyno`LieGroups`conj[SARAH`S1], SARAH`S1, 
-     Susyno`LieGroups`conj[$CellContext`H], $CellContext`H] + 
-   Rational[-1, 2] SARAH`LamS Dot[
+     Susyno`LieGroups`conj[$CellContext`H], $CellContext`H] + (
+     Rational[-1, 2] SARAH`LamS) Dot[
       Susyno`LieGroups`conj[SARAH`S1], SARAH`S1, 
       Susyno`LieGroups`conj[SARAH`S1], SARAH`S1] - $CellContext`LamS2H Dot[
      Susyno`LieGroups`conj[SARAH`S2], SARAH`S2, 
-     Susyno`LieGroups`conj[$CellContext`H], $CellContext`H] + 
-   Rational[-1, 2] SARAH`LamS Dot[
+     Susyno`LieGroups`conj[$CellContext`H], $CellContext`H] + (
+     Rational[-1, 2] SARAH`LamS) Dot[
       Susyno`LieGroups`conj[SARAH`S2], SARAH`S2, 
       Susyno`LieGroups`conj[SARAH`S2], SARAH`S2], " (", 
    Dynamic[
-    SARAH`DynamicStatusAddTerms[-$CellContext`MS12 Dot[
+    SARAH`DynamicStatusAddTerms[(-$CellContext`MS12) Dot[
         Susyno`LieGroups`conj[SARAH`S1], SARAH`S1] - $CellContext`MS22 Dot[
        Susyno`LieGroups`conj[SARAH`S2], SARAH`S2] - $CellContext`LamS1H Dot[
        Susyno`LieGroups`conj[SARAH`S1], SARAH`S1, 
-       Susyno`LieGroups`conj[$CellContext`H], $CellContext`H] + 
-     Rational[-1, 2] SARAH`LamS Dot[
+       Susyno`LieGroups`conj[$CellContext`H], $CellContext`H] + (
+       Rational[-1, 2] SARAH`LamS) Dot[
         Susyno`LieGroups`conj[SARAH`S1], SARAH`S1, 
         Susyno`LieGroups`conj[SARAH`S1], SARAH`S1] - $CellContext`LamS2H Dot[
        Susyno`LieGroups`conj[SARAH`S2], SARAH`S2, 
-       Susyno`LieGroups`conj[$CellContext`H], $CellContext`H] + 
-     Rational[-1, 2] SARAH`LamS Dot[
+       Susyno`LieGroups`conj[$CellContext`H], $CellContext`H] + (
+       Rational[-1, 2] SARAH`LamS) Dot[
         Susyno`LieGroups`conj[SARAH`S2], SARAH`S2, 
         Susyno`LieGroups`conj[SARAH`S2], SARAH`S2]]], ")"],
   Editable->False]], "Print",
@@ -4548,23 +4549,22 @@ Cell[BoxData[
       RowBox[{"conj", "[", "H", "]"}], ".", "H"}]}]}], 
    "\[InvisibleSpace]", "\<\" (\"\>", "\[InvisibleSpace]", 
    DynamicBox[ToBoxes[
-     SARAH`DynamicStatusAddTerms[
-     Rational[-1, 2] $CellContext`mP2 Dot[SARAH`SP, SARAH`SP] + 
-      Rational[-1, 2] $CellContext`LamSP 
+     SARAH`DynamicStatusAddTerms[(Rational[-1, 2] $CellContext`mP2) 
+       Dot[SARAH`SP, SARAH`SP] + (Rational[-1, 2] $CellContext`LamSP) 
        Dot[SARAH`SP, SARAH`SP, SARAH`SP, SARAH`SP] - $CellContext`LamSPH 
       Dot[SARAH`SP, SARAH`SP, 
         Susyno`LieGroups`conj[$CellContext`H], $CellContext`H]], StandardForm],
-    ImageSizeCache->{80., {0., 12.}}], "\[InvisibleSpace]", "\<\")\"\>"}],
+    ImageSizeCache->{977., {62.9, 23.009999999999998`}}], 
+   "\[InvisibleSpace]", "\<\")\"\>"}],
   SequenceForm[
-  " ... adding: ", Rational[-1, 2] $CellContext`mP2 Dot[SARAH`SP, SARAH`SP] + 
-   Rational[-1, 2] $CellContext`LamSP 
+  " ... adding: ", (Rational[-1, 2] $CellContext`mP2) 
+    Dot[SARAH`SP, SARAH`SP] + (Rational[-1, 2] $CellContext`LamSP) 
     Dot[SARAH`SP, SARAH`SP, SARAH`SP, SARAH`SP] - $CellContext`LamSPH 
    Dot[SARAH`SP, SARAH`SP, 
      Susyno`LieGroups`conj[$CellContext`H], $CellContext`H], " (", 
    Dynamic[
-    SARAH`DynamicStatusAddTerms[
-    Rational[-1, 2] $CellContext`mP2 Dot[SARAH`SP, SARAH`SP] + 
-     Rational[-1, 2] $CellContext`LamSP 
+    SARAH`DynamicStatusAddTerms[(Rational[-1, 2] $CellContext`mP2) 
+      Dot[SARAH`SP, SARAH`SP] + (Rational[-1, 2] $CellContext`LamSP) 
       Dot[SARAH`SP, SARAH`SP, SARAH`SP, SARAH`SP] - $CellContext`LamSPH 
      Dot[SARAH`SP, SARAH`SP, 
        Susyno`LieGroups`conj[$CellContext`H], $CellContext`H]]], ")"],
@@ -4646,7 +4646,7 @@ Cell[BoxData[
      RowBox[{"ru", ".", "l", ".", "S2"}]}]}], 
    "\[InvisibleSpace]", "\<\" (\"\>", "\[InvisibleSpace]", 
    DynamicBox[ToBoxes[
-     SARAH`DynamicStatusAddTerms[-$CellContext`YRB1 
+     SARAH`DynamicStatusAddTerms[(-$CellContext`YRB1) 
        Dot[$CellContext`nl1, $CellContext`vr, 
          Susyno`LieGroups`conj[SARAH`S1]] - $CellContext`YRB2 
       Dot[$CellContext`nl1, $CellContext`vr, 
@@ -4654,9 +4654,9 @@ Cell[BoxData[
       Dot[SARAH`nr2, $CellContext`nl1, SARAH`SP] - $CellContext`YRA1 
       Dot[$CellContext`ru, SARAH`l, SARAH`S1] - $CellContext`YRA2 
       Dot[$CellContext`ru, SARAH`l, SARAH`S2]], StandardForm],
-    ImageSizeCache->{80., {0., 12.}}], "\[InvisibleSpace]", "\<\")\"\>"}],
+    ImageSizeCache->{1171., {33., 15.}}], "\[InvisibleSpace]", "\<\")\"\>"}],
   SequenceForm[
-  " ... adding: ", -$CellContext`YRB1 Dot[$CellContext`nl1, $CellContext`vr, 
+  " ... adding: ", (-$CellContext`YRB1) Dot[$CellContext`nl1, $CellContext`vr, 
       Susyno`LieGroups`conj[SARAH`S1]] - $CellContext`YRB2 
    Dot[$CellContext`nl1, $CellContext`vr, 
      Susyno`LieGroups`conj[SARAH`S2]] - $CellContext`YRC 
@@ -4664,7 +4664,7 @@ Cell[BoxData[
    Dot[$CellContext`ru, SARAH`l, SARAH`S1] - $CellContext`YRA2 
    Dot[$CellContext`ru, SARAH`l, SARAH`S2], " (", 
    Dynamic[
-    SARAH`DynamicStatusAddTerms[-$CellContext`YRB1 
+    SARAH`DynamicStatusAddTerms[(-$CellContext`YRB1) 
       Dot[$CellContext`nl1, $CellContext`vr, 
         Susyno`LieGroups`conj[SARAH`S1]] - $CellContext`YRB2 
      Dot[$CellContext`nl1, $CellContext`vr, 
@@ -4736,7 +4736,7 @@ Cell[BoxData[
   RowBox[{"\<\"Rotate Lagrangian: \"\>", "\[InvisibleSpace]", 
    DynamicBox[ToBoxes[
      SARAH`DynamicRotateLag[1], StandardForm],
-    ImageSizeCache->{20., {0., 12.}}], "\[InvisibleSpace]", "\<\"/\"\>", 
+    ImageSizeCache->{250., {3., 13.}}], "\[InvisibleSpace]", "\<\"/\"\>", 
    "\[InvisibleSpace]", "14"}],
   SequenceForm["Rotate Lagrangian: ", 
    Dynamic[
@@ -4865,12 +4865,12 @@ Cell[BoxData[
    
    DynamicBox[ToBoxes[
      SARAH`DynamicGFnr[SARAH`GaugeES], StandardForm],
-    ImageSizeCache->{10., {0., 12.}}], "\[InvisibleSpace]", "\<\"/\"\>", 
+    ImageSizeCache->{320., {6., 15.}}], "\[InvisibleSpace]", "\<\"/\"\>", 
    "\[InvisibleSpace]", "3", "\[InvisibleSpace]", "\<\" (\"\>", 
    "\[InvisibleSpace]", 
    DynamicBox[ToBoxes[
      SARAH`DynamicGFname[SARAH`GaugeES], StandardForm],
-    ImageSizeCache->{80., {0., 12.}}], "\[InvisibleSpace]", "\<\")\"\>"}],
+    ImageSizeCache->{340., {6., 15.}}], "\[InvisibleSpace]", "\<\")\"\>"}],
   SequenceForm["  ... generate gauge fixing terms: ", 
    Dynamic[
     SARAH`DynamicGFnr[SARAH`GaugeES]], "/", 3, " (", 
@@ -5058,7 +5058,7 @@ Cell[BoxData[
   RowBox[{"\<\"Save information (\"\>", "\[InvisibleSpace]", 
    DynamicBox[ToBoxes[
      SARAH`DynamicSaveInfo[SARAH`GaugeES], StandardForm],
-    ImageSizeCache->{80., {0., 12.}}], "\[InvisibleSpace]", "\<\")\"\>"}],
+    ImageSizeCache->{360., {6., 15.}}], "\[InvisibleSpace]", "\<\")\"\>"}],
   SequenceForm["Save information (", 
    Dynamic[
     SARAH`DynamicSaveInfo[SARAH`GaugeES]], ")"],
@@ -5308,13 +5308,13 @@ Cell[BoxData[
    DynamicBox[ToBoxes[
      SARAH`DynamicUGT[
       SARAH`UGTvev[2]], StandardForm],
-    ImageSizeCache->{20., {0., 12.}}], "\[InvisibleSpace]", "\<\"/\"\>", 
+    ImageSizeCache->{330., {6., 15.}}], "\[InvisibleSpace]", "\<\"/\"\>", 
    "\[InvisibleSpace]", "28", "\[InvisibleSpace]", "\<\" (\"\>", 
    "\[InvisibleSpace]", 
    DynamicBox[ToBoxes[
      SARAH`DynamicUGTname[
       SARAH`UGTvev[2]], StandardForm],
-    ImageSizeCache->{80., {0., 12.}}], "\[InvisibleSpace]", "\<\")\"\>"}],
+    ImageSizeCache->{370., {6., 15.}}], "\[InvisibleSpace]", "\<\")\"\>"}],
   SequenceForm["   Update gauge transformations: ", 
    Dynamic[
     SARAH`DynamicUGT[
@@ -5386,12 +5386,12 @@ Cell[BoxData[
   RowBox[{"\<\"Calc mass matrices gauge sector: \"\>", "\[InvisibleSpace]", 
    DynamicBox[ToBoxes[
      SARAH`DynamicMMgaugeNr[SARAH`EWSB], StandardForm],
-    ImageSizeCache->{10., {0., 12.}}], "\[InvisibleSpace]", "\<\"/\"\>", 
+    ImageSizeCache->{340., {6., 15.}}], "\[InvisibleSpace]", "\<\"/\"\>", 
    "\[InvisibleSpace]", "2", "\[InvisibleSpace]", "\<\"(\"\>", 
    "\[InvisibleSpace]", 
    DynamicBox[ToBoxes[
      SARAH`DynamicMMgaugeName[SARAH`EWSB], StandardForm],
-    ImageSizeCache->{80., {0., 12.}}], "\[InvisibleSpace]", "\<\")\"\>"}],
+    ImageSizeCache->{360., {6., 15.}}], "\[InvisibleSpace]", "\<\")\"\>"}],
   SequenceForm["Calc mass matrices gauge sector: ", 
    Dynamic[
     SARAH`DynamicMMgaugeNr[SARAH`EWSB]], "/", 2, "(", 
@@ -5462,13 +5462,13 @@ Cell[BoxData[
    DynamicBox[ToBoxes[
      SARAH`DynamicUGT[
       SARAH`UGTgaugeMM[2]], StandardForm],
-    ImageSizeCache->{20., {0., 12.}}], "\[InvisibleSpace]", "\<\"/\"\>", 
+    ImageSizeCache->{370., {6., 15.}}], "\[InvisibleSpace]", "\<\"/\"\>", 
    "\[InvisibleSpace]", "35", "\[InvisibleSpace]", "\<\" (\"\>", 
    "\[InvisibleSpace]", 
    DynamicBox[ToBoxes[
      SARAH`DynamicUGTname[
       SARAH`UGTgaugeMM[2]], StandardForm],
-    ImageSizeCache->{80., {0., 12.}}], "\[InvisibleSpace]", "\<\")\"\>"}],
+    ImageSizeCache->{410., {6., 15.}}], "\[InvisibleSpace]", "\<\")\"\>"}],
   SequenceForm["   Update gauge transformations: ", 
    Dynamic[
     SARAH`DynamicUGT[
@@ -5540,7 +5540,7 @@ Cell[BoxData[
   RowBox[{"\<\"Rotate Lagrangian: \"\>", "\[InvisibleSpace]", 
    DynamicBox[ToBoxes[
      SARAH`DynamicRotateLag[2], StandardForm],
-    ImageSizeCache->{20., {0., 12.}}], "\[InvisibleSpace]", "\<\"/\"\>", 
+    ImageSizeCache->{250., {3., 13.}}], "\[InvisibleSpace]", "\<\"/\"\>", 
    "\[InvisibleSpace]", "14"}],
   SequenceForm["Rotate Lagrangian: ", 
    Dynamic[
@@ -5669,12 +5669,12 @@ Cell[BoxData[
    
    DynamicBox[ToBoxes[
      SARAH`DynamicGFnr[SARAH`EWSB], StandardForm],
-    ImageSizeCache->{10., {0., 12.}}], "\[InvisibleSpace]", "\<\"/\"\>", 
+    ImageSizeCache->{290., {6., 15.}}], "\[InvisibleSpace]", "\<\"/\"\>", 
    "\[InvisibleSpace]", "4", "\[InvisibleSpace]", "\<\" (\"\>", 
    "\[InvisibleSpace]", 
    DynamicBox[ToBoxes[
      SARAH`DynamicGFname[SARAH`EWSB], StandardForm],
-    ImageSizeCache->{80., {0., 12.}}], "\[InvisibleSpace]", "\<\")\"\>"}],
+    ImageSizeCache->{310., {6., 15.}}], "\[InvisibleSpace]", "\<\")\"\>"}],
   SequenceForm["  ... generate gauge fixing terms: ", 
    Dynamic[
     SARAH`DynamicGFnr[SARAH`EWSB]], "/", 4, " (", 
@@ -5871,7 +5871,7 @@ $CellContext`nL1}, {$CellContext`vu, $CellContext`nR2}}, {{$CellContext`ss1, \
 $CellContext`ss2}, {
          Susyno`LieGroups`conj[$CellContext`ss1], 
          Susyno`LieGroups`conj[$CellContext`ss2]}}}], StandardForm],
-    ImageSizeCache->{10., {0., 12.}}], "\[InvisibleSpace]", "\<\"/\"\>", 
+    ImageSizeCache->{1101., {63., 15.}}], "\[InvisibleSpace]", "\<\"/\"\>", 
    "\[InvisibleSpace]", "7", "\[InvisibleSpace]", "\<\" (\"\>", 
    "\[InvisibleSpace]", 
    DynamicBox[ToBoxes[
@@ -5885,7 +5885,7 @@ $CellContext`nL1}, {$CellContext`vu, $CellContext`nR2}}, {{$CellContext`ss1, \
 $CellContext`ss2}, {
          Susyno`LieGroups`conj[$CellContext`ss1], 
          Susyno`LieGroups`conj[$CellContext`ss2]}}}], StandardForm],
-    ImageSizeCache->{80., {0., 12.}}], "\[InvisibleSpace]", "\<\")\"\>"}],
+    ImageSizeCache->{1101., {63., 15.}}], "\[InvisibleSpace]", "\<\")\"\>"}],
   SequenceForm["   Calculate mass matrices ", 
    Dynamic[
     SARAH`DynamicNrMass[{{{$CellContext`phiH, $CellContext`phiS}, \
@@ -5974,13 +5974,13 @@ Cell[BoxData[
    DynamicBox[ToBoxes[
      SARAH`DynamicUGT[
       SARAH`UGTmatterMM[2]], StandardForm],
-    ImageSizeCache->{20., {0., 12.}}], "\[InvisibleSpace]", "\<\"/\"\>", 
+    ImageSizeCache->{380., {6., 15.}}], "\[InvisibleSpace]", "\<\"/\"\>", 
    "\[InvisibleSpace]", "43", "\[InvisibleSpace]", "\<\" (\"\>", 
    "\[InvisibleSpace]", 
    DynamicBox[ToBoxes[
      SARAH`DynamicUGTname[
       SARAH`UGTmatterMM[2]], StandardForm],
-    ImageSizeCache->{80., {0., 12.}}], "\[InvisibleSpace]", "\<\")\"\>"}],
+    ImageSizeCache->{420., {6., 15.}}], "\[InvisibleSpace]", "\<\")\"\>"}],
   SequenceForm["   Update gauge transformations: ", 
    Dynamic[
     SARAH`DynamicUGT[
@@ -6111,7 +6111,7 @@ Cell[BoxData[
   RowBox[{"\<\"Save information (\"\>", "\[InvisibleSpace]", 
    DynamicBox[ToBoxes[
      SARAH`DynamicSaveInfo[SARAH`EWSB], StandardForm],
-    ImageSizeCache->{80., {0., 12.}}], "\[InvisibleSpace]", "\<\")\"\>"}],
+    ImageSizeCache->{330., {6., 15.}}], "\[InvisibleSpace]", "\<\")\"\>"}],
   SequenceForm["Save information (", 
    Dynamic[
     SARAH`DynamicSaveInfo[SARAH`EWSB]], ")"],
@@ -6537,7 +6537,7 @@ Cell[BoxData[
   RowBox[{"\<\"   ... calculating tree level masses (\"\>", 
    "\[InvisibleSpace]", 
    DynamicBox[ToBoxes[SARAH`DynamicCalcTreeMasses, StandardForm],
-    ImageSizeCache->{80., {0., 12.}}], "\[InvisibleSpace]", "\<\")\"\>"}],
+    ImageSizeCache->{270., {3., 13.}}], "\[InvisibleSpace]", "\<\")\"\>"}],
   SequenceForm["   ... calculating tree level masses (", 
    Dynamic[SARAH`DynamicCalcTreeMasses], ")"],
   Editable->False]], "Print",
@@ -6722,7 +6722,7 @@ Cell[BoxData[
   RowBox[{"\<\"   ... checking for spectrum file: \"\>", "\[InvisibleSpace]", 
    
    DynamicBox[ToBoxes[SARAH`DynamicSpectrumFileInput, StandardForm],
-    ImageSizeCache->{240., {3., 12.}}]}],
+    ImageSizeCache->{300., {3., 13.}}]}],
   SequenceForm["   ... checking for spectrum file: ", 
    Dynamic[SARAH`DynamicSpectrumFileInput]],
   Editable->False]], "Print",
@@ -23036,7 +23036,7 @@ Cell[BoxData[
 }, Open  ]]
 },
 WindowSize->{1366, 721},
-WindowMargins->{{0, Automatic}, {0, 20}},
+WindowMargins->{{4, Automatic}, {Automatic, 49}},
 PrivateNotebookOptions->{"VersionedStylesheet"->{"Default.nb"[8.] -> False}},
 Magnification:>FEPrivate`If[
   FEPrivate`Equal[FEPrivate`$VersionNumber, 6.], 1.25, 1.25 Inherited],
@@ -23073,7 +23073,7 @@ Cell[89976, 1322, 9855, 141, 30, "Print"],
 Cell[99834, 1465, 9759, 137, 28, "Print"],
 Cell[109596, 1604, 9732, 137, 28, "Print"],
 Cell[119331, 1743, 9763, 137, 28, "Print"],
-Cell[129097, 1882, 9857, 141, 30, "Print"],
+Cell[129097, 1882, 9857, 141, 31, "Print"],
 Cell[138957, 2025, 9792, 138, 28, "Print"],
 Cell[148752, 2165, 10100, 147, 28, "Print"]
 }, Open  ]]
@@ -23095,520 +23095,520 @@ Cell[201438, 2977, 4056, 58, 28, "Print"],
 Cell[205497, 3037, 4106, 61, 30, "Print"],
 Cell[209606, 3100, 4285, 64, 28, "Print"],
 Cell[213894, 3166, 4280, 64, 28, "Print"],
-Cell[218177, 3232, 4268, 64, 28, "Print"],
-Cell[222448, 3298, 4304, 65, 28, "Print"],
-Cell[226755, 3365, 4289, 64, 52, "Print"],
+Cell[218177, 3232, 4269, 64, 28, "Print"],
+Cell[222449, 3298, 4305, 65, 28, "Print"],
+Cell[226757, 3365, 4287, 64, 28, "Print"],
 Cell[231047, 3431, 4108, 61, 30, "Print"],
 Cell[235158, 3494, 4019, 57, 28, "Print"],
-Cell[239180, 3553, 4611, 69, 28, "Print"],
-Cell[243794, 3624, 4617, 69, 28, "Print"],
-Cell[248414, 3695, 4617, 69, 28, "Print"],
-Cell[253034, 3766, 4611, 69, 28, "Print"],
-Cell[257648, 3837, 4010, 57, 28, "Print"],
-Cell[261661, 3896, 4020, 57, 28, "Print"],
-Cell[265684, 3955, 3994, 57, 28, "Print"],
-Cell[269681, 4014, 4116, 61, 30, "Print"],
-Cell[273800, 4077, 4028, 57, 28, "Print"],
-Cell[277831, 4136, 5420, 91, 28, "Print"],
-Cell[283254, 4229, 5469, 89, 51, "Print"],
-Cell[288726, 4320, 4963, 80, 28, "Print"],
-Cell[293692, 4402, 7457, 130, 74, "Print"],
-Cell[301152, 4534, 5567, 93, 51, "Print"],
-Cell[306722, 4629, 6101, 102, 28, "Print"],
-Cell[312826, 4733, 4357, 67, 28, "Print"],
-Cell[317186, 4802, 4016, 57, 28, "Print"],
-Cell[321205, 4861, 4682, 74, 28, "Print"],
-Cell[325890, 4937, 4032, 57, 28, "Print"],
-Cell[329925, 4996, 4025, 57, 28, "Print"],
-Cell[333953, 5055, 4342, 66, 28, "Print"],
-Cell[338298, 5123, 3998, 57, 28, "Print"],
-Cell[342299, 5182, 4113, 61, 30, "Print"],
-Cell[346415, 5245, 4022, 57, 28, "Print"],
-Cell[350440, 5304, 4713, 77, 28, "Print"],
-Cell[355156, 5383, 4681, 73, 28, "Print"],
-Cell[359840, 5458, 4726, 77, 28, "Print"],
-Cell[364569, 5537, 4357, 67, 28, "Print"],
-Cell[368929, 5606, 4018, 57, 28, "Print"],
-Cell[372950, 5665, 4673, 74, 28, "Print"],
-Cell[377626, 5741, 4030, 57, 28, "Print"],
-Cell[381659, 5800, 4025, 57, 28, "Print"],
-Cell[385687, 5859, 7007, 109, 28, "Print"],
-Cell[392697, 5970, 4733, 77, 28, "Print"],
-Cell[397433, 6049, 4023, 57, 28, "Print"],
-Cell[401459, 6108, 4338, 66, 28, "Print"],
-Cell[405800, 6176, 3996, 57, 28, "Print"],
-Cell[409799, 6235, 4101, 61, 30, "Print"],
-Cell[413903, 6298, 4024, 57, 28, "Print"],
-Cell[417930, 6357, 4007, 57, 28, "Print"],
-Cell[421940, 6416, 4024, 57, 28, "Print"],
-Cell[425967, 6475, 4036, 57, 28, "Print"],
-Cell[430006, 6534, 4359, 65, 28, "Print"],
-Cell[434368, 6601, 4025, 57, 28, "Print"],
-Cell[438396, 6660, 4033, 57, 28, "Print"],
-Cell[442432, 6719, 4319, 65, 28, "Print"],
-Cell[446754, 6786, 4045, 58, 28, "Print"],
-Cell[450802, 6846, 4028, 57, 28, "Print"],
-Cell[454833, 6905, 4034, 57, 28, "Print"],
-Cell[458870, 6964, 3996, 57, 28, "Print"],
-Cell[462869, 7023, 4205, 62, 28, "Print"],
-Cell[467077, 7087, 4196, 62, 28, "Print"],
-Cell[471276, 7151, 3996, 57, 28, "Print"],
-Cell[475275, 7210, 3998, 57, 28, "Print"],
-Cell[479276, 7269, 4358, 67, 28, "Print"]
+Cell[239180, 3553, 4613, 69, 28, "Print"],
+Cell[243796, 3624, 4619, 69, 28, "Print"],
+Cell[248418, 3695, 4619, 69, 28, "Print"],
+Cell[253040, 3766, 4613, 69, 28, "Print"],
+Cell[257656, 3837, 4010, 57, 28, "Print"],
+Cell[261669, 3896, 4020, 57, 28, "Print"],
+Cell[265692, 3955, 3994, 57, 28, "Print"],
+Cell[269689, 4014, 4116, 61, 30, "Print"],
+Cell[273808, 4077, 4028, 57, 28, "Print"],
+Cell[277839, 4136, 5429, 91, 86, "Print"],
+Cell[283271, 4229, 5488, 90, 141, "Print"],
+Cell[288762, 4321, 4970, 80, 32, "Print"],
+Cell[293735, 4403, 7492, 130, 232, "Print"],
+Cell[301230, 4535, 5594, 92, 153, "Print"],
+Cell[306827, 4629, 6110, 102, 86, "Print"],
+Cell[312940, 4733, 4358, 67, 28, "Print"],
+Cell[317301, 4802, 4016, 57, 28, "Print"],
+Cell[321320, 4861, 4684, 74, 32, "Print"],
+Cell[326007, 4937, 4032, 57, 28, "Print"],
+Cell[330042, 4996, 4025, 57, 28, "Print"],
+Cell[334070, 5055, 4343, 66, 32, "Print"],
+Cell[338416, 5123, 3998, 57, 28, "Print"],
+Cell[342417, 5182, 4113, 61, 30, "Print"],
+Cell[346533, 5245, 4022, 57, 28, "Print"],
+Cell[350558, 5304, 4715, 77, 32, "Print"],
+Cell[355276, 5383, 4683, 73, 32, "Print"],
+Cell[359962, 5458, 4728, 77, 32, "Print"],
+Cell[364693, 5537, 4358, 67, 28, "Print"],
+Cell[369054, 5606, 4018, 57, 28, "Print"],
+Cell[373075, 5665, 4675, 74, 32, "Print"],
+Cell[377753, 5741, 4030, 57, 28, "Print"],
+Cell[381786, 5800, 4025, 57, 28, "Print"],
+Cell[385814, 5859, 7013, 109, 217, "Print"],
+Cell[392830, 5970, 4735, 77, 32, "Print"],
+Cell[397568, 6049, 4023, 57, 28, "Print"],
+Cell[401594, 6108, 4339, 66, 32, "Print"],
+Cell[405936, 6176, 3996, 57, 28, "Print"],
+Cell[409935, 6235, 4101, 61, 30, "Print"],
+Cell[414039, 6298, 4024, 57, 28, "Print"],
+Cell[418066, 6357, 4007, 57, 28, "Print"],
+Cell[422076, 6416, 4024, 57, 28, "Print"],
+Cell[426103, 6475, 4036, 57, 28, "Print"],
+Cell[430142, 6534, 4360, 65, 28, "Print"],
+Cell[434505, 6601, 4025, 57, 28, "Print"],
+Cell[438533, 6660, 4033, 57, 28, "Print"],
+Cell[442569, 6719, 4319, 65, 28, "Print"],
+Cell[446891, 6786, 4045, 58, 28, "Print"],
+Cell[450939, 6846, 4028, 57, 28, "Print"],
+Cell[454970, 6905, 4034, 57, 28, "Print"],
+Cell[459007, 6964, 3996, 57, 28, "Print"],
+Cell[463006, 7023, 4205, 62, 28, "Print"],
+Cell[467214, 7087, 4196, 62, 28, "Print"],
+Cell[471413, 7151, 3996, 57, 28, "Print"],
+Cell[475412, 7210, 3998, 57, 28, "Print"],
+Cell[479413, 7269, 4358, 67, 28, "Print"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[483695, 7343, 194, 2, 75, "Subsubsection"],
+Cell[483832, 7343, 194, 2, 75, "Subsubsection"],
 Cell[CellGroupData[{
-Cell[483914, 7349, 4503, 90, 213, "Input"],
-Cell[488420, 7441, 10501, 184, 163, "Output"],
-Cell[498924, 7627, 9284, 139, 106, "Output"],
-Cell[508211, 7768, 9514, 148, 123, "Output"],
-Cell[517728, 7918, 10198, 166, 125, "Output"]
+Cell[484051, 7349, 4503, 90, 208, "Input"],
+Cell[488557, 7441, 10501, 184, 139, "Output"],
+Cell[499061, 7627, 9284, 139, 88, "Output"],
+Cell[508348, 7768, 9514, 148, 100, "Output"],
+Cell[517865, 7918, 10198, 166, 107, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[527963, 8089, 281, 7, 40, "Input"],
-Cell[528247, 8098, 1478, 36, 107, "Output"]
+Cell[528100, 8089, 281, 7, 38, "Input"],
+Cell[528384, 8098, 1478, 36, 89, "Output"]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[529774, 8140, 164, 2, 44, "Subsubsection"],
+Cell[529911, 8140, 164, 2, 44, "Subsubsection"],
 Cell[CellGroupData[{
-Cell[529963, 8146, 265, 5, 67, "Input"],
-Cell[530231, 8153, 3219, 58, 72, "Output"],
-Cell[533453, 8213, 3486, 66, 72, "Output"]
+Cell[530100, 8146, 265, 5, 67, "Input"],
+Cell[530368, 8153, 3219, 58, 90, "Output"],
+Cell[533590, 8213, 3486, 66, 90, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[536976, 8284, 800, 14, 67, "Input"],
-Cell[537779, 8300, 3076, 51, 72, "Output"],
-Cell[540858, 8353, 3149, 53, 68, "Output"]
+Cell[537113, 8284, 800, 14, 83, "Input"],
+Cell[537916, 8300, 3076, 51, 90, "Output"],
+Cell[540995, 8353, 3149, 53, 85, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[544044, 8411, 396, 12, 76, "Input"],
-Cell[544443, 8425, 760, 20, 68, "Output"],
-Cell[545206, 8447, 697, 17, 46, "Output"]
+Cell[544181, 8411, 396, 12, 95, "Input"],
+Cell[544580, 8425, 760, 20, 85, "Output"],
+Cell[545343, 8447, 697, 17, 57, "Output"]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[545952, 8470, 274, 5, 44, "Subsubsection"],
+Cell[546089, 8470, 274, 5, 55, "Subsubsection"],
 Cell[CellGroupData[{
-Cell[546251, 8479, 1050, 31, 76, "Input"],
-Cell[547304, 8512, 415, 8, 42, "Output"]
+Cell[546388, 8479, 1050, 31, 95, "Input"],
+Cell[547441, 8512, 415, 8, 52, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[547756, 8525, 314, 5, 40, "Input"],
-Cell[548073, 8532, 260, 3, 38, "Output"]
+Cell[547893, 8525, 314, 5, 50, "Input"],
+Cell[548210, 8532, 260, 3, 47, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[548370, 8540, 1109, 30, 77, "Input"],
-Cell[549482, 8572, 520, 10, 44, "Output"]
+Cell[548507, 8540, 1109, 30, 96, "Input"],
+Cell[549619, 8572, 520, 10, 55, "Output"]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[550051, 8588, 154, 2, 44, "Subsubsection"],
+Cell[550188, 8588, 154, 2, 55, "Subsubsection"],
 Cell[CellGroupData[{
-Cell[550230, 8594, 2528, 69, 21610, "Input"],
-Cell[552761, 8665, 1017, 33, 3722, "Output"],
-Cell[553781, 8700, 2667, 73, 3618, "Output"],
-Cell[556451, 8775, 3384, 91, 5118, "Output"],
-Cell[559838, 8868, 458, 14, 2152, "Output"],
-Cell[560299, 8884, 1332, 39, 2152, "Output"],
-Cell[561634, 8925, 1170, 35, 2152, "Output"],
-Cell[562807, 8962, 1264, 37, 2152, "Output"],
-Cell[564074, 9001, 3527, 100, 11563, "Output"],
-Cell[567604, 9103, 518, 16, 2152, "Output"],
-Cell[568125, 9121, 518, 16, 2152, "Output"],
-Cell[568646, 9139, 2391, 69, 5118, "Output"],
-Cell[571040, 9210, 3526, 100, 11563, "Output"],
-Cell[574569, 9312, 2391, 69, 5118, "Output"],
-Cell[576963, 9383, 1350, 39, 2152, "Output"]
+Cell[550367, 8594, 2528, 69, 27012, "Input"],
+Cell[552898, 8665, 1017, 33, 4652, "Output"],
+Cell[553918, 8700, 2667, 73, 4522, "Output"],
+Cell[556588, 8775, 3384, 91, 6397, "Output"],
+Cell[559975, 8868, 458, 14, 2690, "Output"],
+Cell[560436, 8884, 1332, 39, 2690, "Output"],
+Cell[561771, 8925, 1170, 35, 2690, "Output"],
+Cell[562944, 8962, 1264, 37, 2690, "Output"],
+Cell[564211, 9001, 3527, 100, 14453, "Output"],
+Cell[567741, 9103, 518, 16, 2690, "Output"],
+Cell[568262, 9121, 518, 16, 2690, "Output"],
+Cell[568783, 9139, 2391, 69, 6397, "Output"],
+Cell[571177, 9210, 3526, 100, 14453, "Output"],
+Cell[574706, 9312, 2391, 69, 6397, "Output"],
+Cell[577100, 9383, 1350, 39, 2690, "Output"]
 }, Open  ]],
-Cell[578328, 9425, 87, 1, 3508, "Input"]
+Cell[578465, 9425, 87, 1, 4385, "Input"]
 }, Closed]],
 Cell[CellGroupData[{
-Cell[578452, 9431, 253, 3, 35, "Subsubsection"],
+Cell[578589, 9431, 253, 3, 43, "Subsubsection"],
 Cell[CellGroupData[{
-Cell[578730, 9438, 147, 4, 66, "Input"],
+Cell[578867, 9438, 147, 4, 82, "Input"],
 Cell[CellGroupData[{
-Cell[578902, 9446, 1022, 17, 28, "Print"],
-Cell[579927, 9465, 1004, 17, 28, "Print"],
-Cell[580934, 9484, 1006, 17, 28, "Print"],
-Cell[581943, 9503, 1102, 21, 30, "Print"],
-Cell[583048, 9526, 1109, 21, 30, "Print"],
-Cell[584160, 9549, 1750, 35, 28, "Print"],
-Cell[585913, 9586, 1112, 21, 30, "Print"],
-Cell[587028, 9609, 1758, 35, 28, "Print"],
-Cell[588789, 9646, 1130, 22, 30, "Print"],
-Cell[589922, 9670, 1750, 35, 28, "Print"],
-Cell[591675, 9707, 1134, 22, 30, "Print"],
-Cell[592812, 9731, 1754, 35, 28, "Print"],
-Cell[594569, 9768, 1134, 22, 30, "Print"],
-Cell[595706, 9792, 1758, 35, 28, "Print"],
-Cell[597467, 9829, 1119, 21, 30, "Print"],
-Cell[598589, 9852, 1754, 35, 28, "Print"],
-Cell[600346, 9889, 1129, 22, 37, "Print"],
-Cell[601478, 9913, 1754, 35, 40, "Print"],
-Cell[603235, 9950, 1131, 22, 37, "Print"],
-Cell[604369, 9974, 1754, 35, 40, "Print"],
-Cell[606126, 10011, 1118, 21, 37, "Print"],
-Cell[607247, 10034, 1754, 35, 40, "Print"],
-Cell[609004, 10071, 1133, 22, 37, "Print"],
-Cell[610140, 10095, 1754, 35, 40, "Print"],
-Cell[611897, 10132, 1123, 21, 37, "Print"],
-Cell[613023, 10155, 1750, 35, 40, "Print"],
-Cell[614776, 10192, 1131, 22, 37, "Print"],
-Cell[615910, 10216, 980, 17, 35, "Print"],
-Cell[616893, 10235, 997, 17, 35, "Print"],
-Cell[617893, 10254, 1005, 17, 35, "Print"],
-Cell[618901, 10273, 1220, 22, 35, "Print"],
-Cell[620124, 10297, 1435, 29, 35, "Print"]
+Cell[579039, 9446, 1022, 17, 35, "Print"],
+Cell[580064, 9465, 1004, 17, 35, "Print"],
+Cell[581071, 9484, 1006, 17, 35, "Print"],
+Cell[582080, 9503, 1102, 21, 37, "Print"],
+Cell[583185, 9526, 1109, 21, 37, "Print"],
+Cell[584297, 9549, 1750, 35, 35, "Print"],
+Cell[586050, 9586, 1112, 21, 37, "Print"],
+Cell[587165, 9609, 1758, 35, 35, "Print"],
+Cell[588926, 9646, 1130, 22, 37, "Print"],
+Cell[590059, 9670, 1750, 35, 35, "Print"],
+Cell[591812, 9707, 1134, 22, 37, "Print"],
+Cell[592949, 9731, 1754, 35, 35, "Print"],
+Cell[594706, 9768, 1134, 22, 37, "Print"],
+Cell[595843, 9792, 1758, 35, 35, "Print"],
+Cell[597604, 9829, 1119, 21, 37, "Print"],
+Cell[598726, 9852, 1754, 35, 35, "Print"],
+Cell[600483, 9889, 1129, 22, 46, "Print"],
+Cell[601615, 9913, 1754, 35, 50, "Print"],
+Cell[603372, 9950, 1131, 22, 46, "Print"],
+Cell[604506, 9974, 1754, 35, 50, "Print"],
+Cell[606263, 10011, 1118, 21, 46, "Print"],
+Cell[607384, 10034, 1754, 35, 50, "Print"],
+Cell[609141, 10071, 1133, 22, 46, "Print"],
+Cell[610277, 10095, 1754, 35, 50, "Print"],
+Cell[612034, 10132, 1123, 21, 46, "Print"],
+Cell[613160, 10155, 1750, 35, 50, "Print"],
+Cell[614913, 10192, 1131, 22, 46, "Print"],
+Cell[616047, 10216, 980, 17, 43, "Print"],
+Cell[617030, 10235, 997, 17, 43, "Print"],
+Cell[618030, 10254, 1005, 17, 43, "Print"],
+Cell[619038, 10273, 1220, 22, 43, "Print"],
+Cell[620261, 10297, 1435, 29, 43, "Print"]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[621608, 10332, 566, 11, 50, "Input"],
+Cell[621745, 10332, 566, 11, 62, "Input"],
 Cell[CellGroupData[{
-Cell[622199, 10347, 3225, 48, 66, "Print"],
-Cell[625427, 10397, 3185, 45, 35, "Print"],
-Cell[628615, 10444, 3178, 45, 35, "Print"],
-Cell[631796, 10491, 3164, 45, 35, "Print"],
-Cell[634963, 10538, 3180, 45, 35, "Print"],
-Cell[638146, 10585, 3175, 45, 35, "Print"],
-Cell[641324, 10632, 3179, 45, 35, "Print"]
+Cell[622336, 10347, 3225, 48, 82, "Print"],
+Cell[625564, 10397, 3185, 45, 43, "Print"],
+Cell[628752, 10444, 3178, 45, 43, "Print"],
+Cell[631933, 10491, 3164, 45, 43, "Print"],
+Cell[635100, 10538, 3180, 45, 43, "Print"],
+Cell[638283, 10585, 3175, 45, 43, "Print"],
+Cell[641461, 10632, 3179, 45, 43, "Print"]
 }, Open  ]],
-Cell[644518, 10680, 1986, 31, 117, "Message"],
-Cell[646507, 10713, 2020, 32, 117, "Message"],
+Cell[644655, 10680, 1986, 31, 146, "Message"],
+Cell[646644, 10713, 2020, 32, 146, "Message"],
 Cell[CellGroupData[{
-Cell[648552, 10749, 3175, 45, 35, "Print"],
-Cell[651730, 10796, 3172, 45, 35, "Print"],
-Cell[654905, 10843, 3142, 45, 35, "Print"],
-Cell[658050, 10890, 3425, 53, 35, "Print"],
-Cell[661478, 10945, 3220, 46, 35, "Print"]
+Cell[648689, 10749, 3175, 45, 43, "Print"],
+Cell[651867, 10796, 3172, 45, 43, "Print"],
+Cell[655042, 10843, 3142, 45, 43, "Print"],
+Cell[658187, 10890, 3425, 53, 43, "Print"],
+Cell[661615, 10945, 3220, 46, 43, "Print"]
 }, Open  ]]
 }, Open  ]],
-Cell[664725, 10995, 201, 4, 50, "Input"]
+Cell[664862, 10995, 201, 4, 62, "Input"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[664963, 11004, 99, 1, 55, "Subsubsection"],
+Cell[665100, 11004, 99, 1, 68, "Subsubsection"],
 Cell[CellGroupData[{
-Cell[665087, 11009, 2168, 30, 50, "Input"],
+Cell[665224, 11009, 2168, 30, 62, "Input"],
 Cell[CellGroupData[{
-Cell[667280, 11043, 2201, 39, 66, "Print"],
-Cell[669484, 11084, 2240, 40, 37, "Print"],
-Cell[671727, 11126, 2171, 37, 35, "Print"],
-Cell[673901, 11165, 2149, 36, 35, "Print"],
-Cell[676053, 11203, 2135, 36, 35, "Print"],
-Cell[678191, 11241, 2137, 36, 35, "Print"],
-Cell[680331, 11279, 2233, 40, 37, "Print"],
-Cell[682567, 11321, 2244, 40, 37, "Print"],
-Cell[684814, 11363, 2881, 54, 40, "Print"],
-Cell[687698, 11419, 2239, 40, 37, "Print"],
-Cell[689940, 11461, 2889, 54, 40, "Print"],
-Cell[692832, 11517, 2261, 41, 37, "Print"],
-Cell[695096, 11560, 2885, 54, 40, "Print"],
-Cell[697984, 11616, 2261, 41, 37, "Print"],
-Cell[700248, 11659, 2881, 54, 40, "Print"],
-Cell[703132, 11715, 2261, 41, 37, "Print"],
-Cell[705396, 11758, 2885, 54, 40, "Print"],
-Cell[708284, 11814, 2246, 40, 37, "Print"],
-Cell[710533, 11856, 2881, 54, 40, "Print"],
-Cell[713417, 11912, 2256, 41, 37, "Print"],
-Cell[715676, 11955, 2885, 54, 40, "Print"],
-Cell[718564, 12011, 2266, 41, 37, "Print"],
-Cell[720833, 12054, 2885, 54, 40, "Print"],
-Cell[723721, 12110, 2245, 40, 37, "Print"],
-Cell[725969, 12152, 2889, 54, 40, "Print"],
-Cell[728861, 12208, 2260, 41, 37, "Print"],
-Cell[731124, 12251, 2885, 54, 40, "Print"],
-Cell[734012, 12307, 2250, 40, 37, "Print"],
-Cell[736265, 12349, 2881, 54, 40, "Print"],
-Cell[739149, 12405, 2258, 41, 37, "Print"],
-Cell[741410, 12448, 2111, 36, 35, "Print"],
-Cell[743524, 12486, 2128, 36, 35, "Print"],
-Cell[745655, 12524, 2140, 36, 35, "Print"],
-Cell[747798, 12562, 2347, 41, 35, "Print"],
-Cell[750148, 12605, 2562, 48, 35, "Print"],
-Cell[752713, 12655, 2136, 36, 35, "Print"],
-Cell[754852, 12693, 2235, 40, 37, "Print"],
-Cell[757090, 12735, 2131, 36, 35, "Print"],
-Cell[759224, 12773, 2706, 48, 35, "Print"],
-Cell[761933, 12823, 2125, 36, 35, "Print"],
-Cell[764061, 12861, 2857, 51, 35, "Print"],
-Cell[766921, 12914, 2134, 36, 35, "Print"],
-Cell[769058, 12952, 2714, 48, 35, "Print"],
-Cell[771775, 13002, 2133, 36, 35, "Print"],
-Cell[773911, 13040, 2240, 40, 37, "Print"],
-Cell[776154, 13082, 2142, 36, 35, "Print"],
-Cell[778299, 13120, 2223, 40, 37, "Print"],
-Cell[780525, 13162, 2357, 41, 35, "Print"],
-Cell[782885, 13205, 2221, 40, 37, "Print"],
-Cell[785109, 13247, 2355, 41, 35, "Print"],
-Cell[787467, 13290, 2226, 40, 37, "Print"],
-Cell[789696, 13332, 2130, 36, 35, "Print"],
-Cell[791829, 13370, 2225, 40, 37, "Print"],
-Cell[794057, 13412, 2126, 36, 35, "Print"],
-Cell[796186, 13450, 2219, 40, 37, "Print"],
-Cell[798408, 13492, 2130, 36, 35, "Print"],
-Cell[800541, 13530, 2126, 36, 35, "Print"],
-Cell[802670, 13568, 2391, 43, 35, "Print"],
-Cell[805064, 13613, 2403, 44, 35, "Print"],
-Cell[807470, 13659, 2111, 36, 35, "Print"],
-Cell[809584, 13697, 2148, 36, 35, "Print"],
-Cell[811735, 13735, 2255, 40, 37, "Print"],
-Cell[813993, 13777, 2776, 52, 40, "Print"],
-Cell[816772, 13831, 2252, 40, 37, "Print"],
-Cell[819027, 13873, 2772, 52, 40, "Print"],
-Cell[821802, 13927, 2244, 40, 38, "Print"],
-Cell[824049, 13969, 2780, 52, 40, "Print"],
-Cell[826832, 14023, 2249, 40, 37, "Print"],
-Cell[829084, 14065, 2774, 52, 40, "Print"],
-Cell[831861, 14119, 2264, 41, 37, "Print"],
-Cell[834128, 14162, 2772, 52, 40, "Print"],
-Cell[836903, 14216, 2271, 41, 37, "Print"],
-Cell[839177, 14259, 2772, 52, 40, "Print"],
-Cell[841952, 14313, 2267, 41, 37, "Print"],
-Cell[844222, 14356, 2772, 52, 40, "Print"],
-Cell[846997, 14410, 2271, 41, 37, "Print"],
-Cell[849271, 14453, 2132, 36, 35, "Print"],
-Cell[851406, 14491, 2266, 41, 37, "Print"],
-Cell[853675, 14534, 2772, 52, 40, "Print"],
-Cell[856450, 14588, 2240, 40, 37, "Print"],
-Cell[858693, 14630, 2772, 52, 40, "Print"],
-Cell[861468, 14684, 2111, 36, 35, "Print"],
-Cell[863582, 14722, 2415, 44, 35, "Print"],
-Cell[866000, 14768, 2542, 48, 35, "Print"],
-Cell[868545, 14818, 2111, 36, 35, "Print"],
-Cell[870659, 14856, 2232, 40, 37, "Print"],
-Cell[872894, 14898, 2727, 51, 35, "Print"],
-Cell[875624, 14951, 2217, 40, 37, "Print"],
-Cell[877844, 14993, 2640, 49, 40, "Print"],
-Cell[880487, 15044, 2690, 50, 40, "Print"],
-Cell[883180, 15096, 2226, 40, 37, "Print"],
-Cell[885409, 15138, 2139, 36, 35, "Print"],
-Cell[887551, 15176, 2131, 36, 35, "Print"],
-Cell[889685, 15214, 2159, 36, 35, "Print"],
-Cell[891847, 15252, 2700, 48, 35, "Print"],
-Cell[894550, 15302, 2155, 36, 35, "Print"],
-Cell[896708, 15340, 2696, 48, 35, "Print"],
-Cell[899407, 15390, 2154, 36, 35, "Print"],
-Cell[901564, 15428, 2704, 48, 35, "Print"],
-Cell[904271, 15478, 2222, 40, 37, "Print"],
-Cell[906496, 15520, 2136, 36, 35, "Print"],
-Cell[908635, 15558, 2159, 37, 35, "Print"],
-Cell[910797, 15597, 2716, 50, 35, "Print"],
-Cell[913516, 15649, 2710, 50, 35, "Print"],
-Cell[916229, 15701, 2824, 53, 35, "Print"],
-Cell[919056, 15756, 2166, 37, 35, "Print"],
-Cell[921225, 15795, 2466, 44, 35, "Print"],
-Cell[923694, 15841, 2826, 53, 35, "Print"],
-Cell[926523, 15896, 2822, 53, 35, "Print"],
-Cell[929348, 15951, 2442, 44, 35, "Print"],
-Cell[931793, 15997, 2826, 53, 35, "Print"],
-Cell[934622, 16052, 2422, 43, 35, "Print"],
-Cell[937047, 16097, 2826, 53, 35, "Print"],
-Cell[939876, 16152, 2155, 36, 35, "Print"],
-Cell[942034, 16190, 2718, 50, 35, "Print"],
-Cell[944755, 16242, 2820, 53, 35, "Print"],
-Cell[947578, 16297, 2716, 50, 35, "Print"],
-Cell[950297, 16349, 2716, 50, 35, "Print"],
-Cell[953016, 16401, 2708, 50, 35, "Print"],
-Cell[955727, 16453, 2149, 36, 35, "Print"],
-Cell[957879, 16491, 2818, 53, 35, "Print"],
-Cell[960700, 16546, 2243, 40, 37, "Print"],
-Cell[962946, 16588, 2127, 36, 35, "Print"],
-Cell[965076, 16626, 2132, 36, 35, "Print"],
-Cell[967211, 16664, 2131, 36, 35, "Print"],
-Cell[969345, 16702, 2139, 36, 35, "Print"],
-Cell[971487, 16740, 2131, 36, 35, "Print"],
-Cell[973621, 16778, 2132, 36, 35, "Print"],
-Cell[975756, 16816, 2583, 45, 35, "Print"],
-Cell[978342, 16863, 2262, 41, 37, "Print"],
-Cell[980607, 16906, 2175, 37, 35, "Print"],
-Cell[982785, 16945, 2138, 36, 35, "Print"],
-Cell[984926, 16983, 2562, 47, 35, "Print"],
-Cell[987491, 17032, 2153, 36, 35, "Print"],
-Cell[989647, 17070, 2550, 47, 35, "Print"],
-Cell[992200, 17119, 2149, 36, 35, "Print"],
-Cell[994352, 17157, 2558, 47, 35, "Print"],
-Cell[996913, 17206, 2607, 47, 35, "Print"],
-Cell[999523, 17255, 2346, 42, 35, "Print"],
-Cell[1001872, 17299, 2368, 43, 35, "Print"],
-Cell[1004243, 17344, 2378, 43, 35, "Print"],
-Cell[1006624, 17389, 2372, 43, 35, "Print"],
-Cell[1008999, 17434, 2228, 40, 37, "Print"],
-Cell[1011230, 17476, 2139, 36, 35, "Print"],
-Cell[1013372, 17514, 2153, 36, 35, "Print"],
-Cell[1015528, 17552, 2728, 48, 35, "Print"],
-Cell[1018259, 17602, 2726, 48, 35, "Print"],
-Cell[1020988, 17652, 2234, 40, 37, "Print"],
-Cell[1023225, 17694, 2702, 48, 35, "Print"],
-Cell[1025930, 17744, 2706, 48, 35, "Print"],
-Cell[1028639, 17794, 2241, 40, 37, "Print"],
-Cell[1030883, 17836, 2149, 36, 35, "Print"],
-Cell[1033035, 17874, 2818, 53, 35, "Print"],
-Cell[1035856, 17929, 3377, 60, 65, "Print"],
-Cell[1039236, 17991, 2740, 48, 35, "Print"],
-Cell[1041979, 18041, 2134, 36, 35, "Print"],
-Cell[1044116, 18079, 2233, 40, 37, "Print"],
-Cell[1046352, 18121, 2241, 40, 37, "Print"],
-Cell[1048596, 18163, 2224, 40, 37, "Print"],
-Cell[1050823, 18205, 2241, 40, 37, "Print"],
-Cell[1053067, 18247, 2135, 36, 35, "Print"],
-Cell[1055205, 18285, 2136, 36, 35, "Print"],
-Cell[1057344, 18323, 2134, 36, 35, "Print"],
-Cell[1059481, 18361, 2135, 36, 35, "Print"],
-Cell[1061619, 18399, 2246, 40, 37, "Print"],
-Cell[1063868, 18441, 2172, 37, 35, "Print"],
-Cell[1066043, 18480, 2245, 40, 37, "Print"],
-Cell[1068291, 18522, 2297, 41, 37, "Print"],
-Cell[1070591, 18565, 2563, 47, 35, "Print"],
-Cell[1073157, 18614, 2252, 40, 35, "Print"],
-Cell[1075412, 18656, 2248, 40, 35, "Print"],
-Cell[1077663, 18698, 2248, 40, 35, "Print"],
-Cell[1079914, 18740, 2602, 48, 35, "Print"],
-Cell[1082519, 18790, 2559, 47, 35, "Print"],
-Cell[1085081, 18839, 2252, 40, 35, "Print"],
-Cell[1087336, 18881, 2256, 40, 35, "Print"],
-Cell[1089595, 18923, 2248, 40, 35, "Print"],
-Cell[1091846, 18965, 2602, 48, 35, "Print"],
-Cell[1094451, 19015, 2364, 42, 35, "Print"],
-Cell[1096818, 19059, 3400, 66, 65, "Print"],
-Cell[1100221, 19127, 2304, 41, 35, "Print"],
-Cell[1102528, 19170, 2296, 41, 35, "Print"],
-Cell[1104827, 19213, 2292, 41, 35, "Print"],
-Cell[1107122, 19256, 2812, 53, 35, "Print"],
-Cell[1109937, 19311, 2360, 42, 35, "Print"],
-Cell[1112300, 19355, 3400, 66, 65, "Print"],
-Cell[1115703, 19423, 2300, 41, 35, "Print"],
-Cell[1118006, 19466, 2300, 41, 35, "Print"],
-Cell[1120309, 19509, 2292, 41, 35, "Print"],
-Cell[1122604, 19552, 2816, 53, 35, "Print"],
-Cell[1125423, 19607, 2137, 36, 35, "Print"],
-Cell[1127563, 19645, 2144, 36, 35, "Print"],
-Cell[1129710, 19683, 2225, 40, 37, "Print"],
-Cell[1131938, 19725, 2139, 36, 35, "Print"],
-Cell[1134080, 19763, 2140, 36, 35, "Print"],
-Cell[1136223, 19801, 2242, 40, 37, "Print"],
-Cell[1138468, 19843, 2154, 36, 35, "Print"],
-Cell[1140625, 19881, 2143, 36, 35, "Print"],
-Cell[1142771, 19919, 2229, 40, 37, "Print"],
-Cell[1145003, 19961, 2138, 36, 35, "Print"],
-Cell[1147144, 19999, 2136, 36, 35, "Print"],
-Cell[1149283, 20037, 2143, 36, 35, "Print"],
-Cell[1151429, 20075, 2152, 36, 35, "Print"],
-Cell[1153584, 20113, 2141, 36, 35, "Print"],
-Cell[1155728, 20151, 2220, 40, 37, "Print"],
-Cell[1157951, 20193, 2256, 41, 37, "Print"],
-Cell[1160210, 20236, 2138, 36, 35, "Print"],
-Cell[1162351, 20274, 2774, 49, 35, "Print"],
-Cell[1165128, 20325, 2770, 49, 35, "Print"],
-Cell[1167901, 20376, 2238, 40, 37, "Print"],
-Cell[1170142, 20418, 2142, 36, 35, "Print"],
-Cell[1172287, 20456, 2134, 36, 35, "Print"],
-Cell[1174424, 20494, 2129, 36, 35, "Print"],
-Cell[1176556, 20532, 2115, 36, 35, "Print"],
-Cell[1178674, 20570, 2369, 42, 35, "Print"],
-Cell[1181046, 20614, 2542, 48, 35, "Print"],
-Cell[1183591, 20664, 2115, 36, 35, "Print"],
-Cell[1185709, 20702, 2185, 37, 35, "Print"],
-Cell[1187897, 20741, 2497, 45, 35, "Print"],
-Cell[1190397, 20788, 2143, 36, 35, "Print"],
-Cell[1192543, 20826, 2285, 41, 35, "Print"],
-Cell[1194831, 20869, 2151, 36, 35, "Print"]
-}, Open  ]]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[1197031, 20911, 1337, 20, 80, "Input"],
-Cell[1198371, 20933, 707, 10, 47, "Output"]
+Cell[667417, 11043, 2201, 39, 82, "Print"],
+Cell[669621, 11084, 2240, 40, 46, "Print"],
+Cell[671864, 11126, 2171, 37, 43, "Print"],
+Cell[674038, 11165, 2149, 36, 43, "Print"],
+Cell[676190, 11203, 2135, 36, 43, "Print"],
+Cell[678328, 11241, 2137, 36, 43, "Print"],
+Cell[680468, 11279, 2233, 40, 46, "Print"],
+Cell[682704, 11321, 2244, 40, 46, "Print"],
+Cell[684951, 11363, 2881, 54, 50, "Print"],
+Cell[687835, 11419, 2239, 40, 46, "Print"],
+Cell[690077, 11461, 2889, 54, 50, "Print"],
+Cell[692969, 11517, 2261, 41, 46, "Print"],
+Cell[695233, 11560, 2885, 54, 50, "Print"],
+Cell[698121, 11616, 2261, 41, 46, "Print"],
+Cell[700385, 11659, 2881, 54, 50, "Print"],
+Cell[703269, 11715, 2261, 41, 46, "Print"],
+Cell[705533, 11758, 2885, 54, 50, "Print"],
+Cell[708421, 11814, 2246, 40, 46, "Print"],
+Cell[710670, 11856, 2881, 54, 50, "Print"],
+Cell[713554, 11912, 2256, 41, 46, "Print"],
+Cell[715813, 11955, 2885, 54, 50, "Print"],
+Cell[718701, 12011, 2266, 41, 46, "Print"],
+Cell[720970, 12054, 2885, 54, 50, "Print"],
+Cell[723858, 12110, 2245, 40, 46, "Print"],
+Cell[726106, 12152, 2889, 54, 50, "Print"],
+Cell[728998, 12208, 2260, 41, 46, "Print"],
+Cell[731261, 12251, 2885, 54, 50, "Print"],
+Cell[734149, 12307, 2250, 40, 46, "Print"],
+Cell[736402, 12349, 2881, 54, 50, "Print"],
+Cell[739286, 12405, 2258, 41, 46, "Print"],
+Cell[741547, 12448, 2111, 36, 43, "Print"],
+Cell[743661, 12486, 2128, 36, 43, "Print"],
+Cell[745792, 12524, 2140, 36, 43, "Print"],
+Cell[747935, 12562, 2347, 41, 43, "Print"],
+Cell[750285, 12605, 2562, 48, 43, "Print"],
+Cell[752850, 12655, 2136, 36, 43, "Print"],
+Cell[754989, 12693, 2235, 40, 46, "Print"],
+Cell[757227, 12735, 2131, 36, 43, "Print"],
+Cell[759361, 12773, 2706, 48, 43, "Print"],
+Cell[762070, 12823, 2125, 36, 43, "Print"],
+Cell[764198, 12861, 2857, 51, 43, "Print"],
+Cell[767058, 12914, 2134, 36, 43, "Print"],
+Cell[769195, 12952, 2714, 48, 43, "Print"],
+Cell[771912, 13002, 2133, 36, 43, "Print"],
+Cell[774048, 13040, 2240, 40, 46, "Print"],
+Cell[776291, 13082, 2142, 36, 43, "Print"],
+Cell[778436, 13120, 2223, 40, 46, "Print"],
+Cell[780662, 13162, 2357, 41, 43, "Print"],
+Cell[783022, 13205, 2221, 40, 46, "Print"],
+Cell[785246, 13247, 2355, 41, 43, "Print"],
+Cell[787604, 13290, 2226, 40, 46, "Print"],
+Cell[789833, 13332, 2130, 36, 43, "Print"],
+Cell[791966, 13370, 2225, 40, 46, "Print"],
+Cell[794194, 13412, 2126, 36, 43, "Print"],
+Cell[796323, 13450, 2219, 40, 46, "Print"],
+Cell[798545, 13492, 2130, 36, 43, "Print"],
+Cell[800678, 13530, 2126, 36, 43, "Print"],
+Cell[802807, 13568, 2391, 43, 43, "Print"],
+Cell[805201, 13613, 2403, 44, 43, "Print"],
+Cell[807607, 13659, 2111, 36, 43, "Print"],
+Cell[809721, 13697, 2148, 36, 43, "Print"],
+Cell[811872, 13735, 2255, 40, 46, "Print"],
+Cell[814130, 13777, 2776, 52, 50, "Print"],
+Cell[816909, 13831, 2252, 40, 46, "Print"],
+Cell[819164, 13873, 2772, 52, 50, "Print"],
+Cell[821939, 13927, 2244, 40, 47, "Print"],
+Cell[824186, 13969, 2780, 52, 50, "Print"],
+Cell[826969, 14023, 2249, 40, 46, "Print"],
+Cell[829221, 14065, 2774, 52, 50, "Print"],
+Cell[831998, 14119, 2264, 41, 46, "Print"],
+Cell[834265, 14162, 2772, 52, 50, "Print"],
+Cell[837040, 14216, 2271, 41, 46, "Print"],
+Cell[839314, 14259, 2772, 52, 50, "Print"],
+Cell[842089, 14313, 2267, 41, 46, "Print"],
+Cell[844359, 14356, 2772, 52, 50, "Print"],
+Cell[847134, 14410, 2271, 41, 46, "Print"],
+Cell[849408, 14453, 2132, 36, 43, "Print"],
+Cell[851543, 14491, 2266, 41, 46, "Print"],
+Cell[853812, 14534, 2772, 52, 50, "Print"],
+Cell[856587, 14588, 2240, 40, 46, "Print"],
+Cell[858830, 14630, 2772, 52, 50, "Print"],
+Cell[861605, 14684, 2111, 36, 43, "Print"],
+Cell[863719, 14722, 2415, 44, 43, "Print"],
+Cell[866137, 14768, 2542, 48, 43, "Print"],
+Cell[868682, 14818, 2111, 36, 43, "Print"],
+Cell[870796, 14856, 2232, 40, 46, "Print"],
+Cell[873031, 14898, 2727, 51, 43, "Print"],
+Cell[875761, 14951, 2217, 40, 46, "Print"],
+Cell[877981, 14993, 2640, 49, 50, "Print"],
+Cell[880624, 15044, 2690, 50, 50, "Print"],
+Cell[883317, 15096, 2226, 40, 46, "Print"],
+Cell[885546, 15138, 2139, 36, 43, "Print"],
+Cell[887688, 15176, 2131, 36, 43, "Print"],
+Cell[889822, 15214, 2159, 36, 43, "Print"],
+Cell[891984, 15252, 2700, 48, 43, "Print"],
+Cell[894687, 15302, 2155, 36, 43, "Print"],
+Cell[896845, 15340, 2696, 48, 43, "Print"],
+Cell[899544, 15390, 2154, 36, 43, "Print"],
+Cell[901701, 15428, 2704, 48, 43, "Print"],
+Cell[904408, 15478, 2222, 40, 46, "Print"],
+Cell[906633, 15520, 2136, 36, 43, "Print"],
+Cell[908772, 15558, 2159, 37, 43, "Print"],
+Cell[910934, 15597, 2716, 50, 43, "Print"],
+Cell[913653, 15649, 2710, 50, 43, "Print"],
+Cell[916366, 15701, 2824, 53, 43, "Print"],
+Cell[919193, 15756, 2166, 37, 43, "Print"],
+Cell[921362, 15795, 2466, 44, 43, "Print"],
+Cell[923831, 15841, 2826, 53, 43, "Print"],
+Cell[926660, 15896, 2822, 53, 43, "Print"],
+Cell[929485, 15951, 2442, 44, 43, "Print"],
+Cell[931930, 15997, 2826, 53, 43, "Print"],
+Cell[934759, 16052, 2422, 43, 43, "Print"],
+Cell[937184, 16097, 2826, 53, 43, "Print"],
+Cell[940013, 16152, 2155, 36, 43, "Print"],
+Cell[942171, 16190, 2718, 50, 43, "Print"],
+Cell[944892, 16242, 2820, 53, 43, "Print"],
+Cell[947715, 16297, 2716, 50, 43, "Print"],
+Cell[950434, 16349, 2716, 50, 43, "Print"],
+Cell[953153, 16401, 2708, 50, 43, "Print"],
+Cell[955864, 16453, 2149, 36, 43, "Print"],
+Cell[958016, 16491, 2818, 53, 43, "Print"],
+Cell[960837, 16546, 2243, 40, 46, "Print"],
+Cell[963083, 16588, 2127, 36, 43, "Print"],
+Cell[965213, 16626, 2132, 36, 43, "Print"],
+Cell[967348, 16664, 2131, 36, 43, "Print"],
+Cell[969482, 16702, 2139, 36, 43, "Print"],
+Cell[971624, 16740, 2131, 36, 43, "Print"],
+Cell[973758, 16778, 2132, 36, 43, "Print"],
+Cell[975893, 16816, 2583, 45, 43, "Print"],
+Cell[978479, 16863, 2262, 41, 46, "Print"],
+Cell[980744, 16906, 2175, 37, 43, "Print"],
+Cell[982922, 16945, 2138, 36, 43, "Print"],
+Cell[985063, 16983, 2562, 47, 43, "Print"],
+Cell[987628, 17032, 2153, 36, 43, "Print"],
+Cell[989784, 17070, 2550, 47, 43, "Print"],
+Cell[992337, 17119, 2149, 36, 43, "Print"],
+Cell[994489, 17157, 2558, 47, 43, "Print"],
+Cell[997050, 17206, 2607, 47, 43, "Print"],
+Cell[999660, 17255, 2346, 42, 43, "Print"],
+Cell[1002009, 17299, 2368, 43, 43, "Print"],
+Cell[1004380, 17344, 2378, 43, 43, "Print"],
+Cell[1006761, 17389, 2372, 43, 43, "Print"],
+Cell[1009136, 17434, 2228, 40, 46, "Print"],
+Cell[1011367, 17476, 2139, 36, 43, "Print"],
+Cell[1013509, 17514, 2153, 36, 43, "Print"],
+Cell[1015665, 17552, 2728, 48, 43, "Print"],
+Cell[1018396, 17602, 2726, 48, 43, "Print"],
+Cell[1021125, 17652, 2234, 40, 46, "Print"],
+Cell[1023362, 17694, 2702, 48, 43, "Print"],
+Cell[1026067, 17744, 2706, 48, 43, "Print"],
+Cell[1028776, 17794, 2241, 40, 46, "Print"],
+Cell[1031020, 17836, 2149, 36, 43, "Print"],
+Cell[1033172, 17874, 2818, 53, 43, "Print"],
+Cell[1035993, 17929, 3377, 60, 81, "Print"],
+Cell[1039373, 17991, 2740, 48, 43, "Print"],
+Cell[1042116, 18041, 2134, 36, 43, "Print"],
+Cell[1044253, 18079, 2233, 40, 46, "Print"],
+Cell[1046489, 18121, 2241, 40, 46, "Print"],
+Cell[1048733, 18163, 2224, 40, 46, "Print"],
+Cell[1050960, 18205, 2241, 40, 46, "Print"],
+Cell[1053204, 18247, 2135, 36, 43, "Print"],
+Cell[1055342, 18285, 2136, 36, 43, "Print"],
+Cell[1057481, 18323, 2134, 36, 43, "Print"],
+Cell[1059618, 18361, 2135, 36, 43, "Print"],
+Cell[1061756, 18399, 2246, 40, 46, "Print"],
+Cell[1064005, 18441, 2172, 37, 43, "Print"],
+Cell[1066180, 18480, 2245, 40, 46, "Print"],
+Cell[1068428, 18522, 2297, 41, 46, "Print"],
+Cell[1070728, 18565, 2563, 47, 43, "Print"],
+Cell[1073294, 18614, 2252, 40, 43, "Print"],
+Cell[1075549, 18656, 2248, 40, 43, "Print"],
+Cell[1077800, 18698, 2248, 40, 43, "Print"],
+Cell[1080051, 18740, 2602, 48, 43, "Print"],
+Cell[1082656, 18790, 2559, 47, 43, "Print"],
+Cell[1085218, 18839, 2252, 40, 43, "Print"],
+Cell[1087473, 18881, 2256, 40, 43, "Print"],
+Cell[1089732, 18923, 2248, 40, 43, "Print"],
+Cell[1091983, 18965, 2602, 48, 43, "Print"],
+Cell[1094588, 19015, 2364, 42, 43, "Print"],
+Cell[1096955, 19059, 3400, 66, 81, "Print"],
+Cell[1100358, 19127, 2304, 41, 43, "Print"],
+Cell[1102665, 19170, 2296, 41, 43, "Print"],
+Cell[1104964, 19213, 2292, 41, 43, "Print"],
+Cell[1107259, 19256, 2812, 53, 43, "Print"],
+Cell[1110074, 19311, 2360, 42, 43, "Print"],
+Cell[1112437, 19355, 3400, 66, 81, "Print"],
+Cell[1115840, 19423, 2300, 41, 43, "Print"],
+Cell[1118143, 19466, 2300, 41, 43, "Print"],
+Cell[1120446, 19509, 2292, 41, 43, "Print"],
+Cell[1122741, 19552, 2816, 53, 43, "Print"],
+Cell[1125560, 19607, 2137, 36, 43, "Print"],
+Cell[1127700, 19645, 2144, 36, 43, "Print"],
+Cell[1129847, 19683, 2225, 40, 46, "Print"],
+Cell[1132075, 19725, 2139, 36, 43, "Print"],
+Cell[1134217, 19763, 2140, 36, 43, "Print"],
+Cell[1136360, 19801, 2242, 40, 46, "Print"],
+Cell[1138605, 19843, 2154, 36, 43, "Print"],
+Cell[1140762, 19881, 2143, 36, 43, "Print"],
+Cell[1142908, 19919, 2229, 40, 46, "Print"],
+Cell[1145140, 19961, 2138, 36, 43, "Print"],
+Cell[1147281, 19999, 2136, 36, 43, "Print"],
+Cell[1149420, 20037, 2143, 36, 43, "Print"],
+Cell[1151566, 20075, 2152, 36, 43, "Print"],
+Cell[1153721, 20113, 2141, 36, 43, "Print"],
+Cell[1155865, 20151, 2220, 40, 46, "Print"],
+Cell[1158088, 20193, 2256, 41, 46, "Print"],
+Cell[1160347, 20236, 2138, 36, 43, "Print"],
+Cell[1162488, 20274, 2774, 49, 43, "Print"],
+Cell[1165265, 20325, 2770, 49, 43, "Print"],
+Cell[1168038, 20376, 2238, 40, 46, "Print"],
+Cell[1170279, 20418, 2142, 36, 43, "Print"],
+Cell[1172424, 20456, 2134, 36, 43, "Print"],
+Cell[1174561, 20494, 2129, 36, 43, "Print"],
+Cell[1176693, 20532, 2115, 36, 43, "Print"],
+Cell[1178811, 20570, 2369, 42, 43, "Print"],
+Cell[1181183, 20614, 2542, 48, 43, "Print"],
+Cell[1183728, 20664, 2115, 36, 43, "Print"],
+Cell[1185846, 20702, 2185, 37, 43, "Print"],
+Cell[1188034, 20741, 2497, 45, 43, "Print"],
+Cell[1190534, 20788, 2143, 36, 43, "Print"],
+Cell[1192680, 20826, 2285, 41, 43, "Print"],
+Cell[1194968, 20869, 2151, 36, 43, "Print"]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[1199127, 20949, 162, 2, 55, "Subsubsection"],
-Cell[CellGroupData[{
-Cell[1199314, 20955, 269, 4, 50, "Input"],
-Cell[CellGroupData[{
-Cell[1199608, 20963, 1324, 21, 66, "Print"],
-Cell[1200935, 20986, 1272, 18, 35, "Print"],
-Cell[1202210, 21006, 1271, 18, 35, "Print"],
-Cell[1203484, 21026, 1253, 18, 35, "Print"],
-Cell[1204740, 21046, 1255, 18, 35, "Print"],
-Cell[1205998, 21066, 1351, 22, 37, "Print"],
-Cell[1207352, 21090, 1362, 22, 37, "Print"],
-Cell[1208717, 21114, 1999, 36, 40, "Print"],
-Cell[1210719, 21152, 1361, 22, 37, "Print"],
-Cell[1212083, 21176, 2007, 36, 40, "Print"],
-Cell[1214093, 21214, 1383, 23, 37, "Print"],
-Cell[1215479, 21239, 2003, 36, 40, "Print"],
-Cell[1217485, 21277, 1385, 23, 37, "Print"],
-Cell[1218873, 21302, 2003, 36, 40, "Print"],
-Cell[1220879, 21340, 1383, 23, 37, "Print"],
-Cell[1222265, 21365, 2009, 36, 40, "Print"],
-Cell[1224277, 21403, 1367, 22, 37, "Print"],
-Cell[1225647, 21427, 2003, 36, 40, "Print"],
-Cell[1227653, 21465, 1380, 23, 37, "Print"],
-Cell[1229036, 21490, 2003, 36, 40, "Print"],
-Cell[1231042, 21528, 1384, 23, 37, "Print"],
-Cell[1232429, 21553, 2003, 36, 40, "Print"],
-Cell[1234435, 21591, 1367, 22, 37, "Print"],
-Cell[1235805, 21615, 2007, 36, 40, "Print"],
-Cell[1237815, 21653, 1382, 23, 37, "Print"],
-Cell[1239200, 21678, 2003, 36, 40, "Print"],
-Cell[1241206, 21716, 1372, 22, 37, "Print"],
-Cell[1242581, 21740, 2002, 36, 40, "Print"],
-Cell[1244586, 21778, 1380, 23, 37, "Print"],
-Cell[1245969, 21803, 1232, 18, 35, "Print"],
-Cell[1247204, 21823, 1250, 18, 35, "Print"],
-Cell[1248457, 21843, 1258, 18, 35, "Print"],
-Cell[1249718, 21863, 1469, 23, 35, "Print"],
-Cell[1251190, 21888, 1684, 30, 35, "Print"],
-Cell[1252877, 21920, 1250, 18, 35, "Print"],
-Cell[1254130, 21940, 1246, 18, 35, "Print"],
-Cell[1255379, 21960, 1254, 18, 35, "Print"],
-Cell[1256636, 21980, 1243, 18, 35, "Print"],
-Cell[1257882, 22000, 1249, 18, 35, "Print"],
-Cell[1259134, 22020, 1244, 18, 35, "Print"],
-Cell[1260381, 22040, 1252, 18, 35, "Print"],
-Cell[1261636, 22060, 1248, 18, 35, "Print"],
-Cell[1262887, 22080, 1250, 18, 35, "Print"],
-Cell[1264140, 22100, 1265, 18, 35, "Print"],
-Cell[1265408, 22120, 1261, 18, 35, "Print"],
-Cell[1266672, 22140, 1253, 18, 35, "Print"],
-Cell[1267928, 22160, 2161, 42, 40, "Print"],
-Cell[1270092, 22204, 2159, 42, 40, "Print"],
-Cell[1272254, 22248, 2159, 42, 40, "Print"],
-Cell[1274416, 22292, 2163, 42, 40, "Print"],
-Cell[1276582, 22336, 2161, 42, 40, "Print"],
-Cell[1278746, 22380, 2163, 42, 40, "Print"],
-Cell[1280912, 22424, 2163, 42, 40, "Print"],
-Cell[1283078, 22468, 2167, 42, 40, "Print"],
-Cell[1285248, 22512, 2119, 41, 40, "Print"],
-Cell[1287370, 22555, 2159, 42, 40, "Print"],
-Cell[1289532, 22599, 2167, 42, 40, "Print"],
-Cell[1291702, 22643, 2165, 42, 40, "Print"],
-Cell[1293870, 22687, 2159, 42, 40, "Print"],
-Cell[1296032, 22731, 1289, 19, 35, "Print"],
-Cell[1297324, 22752, 1263, 18, 35, "Print"],
-Cell[1298590, 22772, 1233, 18, 35, "Print"],
-Cell[1299826, 22792, 1475, 23, 35, "Print"],
-Cell[1301304, 22817, 1664, 30, 35, "Print"]
+Cell[1197168, 20911, 1337, 20, 100, "Input"],
+Cell[1198508, 20933, 707, 10, 58, "Output"]
 }, Open  ]]
 }, Open  ]],
-Cell[1302995, 22851, 273, 6, 50, "Input"],
 Cell[CellGroupData[{
-Cell[1303293, 22861, 128, 2, 50, "Input"],
+Cell[1199264, 20949, 162, 2, 68, "Subsubsection"],
 Cell[CellGroupData[{
-Cell[1303446, 22867, 1108, 18, 66, "Print"],
-Cell[1304557, 22887, 1033, 15, 35, "Print"],
-Cell[1305593, 22904, 1035, 15, 35, "Print"],
-Cell[1306631, 22921, 1038, 15, 35, "Print"],
-Cell[1307672, 22938, 1032, 15, 35, "Print"],
-Cell[1308707, 22955, 1018, 15, 35, "Print"],
-Cell[1309728, 22972, 1267, 21, 35, "Print"],
-Cell[1310998, 22995, 1453, 27, 35, "Print"]
+Cell[1199451, 20955, 269, 4, 62, "Input"],
+Cell[CellGroupData[{
+Cell[1199745, 20963, 1324, 21, 82, "Print"],
+Cell[1201072, 20986, 1272, 18, 43, "Print"],
+Cell[1202347, 21006, 1271, 18, 43, "Print"],
+Cell[1203621, 21026, 1253, 18, 43, "Print"],
+Cell[1204877, 21046, 1255, 18, 43, "Print"],
+Cell[1206135, 21066, 1351, 22, 46, "Print"],
+Cell[1207489, 21090, 1362, 22, 46, "Print"],
+Cell[1208854, 21114, 1999, 36, 50, "Print"],
+Cell[1210856, 21152, 1361, 22, 46, "Print"],
+Cell[1212220, 21176, 2007, 36, 50, "Print"],
+Cell[1214230, 21214, 1383, 23, 46, "Print"],
+Cell[1215616, 21239, 2003, 36, 50, "Print"],
+Cell[1217622, 21277, 1385, 23, 46, "Print"],
+Cell[1219010, 21302, 2003, 36, 50, "Print"],
+Cell[1221016, 21340, 1383, 23, 46, "Print"],
+Cell[1222402, 21365, 2009, 36, 50, "Print"],
+Cell[1224414, 21403, 1367, 22, 46, "Print"],
+Cell[1225784, 21427, 2003, 36, 50, "Print"],
+Cell[1227790, 21465, 1380, 23, 46, "Print"],
+Cell[1229173, 21490, 2003, 36, 50, "Print"],
+Cell[1231179, 21528, 1384, 23, 46, "Print"],
+Cell[1232566, 21553, 2003, 36, 50, "Print"],
+Cell[1234572, 21591, 1367, 22, 46, "Print"],
+Cell[1235942, 21615, 2007, 36, 50, "Print"],
+Cell[1237952, 21653, 1382, 23, 46, "Print"],
+Cell[1239337, 21678, 2003, 36, 50, "Print"],
+Cell[1241343, 21716, 1372, 22, 46, "Print"],
+Cell[1242718, 21740, 2002, 36, 50, "Print"],
+Cell[1244723, 21778, 1380, 23, 46, "Print"],
+Cell[1246106, 21803, 1232, 18, 43, "Print"],
+Cell[1247341, 21823, 1250, 18, 43, "Print"],
+Cell[1248594, 21843, 1258, 18, 43, "Print"],
+Cell[1249855, 21863, 1469, 23, 43, "Print"],
+Cell[1251327, 21888, 1684, 30, 43, "Print"],
+Cell[1253014, 21920, 1250, 18, 43, "Print"],
+Cell[1254267, 21940, 1246, 18, 43, "Print"],
+Cell[1255516, 21960, 1254, 18, 43, "Print"],
+Cell[1256773, 21980, 1243, 18, 43, "Print"],
+Cell[1258019, 22000, 1249, 18, 43, "Print"],
+Cell[1259271, 22020, 1244, 18, 43, "Print"],
+Cell[1260518, 22040, 1252, 18, 43, "Print"],
+Cell[1261773, 22060, 1248, 18, 43, "Print"],
+Cell[1263024, 22080, 1250, 18, 43, "Print"],
+Cell[1264277, 22100, 1265, 18, 43, "Print"],
+Cell[1265545, 22120, 1261, 18, 43, "Print"],
+Cell[1266809, 22140, 1253, 18, 43, "Print"],
+Cell[1268065, 22160, 2161, 42, 50, "Print"],
+Cell[1270229, 22204, 2159, 42, 50, "Print"],
+Cell[1272391, 22248, 2159, 42, 50, "Print"],
+Cell[1274553, 22292, 2163, 42, 50, "Print"],
+Cell[1276719, 22336, 2161, 42, 50, "Print"],
+Cell[1278883, 22380, 2163, 42, 50, "Print"],
+Cell[1281049, 22424, 2163, 42, 50, "Print"],
+Cell[1283215, 22468, 2167, 42, 50, "Print"],
+Cell[1285385, 22512, 2119, 41, 50, "Print"],
+Cell[1287507, 22555, 2159, 42, 50, "Print"],
+Cell[1289669, 22599, 2167, 42, 50, "Print"],
+Cell[1291839, 22643, 2165, 42, 50, "Print"],
+Cell[1294007, 22687, 2159, 42, 50, "Print"],
+Cell[1296169, 22731, 1289, 19, 43, "Print"],
+Cell[1297461, 22752, 1263, 18, 43, "Print"],
+Cell[1298727, 22772, 1233, 18, 43, "Print"],
+Cell[1299963, 22792, 1475, 23, 43, "Print"],
+Cell[1301441, 22817, 1664, 30, 43, "Print"]
 }, Open  ]]
 }, Open  ]],
-Cell[1312478, 23026, 168, 4, 50, "Input"],
-Cell[1312649, 23032, 121, 2, 50, "Input"]
+Cell[1303132, 22851, 273, 6, 62, "Input"],
+Cell[CellGroupData[{
+Cell[1303430, 22861, 128, 2, 62, "Input"],
+Cell[CellGroupData[{
+Cell[1303583, 22867, 1108, 18, 82, "Print"],
+Cell[1304694, 22887, 1033, 15, 43, "Print"],
+Cell[1305730, 22904, 1035, 15, 43, "Print"],
+Cell[1306768, 22921, 1038, 15, 43, "Print"],
+Cell[1307809, 22938, 1032, 15, 43, "Print"],
+Cell[1308844, 22955, 1018, 15, 43, "Print"],
+Cell[1309865, 22972, 1267, 21, 43, "Print"],
+Cell[1311135, 22995, 1453, 27, 43, "Print"]
+}, Open  ]]
+}, Open  ]],
+Cell[1312615, 23026, 168, 4, 62, "Input"],
+Cell[1312786, 23032, 121, 2, 62, "Input"]
 }, Open  ]]
 }
 ]
