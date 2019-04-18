@@ -18,13 +18,20 @@ int main(int argc, char** argv)
 		double cut = 0.01;		// cut-off for channel output								
 		int fast = 1;			/* 0 = best accuracy, 1 = "fast option" accuracy ~1% 	     */
  		double Beps = 1.E-5;  		/* Criteqrium for including co-annihilations (1 = no coann.) */
+ 		double vsigmaefectiva;
  		VZdecay=0; VWdecay=0; cleanDecayTable();
 		ForceUG=1; 
 			err = sortOddParticles(lspname);	
 			printMasses(stdout,1);				
 	 		Omega = darkOmega(&Xf,fast,Beps);
 			printf("Xf=%.2e Omega h^2=%.2e\n",Xf,Omega);
+			
+			/* Returns sigma*v effective in cm^3/sec.*/
+			//vsigmaefectiva=vSigma(Mcdm/Xf,Beps,fast,NULL)*2.98962*1E-26; 
+			vsigmaefectiva=vSigma(Mcdm/Xf,Beps,fast)*2.98962*1E-26; 
+			printf("vsigmaeff = %.3e\n",vsigmaefectiva);
 			printf("\n");
+			
 			printChannels(Xf,cut,Beps,1,stdout);
 			FILE *omega = fopen("omg.out","w");
 			fprintf(omega,"%i %6.6lf # relic density \n",1,Omega);
