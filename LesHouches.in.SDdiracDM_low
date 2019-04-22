@@ -14,31 +14,17 @@ BLOCK SMINPUTS
 
 BLOCK MINPAR
    1   2.6000000E-01    # LambdaIN
-<<<<<<< Updated upstream
-   2   2.0795684E+02    # MDFInput
-   3   5.6941078E+06    # MS12Input
-   4   5.6941078E+06    # MS22Input
-   5   7.7152106E-02    # LamS1HInput
-   6   7.7152106E-02    # LamS2HInput
-   7   2.3230220E-04    # LamSPHInput
-   8   6.7546023E-02    # LamSInput
-   9   2.7231790E-03    # LamSPInput
-   10   4.9042337E+03    # vSInput
-   11   2.6499357E+00    # YRDInput
-   12   4.0490249E-03    # YRCInput
-=======
-   2   1.4136618E+03    # MDFInput
-   3   3.5691868E+06    # MS12Input
-   4   3.5691868E+06    # MS22Input
-   5   1.8047831E-02    # LamS1HInput
-   6   1.8047831E-02    # LamS2HInput
-   7   2.8074977E-03    # LamSPHInput
-   8   5.6252455E-03    # LamSInput
-   9   1.0855293E-01    # LamSPInput
-   10   1.2155463E+03    # vSInput
-   11   -9.7709542E-05    # YRDInput
-   12   -1.4125322E+00    # YRCInput
->>>>>>> Stashed changes
+   2   1.2654279E+03    # MDFInput
+   3   3.0558294E+07    # MS12Input
+   4   3.0558294E+07    # MS22Input
+   5   3.1589931E-02    # LamS1HInput
+   6   3.1589931E-02    # LamS2HInput
+   7   8.6853612E-04    # LamSPHInput
+   8   1.8591329E-02    # LamSInput
+   9   4.7446649E-01    # LamSPInput
+   10   3.0533016E+03    # vSInput
+   11   4.2961575E-06    # YRDInput
+   12   4.8121911E-01    # YRCInput
 
 BLOCK SPHENOINPUT
    1   -1              # error level
@@ -123,40 +109,20 @@ BLOCK DECAYOPTIONS
 
 BLOCK YRA1IN
    1   0.000000E+00    # YRA1(1)
-<<<<<<< Updated upstream
-   2   1.027804E-04    # YRA1(2)
-   3   -5.099159E-03    # YRA1(3)
+   2   -9.326041E-06    # YRA1(2)
+   3   -2.719891E-02    # YRA1(3)
 
 BLOCK YRA2IN
    1   0.000000E+00    # YRA2(1)
-   2   2.575734E-02    # YRA2(2)
-   3   -2.355062E-01    # YRA2(3)
+   2   -4.147511E-06    # YRA2(2)
+   3   -2.678343E-05    # YRA2(3)
 
 BLOCK YRB1IN
-   1   -1.133926E-06    # YRB1(1)
-   2   -1.671920E-06    # YRB1(2)
-   3   4.820467E-07    # YRB1(3)
+   1   -1.765167E-03    # YRB1(1)
+   2   4.509812E-04    # YRB1(2)
+   3   5.397808E-03    # YRB1(3)
 
 BLOCK YRB2IN
-   1   2.172832E-08    # YRB2(1)
-   2   2.157575E-08    # YRB2(2)
-   3   -2.305223E-08    # YRB2(3)
-=======
-   2   -4.680167E-06    # YRA1(2)
-   3   1.708394E-04    # YRA1(3)
-
-BLOCK YRA2IN
-   1   0.000000E+00    # YRA2(1)
-   2   3.413623E-03    # YRA2(2)
-   3   4.207150E-02    # YRA2(3)
-
-BLOCK YRB1IN
-   1   5.041815E-04    # YRB1(1)
-   2   2.431153E-04    # YRB1(2)
-   3   -9.646096E-04    # YRB1(3)
-
-BLOCK YRB2IN
-   1   -2.420595E-06    # YRB2(1)
-   2   -2.671725E-06    # YRB2(2)
-   3   2.096919E-06    # YRB2(3)
->>>>>>> Stashed changes
+   1   2.377387E+00    # YRB2(1)
+   2   2.247829E+00    # YRB2(2)
+   3   -2.672019E+00    # YRB2(3)
