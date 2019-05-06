@@ -19,7 +19,7 @@
 #  
 # in case of problems send email to florian.staub@kit.edu and goodsell@lpthe.jussieu.fr 
 # ----------------------------------------------------------------------
-# Created: 02.05.2019,  13:49
+# Created: 06.05.2019,  16:01
 Block SPINFO         # Program information
      1   SPhenoSARAH      # spectrum calculator
      2   v4.0.3      # version number of SPheno
